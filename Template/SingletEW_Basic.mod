@@ -360,9 +360,9 @@ M$CouplingMatrices = {
 (* V-V:  G(+) . { -g[mu, nu] mom^2, g[mu, nu], -mom[mu] mom[nu] } *)
 
   C[ -V[3], V[3] ] == I *
-    { {0, dZW1, dZW2},
-      {0, MW^2 dZW1 + dMWsq1, MW^2 dZW2 + dMWsq2 + dMWsq1 dZW1},
-      {0, -dZW1, -dZW2} },
+    { {0, dZWW1, dZW2},
+      {0, MW^2 dZWW1 + dMWsq1, MW^2 dZW2 + dMWsq2 + dMWsq1 dZWW1},
+      {0, -dZWW1, -dZW2} },
 
   C[ V[2], V[2] ] == I *
     { {0, dZZZ1, dZZZ2 + 1/4 dZAZ1^2},
@@ -402,11 +402,11 @@ M$CouplingMatrices = {
       {0, GaugeXi[Z] MZ^2 dUZA1} },
   
   C[ U[3], -U[3] ] == -I *
-    { {0, -dZW1/2 + dUW1},
+    { {0, -dZWW1/2 + dUW1},
       {0, GaugeXi[W] (MW^2 (-dZGp1/2 + dUW1) + dMWsq1/2) } },
 
   C[ U[4], -U[4] ] == -I *
-    { {0, -dZW1/2 + dUW1},
+    { {0, -dZWW1/2 + dUW1},
       {0, GaugeXi[W] (MW^2 (-dZGp1/2 + dUW1) + dMWsq1/2) } },
 
   (* F-F:  G(+) . { slash[mom1] omega[-], slash[mom2] omega[+],
@@ -442,37 +442,37 @@ M$CouplingMatrices = {
                         g[mu1, mu3] g[mu2, mu4] } *)
 
   C[ -V[3], -V[3], V[3], V[3] ] == I EL^2/SW^2 *
-    { {2, 4 dZe1 - 4 dSW1/SW + 4 dZW1}, 
-      {-1, -2 dZe1 + 2 dSW1/SW - 2 dZW1},
-      {-1, -2 dZe1 + 2 dSW1/SW - 2*dZW1} },
+    { {2, 4 dZe1 - 4 dSW1/SW + 4 dZWW1}, 
+      {-1, -2 dZe1 + 2 dSW1/SW - 2 dZWW1},
+      {-1, -2 dZe1 + 2 dSW1/SW - 2*dZWW1} },
 
   C[ -V[3], V[3], V[2], V[2] ] == -I EL^2 CW^2/SW^2 *
-    { {2, 4 dZe1 - 4 dSW1/(SW CW^2) + 2 dZW1 + 2 dZZZ1 - 2 dZAZ1 SW/CW}, 
-      {-1, -2 dZe1 + 2 dSW1/(SW CW^2) - dZW1 - dZZZ1 + dZAZ1 SW/CW},
-      {-1, -2 dZe1 + 2 dSW1/(SW CW^2) - dZW1 - dZZZ1 + dZAZ1 SW/CW} },
+    { {2, 4 dZe1 - 4 dSW1/(SW CW^2) + 2 dZWW1 + 2 dZZZ1 - 2 dZAZ1 SW/CW}, 
+      {-1, -2 dZe1 + 2 dSW1/(SW CW^2) - dZWW1 - dZZZ1 + dZAZ1 SW/CW},
+      {-1, -2 dZe1 + 2 dSW1/(SW CW^2) - dZWW1 - dZZZ1 + dZAZ1 SW/CW} },
 
   C[ -V[3], V[3], V[1], V[2] ] == I EL^2 CW/SW *
-    { {2, 4 dZe1 - 2 dSW1/(SW CW^2) + 2 dZW1 +
+    { {2, 4 dZe1 - 2 dSW1/(SW CW^2) + 2 dZWW1 +
             dZZZ1 + dZAA1 - SW/CW dZAZ1 - CW/SW dZZA1},
-      {-1, -2 dZe1 + dSW1/(SW CW^2) - dZW1 -
+      {-1, -2 dZe1 + dSW1/(SW CW^2) - dZWW1 -
             dZZZ1/2 - dZAA1/2 + SW/CW dZAZ1/2 + CW/SW dZZA1/2},
-      {-1, -2 dZe1 + dSW1/(SW CW^2) - dZW1 -
+      {-1, -2 dZe1 + dSW1/(SW CW^2) - dZWW1 -
             dZZZ1/2 - dZAA1/2 + SW/CW dZAZ1/2 + CW/SW dZZA1/2} },
 
   C[ -V[3], V[3], V[1], V[1] ] == -I EL^2 *
-    { {2, 4 dZe1 + 2 dZW1 + 2 dZAA1 - 2 CW/SW dZZA1}, 
-      {-1, -2 dZe1 - dZW1 - dZAA1 + CW/SW dZZA1},
-      {-1, -2 dZe1 - dZW1 - dZAA1 + CW/SW dZZA1} },
+    { {2, 4 dZe1 + 2 dZWW1 + 2 dZAA1 - 2 CW/SW dZZA1}, 
+      {-1, -2 dZe1 - dZWW1 - dZAA1 + CW/SW dZZA1},
+      {-1, -2 dZe1 - dZWW1 - dZAA1 + CW/SW dZZA1} },
 
   (* V-V-V:  G(-) . (g[mu1, mu2] (p2 - p1)_mu3 +
                      g[mu2, mu3] (p3 - p2)_mu1 +
                      g[mu3, mu1] (p1 - p3)_mu2) *)
 
   C[ V[1], -V[3], V[3] ] == -I EL *
-    { {1, dZe1 + dZW1 + dZAA1/2 - CW/SW dZZA1/2} },
+    { {1, dZe1 + dZWW1 + dZAA1/2 - CW/SW dZZA1/2} },
 
   C[ V[2], -V[3], V[3] ] == I EL CW/SW *
-    { {1, dZe1 - dSW1/(SW CW^2) + dZW1 + dZZZ1/2 - SW/CW dZAZ1/2} },
+    { {1, dZe1 - dSW1/(SW CW^2) + dZWW1 + dZZZ1/2 - SW/CW dZAZ1/2} },
 
 
   (* F-F-V:  G(-) . { gamma[mu3] omega[-], gamma[mu3] omega[+] } *)
@@ -549,38 +549,38 @@ M$CouplingMatrices = {
 
   C[ -F[1, {j1}], F[2, {j2}], -V[3] ] ==
     I EL/(Sqrt[2] SW) IndexDelta[j1, j2] *
-    { {1, dZe1 - dSW1/SW + dZW1/2 +
+    { {1, dZe1 - dSW1/SW + dZWW1/2 +
             Conjugate[dZfL1[1, j1, j1]]/2 + dZfL1[2, j1, j1]/2,
           dZe2 - dSW2/SW +
             1/2 (dZW2 + Conjugate[dZfL2[1, j1, j1]] + dZfL2[2, j1, j1]) +
             (dSW1/SW)^2 - dSW1/SW dZe1 -
-            1/8 (dZW1^2 + Conjugate[dZfL1[1, j1, j1]]^2 +
+            1/8 (dZWW1^2 + Conjugate[dZfL1[1, j1, j1]]^2 +
               dZfL1[2, j1, j1]^2) +
             (dZe1 - dSW1/SW) *
-              1/2 (dZW1 + Conjugate[dZfL1[1, j1, j1]] + dZfL1[2, j1, j1]) +
-            1/4 (dZW1 dZfL1[2, j1, j1] + dZW1 Conjugate[dZfL1[1, j1, j1]] +
+              1/2 (dZWW1 + Conjugate[dZfL1[1, j1, j1]] + dZfL1[2, j1, j1]) +
+            1/4 (dZWW1 dZfL1[2, j1, j1] + dZWW1 Conjugate[dZfL1[1, j1, j1]] +
                    Conjugate[dZfL1[1, j1, j1]] dZfL1[2, j1, j1]) },
       {0, 0, 0} },
 
   C[ -F[2, {j1}], F[1, {j2}], V[3] ] ==
     I EL/(Sqrt[2] SW) IndexDelta[j1, j2] *
-    { {1, dZe1 - dSW1/SW + dZW1/2 +
+    { {1, dZe1 - dSW1/SW + dZWW1/2 +
             dZfL1[1, j1, j1]/2 + Conjugate[dZfL1[2, j1, j1]]/2,
           dZe2 - dSW2/SW +
             1/2 (dZW2 + dZfL2[1, j1, j1] + Conjugate[dZfL2[2, j1, j1]]) +
             (dSW1/SW)^2 - dSW1/SW dZe1 -
-            1/8 (dZW1^2 + dZfL1[1, j1, j1]^2 +
+            1/8 (dZWW1^2 + dZfL1[1, j1, j1]^2 +
               Conjugate[dZfL1[2, j1, j1]]^2) +
             (dZe1 - dSW1/SW) *
-              1/2 (dZW1 + dZfL1[1, j1, j1] + Conjugate[dZfL1[2, j1, j1]]) +
-      1/4 (dZW1 Conjugate[dZfL1[2, j1, j1]] + dZW1 dZfL1[1, j1, j1] +
+              1/2 (dZWW1 + dZfL1[1, j1, j1] + Conjugate[dZfL1[2, j1, j1]]) +
+      1/4 (dZWW1 Conjugate[dZfL1[2, j1, j1]] + dZWW1 dZfL1[1, j1, j1] +
               dZfL1[1, j1, j1] Conjugate[dZfL1[2, j1, j1]]) },
       {0, 0, 0} },
 
   C[ -F[3, {j1, o1}], F[4, {j2, o2}], -V[3] ] ==
     I EL/(Sqrt[2] SW) IndexDelta[o1, o2] *
     { {CKM[j1, j2],
-        CKM[j1, j2] (dZe1 - dSW1/SW + dZW1/2) + dCKM1[j1, j2] +
+        CKM[j1, j2] (dZe1 - dSW1/SW + dZWW1/2) + dCKM1[j1, j2] +
         1/2 IndexSum[
           Conjugate[dZfL1[3, gn, j1]] CKM[gn, j2] +
           CKM[j1, gn] dZfL1[4, gn, j2],
@@ -590,7 +590,7 @@ M$CouplingMatrices = {
   C[ -F[4, {j2, o2}], F[3, {j1, o1}], V[3] ] ==
     I EL/(Sqrt[2] SW) IndexDelta[o1, o2] *
     { {Conjugate[CKM[j1, j2]],
-        Conjugate[CKM[j1, j2]] (dZe1 - dSW1/SW + dZW1/2) +
+        Conjugate[CKM[j1, j2]] (dZe1 - dSW1/SW + dZWW1/2) +
           Conjugate[dCKM1[j1, j2]] +
           1/2 IndexSum[
             Conjugate[dZfL1[4, gn, j2]] Conjugate[CKM[j1, gn]] +
@@ -602,19 +602,19 @@ M$CouplingMatrices = {
   (* U-U-V:  G(+) . { p1_mu3, p2_mu3 } *)
 
   C[ -U[3], U[3], V[1] ] == -I EL *
-    { {1, dZe1 + dZAA1/2 - dZW1/2 + dUW1 - CW/SW dZZA1/2},
+    { {1, dZe1 + dZAA1/2 - dZWW1/2 + dUW1 - CW/SW dZZA1/2},
       {0, 0} },
 
   C[ -U[4], U[4], V[1] ] == I EL *
-    { {1, dZe1 + dZAA1/2 - dZW1/2 + dUW1 - CW/SW dZZA1/2},
+    { {1, dZe1 + dZAA1/2 - dZWW1/2 + dUW1 - CW/SW dZZA1/2},
       {0, 0} },
 
   C[ -U[3], U[3], V[2] ] == I EL CW/SW *
-    { {1, dZe1 - 1/(CW^2 SW) dSW1 + dZZZ1/2 - dZW1/2 + dUW1 - SW/CW dZAZ1/2},
+    { {1, dZe1 - 1/(CW^2 SW) dSW1 + dZZZ1/2 - dZWW1/2 + dUW1 - SW/CW dZAZ1/2},
       {0, 0} },
 
   C[ -U[4], U[4], V[2] ] == -I EL CW/SW *
-    { {1, dZe1 - 1/(CW^2 SW) dSW1 + dZZZ1/2 - dZW1/2 + dUW1 - SW/CW dZAZ1/2},
+    { {1, dZe1 - 1/(CW^2 SW) dSW1 + dZZZ1/2 - dZWW1/2 + dUW1 - SW/CW dZAZ1/2},
       {0, 0} },
 
   C[ -U[3], U[2], V[3] ] == -I EL CW/SW *
@@ -623,7 +623,7 @@ M$CouplingMatrices = {
 
   C[ -U[2], U[3], -V[3] ] == -I EL *
     { {CW/SW,
-       CW/SW (dZe1 - 1/(CW^2 SW) dSW1 + dZW1/2 - dZZZ1/2 + dUW1) + dZZA1/2},
+       CW/SW (dZe1 - 1/(CW^2 SW) dSW1 + dZWW1/2 - dZZZ1/2 + dUW1) + dZZA1/2},
       {0, 0} }, 
 
   C[ -U[4], U[2], -V[3] ] == I EL CW/SW *
@@ -632,7 +632,7 @@ M$CouplingMatrices = {
 
   C[ -U[2], U[4], V[3] ] == I EL *
     { {CW/SW,
-       CW/SW (dZe1 - 1/(CW^2 SW) dSW1 + dZW1/2 - dZZZ1/2 + dUW1) + dZZA1/2},
+       CW/SW (dZe1 - 1/(CW^2 SW) dSW1 + dZWW1/2 - dZZZ1/2 + dUW1) + dZZA1/2},
       {0, 0} },
 
   C[ -U[3], U[1], V[3] ] == I EL *
@@ -640,7 +640,7 @@ M$CouplingMatrices = {
       {0, 0} },
 
   C[ -U[1], U[3], -V[3] ] == I EL *
-    { {1, dZe1 + dZW1/2 - dZAA1/2 + dUW1 + CW/SW dZAZ1/2},
+    { {1, dZe1 + dZWW1/2 - dZAA1/2 + dUW1 + CW/SW dZAZ1/2},
       {0, 0} },
 
   C[ -U[4], U[1], -V[3] ] == -I EL *
@@ -648,7 +648,7 @@ M$CouplingMatrices = {
       {0, 0} },
 
   C[ -U[1], U[4], V[3] ] == -I EL *
-    { {1, dZe1 + dZW1/2 - dZAA1/2 + dUW1 + CW/SW dZAZ1/2},
+    { {1, dZe1 + dZWW1/2 - dZAA1/2 + dUW1 + CW/SW dZAZ1/2},
       {0, 0} }
  
  }

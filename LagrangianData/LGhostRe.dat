@@ -1,0 +1,142 @@
+{{-(EL*MW*vev*QuantumField[Subscript[GhostWm, R]]*
+     QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp])/(2*SW), 
+  ((I/2)*EL*MW*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[GhostWm, R]]*QuantumField[
+     Subscript[HCbar[GhostWm], R]]*RXi[Wp])/SW, 
+  EL*MW*QuantumField[Subscript[Gm, R]]*QuantumField[
+    Subscript[HCbar[GhostWm], R]]*RXi[Wp]*Which[FieldType[GhostA] == 1, 
+    RenormalizedFermion[GhostA], FieldType[GhostA] == TypeBoson, 
+    RenormalizedBoson[GhostA], FieldType[GhostA] == TypeGhost, 
+    RenormalizedGhost[GhostA]], 
+  -(CW*EL*MW*QuantumField[Subscript[GhostZ, R]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[HCbar[GhostWm], 
+       R]]*RXi[Wp])/(2*SW), (EL*MW*SW*QuantumField[Subscript[GhostZ, R]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[HCbar[GhostWm], R]]*
+    RXi[Wp])/(2*CW), -(EL*MW*Cos[theta]*QuantumField[Subscript[GhostWm, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[HCbar[GhostWm], 
+       R]]*RXi[Wp])/(2*SW), 
+  -(EL*MW*vev*QuantumField[Subscript[GhostWp, R]]*
+     QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp])/(2*SW), 
+  ((-I/2)*EL*MW*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[GhostWp, R]]*QuantumField[
+     Subscript[HCbar[GhostWp], R]]*RXi[Wp])/SW, 
+  EL*MW*QuantumField[Subscript[Gp, R]]*QuantumField[
+    Subscript[HCbar[GhostWp], R]]*RXi[Wp]*Which[FieldType[GhostA] == 1, 
+    RenormalizedFermion[GhostA], FieldType[GhostA] == TypeBoson, 
+    RenormalizedBoson[GhostA], FieldType[GhostA] == TypeGhost, 
+    RenormalizedGhost[GhostA]], 
+  -(CW*EL*MW*QuantumField[Subscript[GhostZ, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[HCbar[GhostWp], 
+       R]]*RXi[Wp])/(2*SW), (EL*MW*SW*QuantumField[Subscript[GhostZ, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[HCbar[GhostWp], R]]*
+    RXi[Wp])/(2*CW), -(EL*MW*Cos[theta]*QuantumField[Subscript[GhostWp, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[HCbar[GhostWp], 
+       R]]*RXi[Wp])/(2*SW), 
+  -(EL*MZ*vev*QuantumField[Subscript[GhostZ, R]]*
+     QuantumField[Subscript[HCbar[GhostZ], R]]*RXi[Z])/(2*CW*SW), 
+  (EL*MZ*QuantumField[Subscript[GhostWp, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[HCbar[GhostZ], R]]*RXi[Z])/(2*SW), 
+  (EL*MZ*QuantumField[Subscript[GhostWm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[HCbar[GhostZ], R]]*RXi[Z])/(2*SW), 
+  -(EL*MZ*Cos[theta]*QuantumField[Subscript[GhostZ, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[HCbar[GhostZ], R]]*
+     RXi[Z])/(2*CW*SW), (EL*MW*QuantumField[Subscript[GhostWm, R]]*
+    QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HCbar[GhostWm], R]]*
+    RXi[Wp]*Sin[theta])/(2*SW), (EL*MW*QuantumField[Subscript[GhostWp, R]]*
+    QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HCbar[GhostWp], R]]*
+    RXi[Wp]*Sin[theta])/(2*SW), (EL*MZ*QuantumField[Subscript[GhostZ, R]]*
+    QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HCbar[GhostZ], R]]*
+    RXi[Z]*Sin[theta])/(2*CW*SW)}, 
+ {-(EL*MW*(dvev1*SW - dSW1*vev + dZe1*SW*vev)*
+     QuantumField[Subscript[GhostWm, R]]*QuantumField[
+      Subscript[HCbar[GhostWm], R]]*RXi[Wp])/(2*SW^2), 
+  ((I/4)*EL*MW*QuantumField[Subscript[GhostWm, R]]*
+    (-2*dSW1*QuantumField[Subscript[G0, R]] + 
+     2*dZe1*SW*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0HA]*QuantumField[Subscript[HA, R]])*
+    QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp])/SW^2, 
+  EL*MW*(dZe1 + dZ[GpGp]/2)*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp]*
+   Which[FieldType[GhostA] == 1, RenormalizedFermion[GhostA], 
+    FieldType[GhostA] == TypeBoson, RenormalizedBoson[GhostA], 
+    FieldType[GhostA] == TypeGhost, RenormalizedGhost[GhostA]], 
+  -(EL*MW*(-2*CW*dSW1 + 2*dCW1*SW + 2*CW*dZe1*SW + CW*SW*dZ[GpGp])*
+     QuantumField[Subscript[GhostZ, R]]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp])/(4*SW^2), 
+  (EL*MW*(2*CW*dSW1 - 2*dCW1*SW + 2*CW*dZe1*SW + CW*SW*dZ[GpGp])*
+    QuantumField[Subscript[GhostZ, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp])/(4*CW^2), 
+  -(EL*MW*QuantumField[Subscript[GhostWm, R]]*
+     QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp]*
+     (-2*dSW1*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+      2*dZe1*SW*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+      SW*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+      SW*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]] - 
+      2*dtheta1*SW*QuantumField[Subscript[h1, R]]*Sin[theta]))/(4*SW^2), 
+  -(EL*MW*(dvev1*SW - dSW1*vev + dZe1*SW*vev)*
+     QuantumField[Subscript[GhostWp, R]]*QuantumField[
+      Subscript[HCbar[GhostWp], R]]*RXi[Wp])/(2*SW^2), 
+  ((-I/4)*EL*MW*QuantumField[Subscript[GhostWp, R]]*
+    (-2*dSW1*QuantumField[Subscript[G0, R]] + 
+     2*dZe1*SW*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0HA]*QuantumField[Subscript[HA, R]])*
+    QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp])/SW^2, 
+  EL*MW*(dZe1 + dZ[GpGp]/2)*QuantumField[Subscript[Gp, R]]*
+   QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp]*
+   Which[FieldType[GhostA] == 1, RenormalizedFermion[GhostA], 
+    FieldType[GhostA] == TypeBoson, RenormalizedBoson[GhostA], 
+    FieldType[GhostA] == TypeGhost, RenormalizedGhost[GhostA]], 
+  -(EL*MW*(-2*CW*dSW1 + 2*dCW1*SW + 2*CW*dZe1*SW + CW*SW*dZ[GpGp])*
+     QuantumField[Subscript[GhostZ, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp])/(4*SW^2), 
+  (EL*MW*(2*CW*dSW1 - 2*dCW1*SW + 2*CW*dZe1*SW + CW*SW*dZ[GpGp])*
+    QuantumField[Subscript[GhostZ, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp])/(4*CW^2), 
+  -(EL*MW*QuantumField[Subscript[GhostWp, R]]*
+     QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp]*
+     (-2*dSW1*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+      2*dZe1*SW*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+      SW*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+      SW*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]] - 
+      2*dtheta1*SW*QuantumField[Subscript[h1, R]]*Sin[theta]))/(4*SW^2), 
+  -(EL*MZ*(CW*dvev1*SW - CW*dSW1*vev - dCW1*SW*vev + CW*dZe1*SW*vev)*
+     QuantumField[Subscript[GhostZ, R]]*QuantumField[Subscript[HCbar[GhostZ], 
+       R]]*RXi[Z])/(2*CW^2*SW^2), (EL*MZ*(-2*dSW1 + 2*dZe1*SW + SW*dZ[GpGp])*
+    QuantumField[Subscript[GhostWp, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[HCbar[GhostZ], R]]*RXi[Z])/(4*SW^2), 
+  (EL*MZ*(-2*dSW1 + 2*dZe1*SW + SW*dZ[GpGp])*
+    QuantumField[Subscript[GhostWm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[HCbar[GhostZ], R]]*RXi[Z])/(4*SW^2), 
+  -(EL*MZ*QuantumField[Subscript[GhostZ, R]]*QuantumField[
+      Subscript[HCbar[GhostZ], R]]*RXi[Z]*
+     (-2*CW*dSW1*Cos[theta]*QuantumField[Subscript[h1, R]] - 
+      2*dCW1*SW*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+      2*CW*dZe1*SW*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+      CW*SW*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+      CW*SW*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]] - 
+      2*CW*dtheta1*SW*QuantumField[Subscript[h1, R]]*Sin[theta]))/
+   (4*CW^2*SW^2), (EL*MW*QuantumField[Subscript[GhostWm, R]]*
+    QuantumField[Subscript[HCbar[GhostWm], R]]*RXi[Wp]*
+    (2*dtheta1*SW*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+     SW*dZ[h2h1]*QuantumField[Subscript[h1, R]]*Sin[theta] - 
+     2*dSW1*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     2*dZe1*SW*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     SW*dZ[h2h2]*QuantumField[Subscript[h2, R]]*Sin[theta]))/(4*SW^2), 
+  (EL*MW*QuantumField[Subscript[GhostWp, R]]*
+    QuantumField[Subscript[HCbar[GhostWp], R]]*RXi[Wp]*
+    (2*dtheta1*SW*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+     SW*dZ[h2h1]*QuantumField[Subscript[h1, R]]*Sin[theta] - 
+     2*dSW1*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     2*dZe1*SW*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     SW*dZ[h2h2]*QuantumField[Subscript[h2, R]]*Sin[theta]))/(4*SW^2), 
+  (EL*MZ*QuantumField[Subscript[GhostZ, R]]*
+    QuantumField[Subscript[HCbar[GhostZ], R]]*RXi[Z]*
+    (2*CW*dtheta1*SW*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+     CW*SW*dZ[h2h1]*QuantumField[Subscript[h1, R]]*Sin[theta] - 
+     2*CW*dSW1*QuantumField[Subscript[h2, R]]*Sin[theta] - 
+     2*dCW1*SW*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     2*CW*dZe1*SW*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     CW*SW*dZ[h2h2]*QuantumField[Subscript[h2, R]]*Sin[theta]))/
+   (4*CW^2*SW^2)}}

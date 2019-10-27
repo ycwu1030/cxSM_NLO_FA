@@ -6,13 +6,12 @@ RegisterParameter[p_]:=Block[{},]*)
 (*Scalar Part Parameters*)
 Mh12/: Renormalization[Mh12]:=Mh12+r1 dMh121;
 Mh22/: Renormalization[Mh22]:=Mh22+r1 dMh221;
-(*theta/: Renormalization[theta]:=theta+r1 dtheta1;*)
+theta/: Renormalization[theta]:=theta+r1 dtheta1;
 MHA2/: Renormalization[MHA2]:=MHA2+r1 dMHA21;
 Th1/:Renormalization[Th1]:=r1 dTh1;
-d2/:Renormalization[d2]:=d2 + r1 dd2;
-del2/:Renormalization[del2]:=del2 + r1 ddel2;
-(*Th2/:Renormalization[Th2]:=r1 dTh2;
-vs/:Renormalization[vs]:=vs+r1 dvs1;*)
+Th2/:Renormalization[Th2]:=r1 dTh2;
+vs/:Renormalization[vs]:=vs+r1 dvs1;
+d2/:Renormalization[d2]:=d2+r1 dd21;
 
 (*SM model Parameters*)
 MW2/: Renormalization[MW2]:=MW2 + r1 dMWsq1;

@@ -24,7 +24,7 @@ For[i=1,i<=Length[Field],i++,
 Flatten[TadPoleSolution]/.{}
 ]
 
-TadPoleSolution=TadPoleRen[LSPRe[[2]],{Subscript[h1,R](*,Subscript[h2,R]*)},{dTh1(*,dTh2*)}];
+TadPoleSolution=TadPoleRen[LSPRe[[2]],{Subscript[h1,R],Subscript[h2,R]},{dTh1,dTh2}];
 (*dTHL1/:RenConst[dTHL1]:=(dTHL1/.TadPoleSolution);
 dTHH1/:RenConst[dTHH1]:=(dTHH1/.TadPoleSolution);*)
 RenConstList=Join[RenConstList,TadPoleSolution];

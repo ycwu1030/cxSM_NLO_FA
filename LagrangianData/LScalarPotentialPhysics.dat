@@ -1,11 +1,29 @@
--((2*Th1 - Mh12*vev)*(QuantumField[G0]^2 + 2*QuantumField[Gm]*
-      QuantumField[Gp] + (vev + QuantumField[h1])^2))/(4*vev) - 
- (Mh12*(QuantumField[G0]^2 + 2*QuantumField[Gm]*QuantumField[Gp] + 
-     (vev + QuantumField[h1])^2)^2)/(8*vev^2) - 
- ((Mh22 + MHA2 - (del2*vev^2)/2)*(QuantumField[h2] - I*QuantumField[HA])*
-   (QuantumField[h2] + I*QuantumField[HA]))/4 - 
- (del2*(QuantumField[G0]^2 + 2*QuantumField[Gm]*QuantumField[Gp] + 
-    (vev + QuantumField[h1])^2)*(QuantumField[h2] - I*QuantumField[HA])*
-   (QuantumField[h2] + I*QuantumField[HA]))/8 - 
- ((Mh22 - MHA2)*(QuantumField[h2]^2 - QuantumField[HA]^2))/4 - 
- (d2*(QuantumField[h2]^2 + QuantumField[HA]^2)^2)/16
+-((-(Mh12*vs) - Mh22*vs + d2*vs^3 + 2*Th2*Cos[theta] + 
+     (Mh12 - Mh22)*vs*Cos[2*theta] + 2*Th1*Sin[theta])*
+    (vs + Cos[theta]*QuantumField[h2] + QuantumField[h1]*Sin[theta]))/2 - 
+ (d2*(vs + Cos[theta]*QuantumField[h2] - I*QuantumField[HA] + 
+     QuantumField[h1]*Sin[theta])^2*(vs + Cos[theta]*QuantumField[h2] + 
+     I*QuantumField[HA] + QuantumField[h1]*Sin[theta])^2)/16 - 
+ ((vs + Cos[theta]*QuantumField[h2] - I*QuantumField[HA] + 
+    QuantumField[h1]*Sin[theta])*(vs + Cos[theta]*QuantumField[h2] + 
+    I*QuantumField[HA] + QuantumField[h1]*Sin[theta])*
+   (MHA2 - d2*vs^2 + Mh22*Cos[theta]^2 + 
+    ((-Mh12 + Mh22)*vev*Cos[theta]*Sin[theta])/vs + Mh12*Sin[theta]^2))/4 + 
+ ((2*MHA2 + d2*vs^2 - 2*Mh22*Cos[theta]^2 - 2*Mh12*Sin[theta]^2)*
+   (Cos[theta]^2*QuantumField[h2]^2 - QuantumField[HA]^2 + 
+    2*Cos[theta]*QuantumField[h2]*(vs + QuantumField[h1]*Sin[theta]) + 
+    (vs + QuantumField[h1]*Sin[theta])^2))/8 + 
+ ((-4*Th1*Cos[theta] + 2*Mh12*vev*Cos[theta]^2 + 
+    2*Sin[theta]*(2*Th2 + (Mh12 - Mh22)*vs*Cos[theta] + Mh22*vev*Sin[theta]))*
+   (QuantumField[G0]^2 + 2*QuantumField[Gm]*QuantumField[Gp] + 
+    (vev + Cos[theta]*QuantumField[h1] - QuantumField[h2]*Sin[theta])^2))/
+  (8*vev) - ((Mh12*Cos[theta]^2 + Mh22*Sin[theta]^2)*
+   (QuantumField[G0]^2 + 2*QuantumField[Gm]*QuantumField[Gp] + 
+     (vev + Cos[theta]*QuantumField[h1] - QuantumField[h2]*Sin[theta])^2)^2)/
+  (8*vev^2) - ((Mh12 - Mh22)*(vs + Cos[theta]*QuantumField[h2] - 
+    I*QuantumField[HA] + QuantumField[h1]*Sin[theta])*
+   (vs + Cos[theta]*QuantumField[h2] + I*QuantumField[HA] + 
+    QuantumField[h1]*Sin[theta])*(QuantumField[G0]^2 + 
+    2*QuantumField[Gm]*QuantumField[Gp] + 
+    (vev + Cos[theta]*QuantumField[h1] - QuantumField[h2]*Sin[theta])^2)*
+   Sin[2*theta])/(8*vev*vs)

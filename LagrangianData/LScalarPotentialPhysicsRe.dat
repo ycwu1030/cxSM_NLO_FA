@@ -1,0 +1,2465 @@
+{{(Mh12*vs^2)/2, (Mh22*vs^2)/2, (-3*d2*vs^4)/16, 0, 0, 
+  (Mh12*vev^2*Cos[theta]^2)/8, -(Mh22*vs^2*Cos[theta]^2)/2, 
+  -(Mh12*vs^2*Cos[2*theta])/2, (Mh22*vs^2*Cos[2*theta])/2, 0, 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^4)/(8*vev^2), 0, 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]])/
+   (2*vev^2), -(Mh12*Cos[theta]^2*QuantumField[Subscript[Gm, R]]^2*
+     QuantumField[Subscript[Gp, R]]^2)/(2*vev^2), 0, 
+  -(Mh12*Cos[theta]^3*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h1, R]])/(2*vev), 
+  -((Mh12*Cos[theta]^3*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]])/vev), 0, 
+  -(Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2)/2, 
+  -(Mh12*Cos[theta]^4*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h1, R]]^2)/(4*vev^2), 
+  -(Mh12*Cos[theta]^4*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]^2)/
+   (2*vev^2), -(Mh12*Cos[theta]^5*QuantumField[Subscript[h1, R]]^3)/(2*vev), 
+  -(Mh12*Cos[theta]^6*QuantumField[Subscript[h1, R]]^4)/(8*vev^2), 
+  (Mh12*vs*Cos[theta]*QuantumField[Subscript[h2, R]])/2, 
+  (Mh22*vs*Cos[theta]*QuantumField[Subscript[h2, R]])/2, 0, 
+  -(Mh22*vs*Cos[theta]^3*QuantumField[Subscript[h2, R]]), 
+  -(Mh12*vs*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]])/2, 
+  (Mh22*vs*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]])/2, 
+  -(Mh22*Cos[theta]^4*QuantumField[Subscript[h2, R]]^2)/2, 
+  -(d2*vs*Cos[theta]^3*QuantumField[Subscript[h2, R]]^3)/4, 
+  -(d2*Cos[theta]^4*QuantumField[Subscript[h2, R]]^4)/16, 
+  -(MHA2*QuantumField[Subscript[HA, R]]^2)/2, 
+  -(d2*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+     QuantumField[Subscript[HA, R]]^2)/4, 
+  -(d2*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+     QuantumField[Subscript[HA, R]]^2)/8, 
+  -(d2*QuantumField[Subscript[HA, R]]^4)/16, 0, 0, 
+  (Mh12*vev*vs*Cos[theta]*Sin[theta])/2, -(Mh22*vev*vs*Cos[theta]*Sin[theta])/
+   2, 0, (Mh12*vs*Cos[theta]*QuantumField[Subscript[G0, R]]^2*Sin[theta])/
+   (4*vev), -(Mh22*vs*Cos[theta]*QuantumField[Subscript[G0, R]]^2*Sin[theta])/
+   (4*vev), 0, (Mh12*vs*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*Sin[theta])/(2*vev), 
+  -(Mh22*vs*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*Sin[theta])/(2*vev), 
+  (Mh12*vs*QuantumField[Subscript[h1, R]]*Sin[theta])/2, 
+  (Mh22*vs*QuantumField[Subscript[h1, R]]*Sin[theta])/2, 
+  (Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta])/2, 
+  (-3*Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta])/2, 
+  -(Mh12*vs*Cos[2*theta]*QuantumField[Subscript[h1, R]]*Sin[theta])/2, 
+  (Mh22*vs*Cos[2*theta]*QuantumField[Subscript[h1, R]]*Sin[theta])/2, 0, 
+  (Mh12*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*Sin[theta])/(4*vev), 
+  -(Mh22*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*Sin[theta])/
+   (4*vev), (Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h2, R]]*Sin[theta])/
+   2, -(Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h2, R]]*Sin[theta])/2, 
+  (Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[theta])/(2*vev), 
+  (Mh12*Cos[theta]^2*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*Sin[theta])/
+   vev, 0, Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+   QuantumField[Subscript[h2, R]]*Sin[theta], 
+  -(Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]), 
+  (Mh12*Cos[theta]^3*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*Sin[theta])/
+   (2*vev^2), (Mh12*Cos[theta]^3*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta])/vev^2, 
+  (3*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[theta])/(2*vev), 
+  (Mh12*Cos[theta]^5*QuantumField[Subscript[h1, R]]^3*
+    QuantumField[Subscript[h2, R]]*Sin[theta])/(2*vev^2), 
+  (Mh12*vev*Cos[theta]^3*QuantumField[Subscript[h2, R]]^2*Sin[theta])/(4*vs), 
+  -(Mh22*vev*Cos[theta]^3*QuantumField[Subscript[h2, R]]^2*Sin[theta])/
+   (4*vs), (-3*d2*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta])/4, 
+  -(d2*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta])/4, 
+  (Mh12*vev*Cos[theta]*QuantumField[Subscript[HA, R]]^2*Sin[theta])/(4*vs), 
+  -(Mh22*vev*Cos[theta]*QuantumField[Subscript[HA, R]]^2*Sin[theta])/(4*vs), 
+  -(d2*vs*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[HA, R]]^2*
+     Sin[theta])/4, -(d2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+     Sin[theta])/4, (Mh22*vev^2*Sin[theta]^2)/8, -(Mh12*vs^2*Sin[theta]^2)/2, 
+  -(Mh22*QuantumField[Subscript[G0, R]]^4*Sin[theta]^2)/(8*vev^2), 
+  -(Mh22*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*Sin[theta]^2)/(2*vev^2), 
+  -(Mh22*QuantumField[Subscript[Gm, R]]^2*QuantumField[Subscript[Gp, R]]^2*
+     Sin[theta]^2)/(2*vev^2), 0, 
+  (Mh12*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[theta]^2)/2, 
+  -(Mh22*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[theta]^2)/2, 
+  -(Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h1, R]]*Sin[theta]^2)/(2*vev), 
+  -((Mh22*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+     Sin[theta]^2)/vev), -(Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    Sin[theta]^2), -(Mh22*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta]^2)/(4*vev^2), 
+  -(Mh22*Cos[theta]^2*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta]^2)/(2*vev^2), 
+  -(Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*Sin[theta]^2)/(2*vev), 
+  -(Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]^4*Sin[theta]^2)/
+   (8*vev^2), 0, (-3*Mh12*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^2)/2, (Mh22*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^2)/2, 0, (Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2)/(2*vs), 
+  -(Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2)/(2*vs), 
+  -(Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2)/(2*vev), 
+  (Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2)/(2*vev), 
+  (-3*d2*vs*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2)/4, 0, 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/(4*vev^2), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^2)/(2*vev^2), 
+  (-3*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/(2*vev), 
+  (-3*d2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/8, 
+  (-3*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/(4*vev^2), 
+  -(d2*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[HA, R]]^2*
+     Sin[theta]^2)/8, -(Mh12*vs*QuantumField[Subscript[h1, R]]*Sin[theta]^3), 
+  (Mh12*vev*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^3)/(4*vs), 
+  -(Mh22*vev*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^3)/
+   (4*vs), -(d2*vs*QuantumField[Subscript[h1, R]]^3*Sin[theta]^3)/4, 
+  (Mh22*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^3)/(2*vev), (Mh22*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^3)/vev, -(Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^3), 
+  Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+   QuantumField[Subscript[h2, R]]*Sin[theta]^3, 
+  (Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^3)/(2*vev^2), (Mh22*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^3)/vev^2, 
+  (3*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^3)/(2*vev), 
+  -(d2*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3)/4, 
+  (Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^3)/(2*vev^2), 0, 
+  (Mh12*vs*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/(4*vev), 
+  -(Mh22*vs*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/
+   (4*vev), (Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^3*Sin[theta]^3)/
+   (2*vev), (Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^3*Sin[theta]^3)/(2*vev^2), 
+  -(Mh12*QuantumField[Subscript[h1, R]]^2*Sin[theta]^4)/2, 
+  -(d2*QuantumField[Subscript[h1, R]]^4*Sin[theta]^4)/16, 
+  -(Mh22*QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/2, 
+  -(Mh22*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^4)/(4*vev^2), 
+  -(Mh22*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/(2*vev^2), 
+  (-3*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/(2*vev), 
+  (-3*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/(4*vev^2), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^4*Sin[theta]^4)/
+   (8*vev^2), (Mh22*QuantumField[Subscript[h2, R]]^3*Sin[theta]^5)/(2*vev), 
+  (Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^3*Sin[theta]^5)/(2*vev^2), 
+  -(Mh22*QuantumField[Subscript[h2, R]]^4*Sin[theta]^6)/(8*vev^2), 
+  -(Mh12*vev*vs*Sin[2*theta])/8, (Mh22*vev*vs*Sin[2*theta])/8, 
+  -(Mh12*vs*QuantumField[Subscript[G0, R]]^2*Sin[2*theta])/(8*vev), 
+  (Mh22*vs*QuantumField[Subscript[G0, R]]^2*Sin[2*theta])/(8*vev), 
+  -(Mh12*vs*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     Sin[2*theta])/(4*vev), (Mh22*vs*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*Sin[2*theta])/(4*vev), 
+  -(Mh12*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[2*theta])/4, 
+  (Mh22*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[2*theta])/4, 
+  -(Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*Sin[2*theta])/
+   (8*vev), (Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    Sin[2*theta])/(8*vev), 
+  -(Mh12*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[2*theta])/4, 
+  (Mh22*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[2*theta])/4, 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta])/(4*vev), 
+  (Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[2*theta])/(4*vev), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[2*theta])/(2*vev), (Mh22*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+    Sin[2*theta])/(2*vev), -(Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta])/2, 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[2*theta])/2, 
+  -(Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta])/(4*vev), 
+  (Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[2*theta])/(4*vev), 
+  -(Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/
+   (8*vs), (Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+    Sin[2*theta])/(8*vs), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]^2*
+     Sin[2*theta])/(4*vev*vs), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]^2*
+    Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/(4*vs), 
+  (Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/(4*vs), 
+  -(Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  (Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  -(Mh12*vev*QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(8*vs), 
+  (Mh22*vev*QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(8*vs), 
+  -(Mh12*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[HA, R]]^2*
+     Sin[2*theta])/(8*vev*vs), (Mh22*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  -(Mh12*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(4*vev*vs), 
+  (Mh22*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(4*vs), 
+  (Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(4*vs), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[HA, R]]^2*Sin[2*theta])/(8*vev*vs), 
+  -(Mh12*vev*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/4, 
+  (Mh22*vev*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/4, 
+  -(Mh12*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[h1, R]]*
+     Sin[theta]*Sin[2*theta])/(4*vev), 
+  (Mh22*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[h1, R]]*
+    Sin[theta]*Sin[2*theta])/(4*vev), 
+  -(Mh12*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/(2*vev), 
+  (Mh22*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/(2*vev), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]*Sin[2*theta])/
+   2, (Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]*
+    Sin[2*theta])/2, -(Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+     Sin[theta]*Sin[2*theta])/(4*vev), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*Sin[theta]*
+    Sin[2*theta])/(4*vev), (Mh12*vs*QuantumField[Subscript[h2, R]]*Sin[theta]*
+    Sin[2*theta])/4, -(Mh22*vs*QuantumField[Subscript[h2, R]]*Sin[theta]*
+     Sin[2*theta])/4, -(Mh12*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(4*vs), 
+  (Mh22*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(4*vs), 
+  (Mh12*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(4*vev), 
+  -(Mh22*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(4*vev), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+     Sin[2*theta])/(4*vev*vs), 
+  (Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+    Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(2*vev*vs), 
+  (Mh22*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(2*vev*vs), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(2*vs), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(2*vs), 
+  -(Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(4*vev*vs), 
+  (Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+    QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/(4*vev*vs), 
+  (Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]*Sin[2*theta])/
+   2, -(Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]*
+     Sin[2*theta])/2, (Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]*Sin[2*theta])/(2*vev), 
+  -(Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]*Sin[2*theta])/(2*vev), 
+  (Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^3*Sin[theta]*
+    Sin[2*theta])/(4*vs), 
+  -(Mh22*Cos[theta]^2*QuantumField[Subscript[h2, R]]^3*Sin[theta]*
+     Sin[2*theta])/(4*vs), (Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^3*Sin[theta]*Sin[2*theta])/(4*vev*vs), 
+  -(Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta]*Sin[2*theta])/(4*vev*vs), 
+  (Mh12*QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+    Sin[theta]*Sin[2*theta])/(4*vs), 
+  -(Mh22*QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+     Sin[theta]*Sin[2*theta])/(4*vs), 
+  (Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+    Sin[theta]*Sin[2*theta])/(4*vev*vs), 
+  -(Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+     Sin[theta]*Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*vev*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*Sin[2*theta])/
+   (8*vs), (Mh22*vev*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*
+    Sin[2*theta])/(8*vs), -(Mh12*QuantumField[Subscript[G0, R]]^2*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*Sin[2*theta])/(8*vev*vs), 
+  (Mh22*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[h1, R]]^2*
+    Sin[theta]^2*Sin[2*theta])/(8*vev*vs), 
+  -(Mh12*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*Sin[2*theta])/(4*vev*vs), 
+  (Mh22*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^3*Sin[theta]^2*
+     Sin[2*theta])/(4*vs), (Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+    Sin[theta]^2*Sin[2*theta])/(4*vs), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^4*Sin[theta]^2*
+     Sin[2*theta])/(8*vev*vs), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^4*Sin[theta]^2*
+    Sin[2*theta])/(8*vev*vs), (Mh12*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta])/2, 
+  -(Mh22*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^2*Sin[2*theta])/2, 
+  (Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta])/(2*vev), 
+  -(Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta])/(2*vev), 
+  -(Mh12*vs*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/
+   (8*vev), (Mh22*vs*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*
+    Sin[2*theta])/(8*vev), (Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/(2*vs), 
+  -(Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/(2*vs), 
+  (Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/(2*vev*vs), 
+  -(Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/(2*vev*vs), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]^3*Sin[theta]^2*
+     Sin[2*theta])/(4*vev), (Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]^3*
+    Sin[theta]^2*Sin[2*theta])/(4*vev), 
+  -(Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^4*Sin[theta]^2*
+     Sin[2*theta])/(8*vev*vs), 
+  (Mh22*Cos[theta]^2*QuantumField[Subscript[h2, R]]^4*Sin[theta]^2*
+    Sin[2*theta])/(8*vev*vs), 
+  -(Mh12*QuantumField[Subscript[h2, R]]^2*QuantumField[Subscript[HA, R]]^2*
+     Sin[theta]^2*Sin[2*theta])/(8*vev*vs), 
+  (Mh22*QuantumField[Subscript[h2, R]]^2*QuantumField[Subscript[HA, R]]^2*
+    Sin[theta]^2*Sin[2*theta])/(8*vev*vs), 
+  (Mh12*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^3*Sin[2*theta])/(4*vs), 
+  -(Mh22*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^3*Sin[2*theta])/(4*vs), 
+  (Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^3*Sin[2*theta])/(4*vev*vs), 
+  -(Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3*Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^3*Sin[2*theta])/(4*vev), 
+  (Mh22*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]^2*
+    Sin[theta]^3*Sin[2*theta])/(4*vev), 
+  -(Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta]^3*Sin[2*theta])/(4*vev*vs), 
+  (Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]^3*Sin[theta]^3*Sin[2*theta])/(4*vev*vs), 
+  -(Mh12*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^4*Sin[2*theta])/(8*vev*vs), 
+  (Mh22*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[h2, R]]^2*
+    Sin[theta]^4*Sin[2*theta])/(8*vev*vs)}, {dvs1*Mh12*vs + (dMh121*vs^2)/2, 
+  dvs1*Mh22*vs + (dMh221*vs^2)/2, (-3*(4*d2*dvs1*vs^3 + dd21*vs^4))/16, 
+  -(dTh1*vev*Cos[theta])/2, -(dTh2*vs*Cos[theta]), 
+  (2*dvev1*Mh12*vev*Cos[theta]^2 + dMh121*vev^2*Cos[theta]^2 - 
+    2*dtheta1*Mh12*vev^2*Cos[theta]*Sin[theta])/8, 
+  -(dvs1*Mh22*vs*Cos[theta]^2) - (dMh221*vs^2*Cos[theta]^2)/2 + 
+   dtheta1*Mh22*vs^2*Cos[theta]*Sin[theta], -(dvs1*Mh12*vs*Cos[2*theta]) - 
+   (dMh121*vs^2*Cos[2*theta])/2 + dtheta1*Mh12*vs^2*Sin[2*theta], 
+  dvs1*Mh22*vs*Cos[2*theta] + (dMh221*vs^2*Cos[2*theta])/2 - 
+   dtheta1*Mh22*vs^2*Sin[2*theta], 
+  -(dTh1*Cos[theta]*QuantumField[Subscript[G0, R]]^2)/(2*vev), 
+  (2*dvev1*Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^4 - 
+    dMh121*vev*Cos[theta]^2*QuantumField[Subscript[G0, R]]^4 - 
+    2*Mh12*vev*Cos[theta]^2*dZ[G0G0]*QuantumField[Subscript[G0, R]]^4 - 
+    2*Mh12*vev*Cos[theta]^2*dZ[G0HA]*QuantumField[Subscript[G0, R]]^3*
+     QuantumField[Subscript[HA, R]] + 2*dtheta1*Mh12*vev*Cos[theta]*
+     QuantumField[Subscript[G0, R]]^4*Sin[theta])/(8*vev^3), 
+  -((dTh1*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[Gp, R]])/vev), 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    (-((Mh12*Cos[theta]^2*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev^2) - QuantumField[Subscript[G0, R]]^2*
+      (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^2 + 
+       (Mh12*Cos[theta]^2*dZ[GpGp])/vev^2 - (2*dtheta1*Mh12*Cos[theta]*
+         Sin[theta])/vev^2)))/2, 
+  -(QuantumField[Subscript[Gm, R]]^2*QuantumField[Subscript[Gp, R]]^2*
+     (-2*dvev1*Mh12*Cos[theta]^2 + dMh121*vev*Cos[theta]^2 + 
+      2*Mh12*vev*Cos[theta]^2*dZ[GpGp] - 2*dtheta1*Mh12*vev*Cos[theta]*
+       Sin[theta]))/(2*vev^3), 
+  -(dTh1*Cos[theta]^2*QuantumField[Subscript[h1, R]]), 
+  (-((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+       (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+        dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+          Subscript[HA, R]]))/vev) - QuantumField[Subscript[G0, R]]^2*
+     ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h1, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+         Cos[theta]^3 - (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/vev)))/2, 
+  QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   (-(Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+        dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) - 
+    QuantumField[Subscript[h1, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+       Cos[theta]^3 + (Mh12*Cos[theta]^3*dZ[GpGp])/vev - 
+      (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/vev)), 
+  -(dTh1*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2)/(2*vev), 
+  (-(dMh121*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2) - 
+    Mh12*Cos[theta]^4*dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 - 
+    Mh12*Cos[theta]^4*dZ[h1h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] + 4*dtheta1*Mh12*Cos[theta]^3*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta])/2, 
+  (-((Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+       (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+        dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+          Subscript[HA, R]]))/vev^2) - QuantumField[Subscript[G0, R]]^2*
+     ((Mh12*Cos[theta]^4*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vev^2 + QuantumField[Subscript[h1, R]]^2*
+       (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^4 - 
+        (4*dtheta1*Mh12*Cos[theta]^3*Sin[theta])/vev^2)))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    (-((Mh12*Cos[theta]^4*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vev^2) - QuantumField[Subscript[h1, R]]^2*
+      (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^4 + 
+       (Mh12*Cos[theta]^4*dZ[GpGp])/vev^2 - (4*dtheta1*Mh12*Cos[theta]^3*
+         Sin[theta])/vev^2)))/2, 
+  (2*dvev1*Mh12*Cos[theta]^5*QuantumField[Subscript[h1, R]]^3 - 
+    2*dMh121*vev*Cos[theta]^5*QuantumField[Subscript[h1, R]]^3 - 
+    3*Mh12*vev*Cos[theta]^5*dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 - 
+    3*Mh12*vev*Cos[theta]^5*dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]] + 10*dtheta1*Mh12*vev*Cos[theta]^4*
+     QuantumField[Subscript[h1, R]]^3*Sin[theta])/(4*vev^2), 
+  (2*dvev1*Mh12*Cos[theta]^6*QuantumField[Subscript[h1, R]]^4 - 
+    dMh121*vev*Cos[theta]^6*QuantumField[Subscript[h1, R]]^4 - 
+    2*Mh12*vev*Cos[theta]^6*dZ[h1h1]*QuantumField[Subscript[h1, R]]^4 - 
+    2*Mh12*vev*Cos[theta]^6*dZ[h1h2]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]] + 6*dtheta1*Mh12*vev*Cos[theta]^5*
+     QuantumField[Subscript[h1, R]]^4*Sin[theta])/(8*vev^3), 
+  (Mh12*vs*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+    2*dvs1*Mh12*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+    2*dMh121*vs*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+    Mh12*vs*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]] - 
+    2*dtheta1*Mh12*vs*QuantumField[Subscript[h2, R]]*Sin[theta])/4, 
+  (Mh22*vs*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+    2*dvs1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+    2*dMh221*vs*Cos[theta]*QuantumField[Subscript[h2, R]] + 
+    Mh22*vs*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]] - 
+    2*dtheta1*Mh22*vs*QuantumField[Subscript[h2, R]]*Sin[theta])/4, 
+  -(dTh2*Cos[theta]^2*QuantumField[Subscript[h2, R]]), 
+  -(Mh22*vs*Cos[theta]^3*dZ[h2h1]*QuantumField[Subscript[h1, R]])/2 - 
+   dvs1*Mh22*Cos[theta]^3*QuantumField[Subscript[h2, R]] - 
+   dMh221*vs*Cos[theta]^3*QuantumField[Subscript[h2, R]] - 
+   (Mh22*vs*Cos[theta]^3*dZ[h2h2]*QuantumField[Subscript[h2, R]])/2 + 
+   3*dtheta1*Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h2, R]]*Sin[theta], 
+  (-(Mh12*vs*Cos[theta]*Cos[2*theta]*dZ[h2h1]*QuantumField[
+       Subscript[h1, R]]) - 2*dvs1*Mh12*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h2, R]] - 2*dMh121*vs*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h2, R]] - Mh12*vs*Cos[theta]*Cos[2*theta]*
+     dZ[h2h2]*QuantumField[Subscript[h2, R]] + 2*dtheta1*Mh12*vs*Cos[2*theta]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] + 4*dtheta1*Mh12*vs*Cos[theta]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta])/4, 
+  (Mh22*vs*Cos[theta]*Cos[2*theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+    2*dvs1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]] + 
+    2*dMh221*vs*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]] + 
+    Mh22*vs*Cos[theta]*Cos[2*theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]] - 
+    2*dtheta1*Mh22*vs*Cos[2*theta]*QuantumField[Subscript[h2, R]]*
+     Sin[theta] - 4*dtheta1*Mh22*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+     Sin[2*theta])/4, 
+  (-(Mh22*Cos[theta]^4*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]) - dMh221*Cos[theta]^4*
+     QuantumField[Subscript[h2, R]]^2 - Mh22*Cos[theta]^4*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]^2 + 4*dtheta1*Mh22*Cos[theta]^3*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta])/2, 
+  (-3*d2*vs*Cos[theta]^3*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^2 - 2*d2*dvs1*Cos[theta]^3*
+     QuantumField[Subscript[h2, R]]^3 - 2*dd21*vs*Cos[theta]^3*
+     QuantumField[Subscript[h2, R]]^3 - 3*d2*vs*Cos[theta]^3*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]^3 + 6*d2*dtheta1*vs*Cos[theta]^2*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta])/8, 
+  (-2*d2*Cos[theta]^4*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3 - dd21*Cos[theta]^4*
+     QuantumField[Subscript[h2, R]]^4 - 2*d2*Cos[theta]^4*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]^4 + 4*d2*dtheta1*Cos[theta]^3*
+     QuantumField[Subscript[h2, R]]^4*Sin[theta])/16, 
+  (-(MHA2*dZ[HAG0]*QuantumField[Subscript[G0, R]]*
+      QuantumField[Subscript[HA, R]]) - dMHA21*QuantumField[Subscript[HA, R]]^
+      2 - MHA2*dZ[HAHA]*QuantumField[Subscript[HA, R]]^2)/2, 
+  (-(d2*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+      (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+         Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2)) - 
+    QuantumField[Subscript[HA, R]]^2*
+     ((d2*vs*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/2 + 
+      QuantumField[Subscript[h2, R]]*((d2*dvs1 + dd21*vs)*Cos[theta] - 
+        d2*dtheta1*vs*Sin[theta])))/4, 
+  (-(d2*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+      (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+         Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2)) - 
+    QuantumField[Subscript[HA, R]]^2*
+     (d2*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+         QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+         QuantumField[Subscript[h2, R]]^2) + QuantumField[Subscript[h2, R]]^2*
+       (dd21*Cos[theta]^2 - 2*d2*dtheta1*Cos[theta]*Sin[theta])))/8, 
+  (-2*d2*dZ[HAG0]*QuantumField[Subscript[G0, R]]*
+     QuantumField[Subscript[HA, R]]^3 - 
+    dd21*QuantumField[Subscript[HA, R]]^4 - 2*d2*dZ[HAHA]*
+     QuantumField[Subscript[HA, R]]^4)/16, (dTh2*vev*Sin[theta])/2, 
+  -(dTh1*vs*Sin[theta]), (dtheta1*Mh12*vev*vs*Cos[theta]^2 + 
+    dvs1*Mh12*vev*Cos[theta]*Sin[theta] + dvev1*Mh12*vs*Cos[theta]*
+     Sin[theta] + dMh121*vev*vs*Cos[theta]*Sin[theta] - 
+    dtheta1*Mh12*vev*vs*Sin[theta]^2)/2, 
+  (-(dtheta1*Mh22*vev*vs*Cos[theta]^2) - dvs1*Mh22*vev*Cos[theta]*
+     Sin[theta] - dvev1*Mh22*vs*Cos[theta]*Sin[theta] - 
+    dMh221*vev*vs*Cos[theta]*Sin[theta] + dtheta1*Mh22*vev*vs*Sin[theta]^2)/
+   2, (dTh2*QuantumField[Subscript[G0, R]]^2*Sin[theta])/(2*vev), 
+  ((dtheta1*Mh12*vs*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2)/vev + 
+    Sin[theta]*((Mh12*vs*Cos[theta]*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^
+           2 + dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev + QuantumField[Subscript[G0, R]]^2*
+       (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+         Cos[theta] - (dtheta1*Mh12*vs*Sin[theta])/vev)))/4, 
+  (-((dtheta1*Mh22*vs*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2)/vev) - 
+    Sin[theta]*((Mh22*vs*Cos[theta]*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^
+           2 + dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev + QuantumField[Subscript[G0, R]]^2*
+       (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+         Cos[theta] - (dtheta1*Mh22*vs*Sin[theta])/vev)))/4, 
+  (dTh2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    Sin[theta])/vev, (QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*(dtheta1*Mh12*vev*vs*Cos[theta]^2 + 
+     dvs1*Mh12*vev*Cos[theta]*Sin[theta] - dvev1*Mh12*vs*Cos[theta]*
+      Sin[theta] + dMh121*vev*vs*Cos[theta]*Sin[theta] + 
+     Mh12*vev*vs*Cos[theta]*dZ[GpGp]*Sin[theta] - dtheta1*Mh12*vev*vs*
+      Sin[theta]^2))/(2*vev^2), 
+  -(QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     (dtheta1*Mh22*vev*vs*Cos[theta]^2 + dvs1*Mh22*vev*Cos[theta]*
+       Sin[theta] - dvev1*Mh22*vs*Cos[theta]*Sin[theta] + 
+      dMh221*vev*vs*Cos[theta]*Sin[theta] + Mh22*vev*vs*Cos[theta]*dZ[GpGp]*
+       Sin[theta] - dtheta1*Mh22*vev*vs*Sin[theta]^2))/(2*vev^2), 
+  (2*dtheta1*Mh12*vs*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+    2*dvs1*Mh12*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    2*dMh121*vs*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh12*vs*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh12*vs*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[theta])/4, 
+  (2*dtheta1*Mh22*vs*Cos[theta]*QuantumField[Subscript[h1, R]] + 
+    2*dvs1*Mh22*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    2*dMh221*vs*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh22*vs*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh22*vs*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[theta])/4, 
+  (2*dtheta1*Mh12*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]] + 
+    2*dvs1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    2*dMh121*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh12*vs*Cos[theta]^2*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh12*vs*Cos[theta]^2*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[theta] - 
+    4*dtheta1*Mh12*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[theta]^2)/
+   4, (-3*(2*dtheta1*Mh22*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]] + 
+     2*dvs1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+     2*dMh221*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+     Mh22*vs*Cos[theta]^2*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+      Sin[theta] + Mh22*vs*Cos[theta]^2*dZ[h1h2]*
+      QuantumField[Subscript[h2, R]]*Sin[theta] - 
+     4*dtheta1*Mh22*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*
+      Sin[theta]^2))/4, (-2*dtheta1*Mh12*vs*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]] - 2*dvs1*Mh12*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]]*Sin[theta] - 2*dMh121*vs*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]]*Sin[theta] - Mh12*vs*Cos[2*theta]*
+     dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta] - 
+    Mh12*vs*Cos[2*theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+    4*dtheta1*Mh12*vs*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/
+   4, (2*dtheta1*Mh22*vs*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]] + 2*dvs1*Mh22*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]]*Sin[theta] + 2*dMh221*vs*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]]*Sin[theta] + Mh22*vs*Cos[2*theta]*
+     dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta] + 
+    Mh22*vs*Cos[2*theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[theta] - 
+    4*dtheta1*Mh22*vs*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/
+   4, (dTh2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*Sin[theta])/
+   (2*vev), ((dtheta1*Mh12*vs*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2)/
+     vev + Sin[theta]*((Mh12*vs*Cos[theta]^3*
+        (dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+       (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+         Cos[theta]^3 - (3*dtheta1*Mh12*vs*Cos[theta]^2*Sin[theta])/vev)))/4, 
+  (-((dtheta1*Mh22*vs*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2)/vev) - 
+    Sin[theta]*((Mh22*vs*Cos[theta]^3*
+        (dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+       (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+         Cos[theta]^3 - (3*dtheta1*Mh22*vs*Cos[theta]^2*Sin[theta])/vev)))/4, 
+  (2*dtheta1*Mh12*vev*Cos[theta]^3*QuantumField[Subscript[h2, R]] + 
+    Mh12*vev*Cos[theta]^2*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     Sin[theta] + 2*dvev1*Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]*
+     Sin[theta] + 2*dMh121*vev*Cos[theta]^2*QuantumField[Subscript[h2, R]]*
+     Sin[theta] + Mh12*vev*Cos[theta]^2*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] - 
+    4*dtheta1*Mh12*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^2)/4, (-2*dtheta1*Mh22*vev*Cos[theta]^3*
+     QuantumField[Subscript[h2, R]] - Mh22*vev*Cos[theta]^2*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]*Sin[theta] - 2*dvev1*Mh22*Cos[theta]^2*
+     QuantumField[Subscript[h2, R]]*Sin[theta] - 2*dMh221*vev*Cos[theta]^2*
+     QuantumField[Subscript[h2, R]]*Sin[theta] - Mh22*vev*Cos[theta]^2*
+     dZ[h2h2]*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+    4*dtheta1*Mh22*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^2)/4, 
+  ((dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]])/vev + 
+    Sin[theta]*((Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev + QuantumField[Subscript[G0, R]]^2*
+       ((Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+           Cos[theta]^2 - (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/vev))))/2, 
+  QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   ((dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h2, R]])/vev + 
+    Sin[theta]*((Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h2, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+         Cos[theta]^2 + (Mh12*Cos[theta]^2*dZ[GpGp])/vev - 
+        (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/vev))), 
+  (dTh1*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta])/vev, 
+  (2*dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] + Mh12*Cos[theta]^3*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta] + 
+    2*dMh121*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] + Mh12*Cos[theta]^3*dZ[h1h1]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[theta] + Mh12*Cos[theta]^3*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] + Mh12*Cos[theta]^3*dZ[h1h2]*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta] - 
+    6*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2)/2, 
+  (-2*dtheta1*Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] - Mh22*Cos[theta]^3*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta] - 
+    2*dMh221*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] - Mh22*Cos[theta]^3*dZ[h1h1]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[theta] - Mh22*Cos[theta]^3*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] - Mh22*Cos[theta]^3*dZ[h1h2]*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta] + 
+    6*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2)/2, 
+  ((dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]])/vev^2 + 
+    Sin[theta]*((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev^2 + QuantumField[Subscript[G0, R]]^2*
+       ((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+          QuantumField[Subscript[h1, R]]*(((-2*dvev1*Mh12)/vev^3 + 
+              dMh121/vev^2)*Cos[theta]^3 - (3*dtheta1*Mh12*Cos[theta]^2*
+              Sin[theta])/vev^2)))))/2, QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Gp, R]]*
+   ((dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]])/vev^2 + 
+    Sin[theta]*((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+        QuantumField[Subscript[h1, R]]*(((-2*dvev1*Mh12)/vev^3 + 
+            dMh121/vev^2)*Cos[theta]^3 + (Mh12*Cos[theta]^3*dZ[GpGp])/vev^2 - 
+          (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/vev^2)))), 
+  (3*((dtheta1*Mh12*Cos[theta]^5*QuantumField[Subscript[h1, R]]^2*
+       QuantumField[Subscript[h2, R]])/vev + 
+     Sin[theta]*((Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+       QuantumField[Subscript[h2, R]]*
+        ((Mh12*Cos[theta]^4*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+            dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+          ((-((dvev1*Mh12)/vev^2) + dMh121/vev)*Cos[theta]^4 - 
+           (4*dtheta1*Mh12*Cos[theta]^3*Sin[theta])/vev)))))/2, 
+  ((dtheta1*Mh12*Cos[theta]^6*QuantumField[Subscript[h1, R]]^3*
+      QuantumField[Subscript[h2, R]])/vev^2 + 
+    Sin[theta]*((Mh12*Cos[theta]^5*QuantumField[Subscript[h1, R]]^3*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+      QuantumField[Subscript[h2, R]]*
+       ((3*Mh12*Cos[theta]^5*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[
+             Subscript[h2, R]]))/(2*vev^2) + QuantumField[Subscript[h1, R]]^3*
+         (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^5 - 
+          (5*dtheta1*Mh12*Cos[theta]^4*Sin[theta])/vev^2))))/2, 
+  ((dtheta1*Mh12*vev*Cos[theta]^4*QuantumField[Subscript[h2, R]]^2)/vs + 
+    Sin[theta]*((Mh12*vev*Cos[theta]^3*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+       vs + QuantumField[Subscript[h2, R]]^2*
+       ((-((dvs1*Mh12*vev)/vs^2) + (dvev1*Mh12 + dMh121*vev)/vs)*
+         Cos[theta]^3 - (3*dtheta1*Mh12*vev*Cos[theta]^2*Sin[theta])/vs)))/4, 
+  (-((dtheta1*Mh22*vev*Cos[theta]^4*QuantumField[Subscript[h2, R]]^2)/vs) - 
+    Sin[theta]*((Mh22*vev*Cos[theta]^3*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+       vs + QuantumField[Subscript[h2, R]]^2*
+       ((-((dvs1*Mh22*vev)/vs^2) + (dvev1*Mh22 + dMh221*vev)/vs)*
+         Cos[theta]^3 - (3*dtheta1*Mh22*vev*Cos[theta]^2*Sin[theta])/vs)))/4, 
+  (-3*(d2*dtheta1*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2 + Sin[theta]*
+      (d2*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2) + 
+       QuantumField[Subscript[h2, R]]^2*
+        ((d2*vs*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/2 + 
+         QuantumField[Subscript[h1, R]]*((d2*dvs1 + dd21*vs)*Cos[theta]^2 - 
+           2*d2*dtheta1*vs*Cos[theta]*Sin[theta])))))/4, 
+  (-2*d2*dtheta1*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3 - 3*d2*Cos[theta]^3*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta] - 2*dd21*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta] - 
+    d2*Cos[theta]^3*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta] - 
+    3*d2*Cos[theta]^3*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta] - 
+    d2*Cos[theta]^3*dZ[h1h2]*QuantumField[Subscript[h2, R]]^4*Sin[theta] + 
+    6*d2*dtheta1*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta]^2)/8, 
+  ((dtheta1*Mh12*vev*Cos[theta]^2*QuantumField[Subscript[HA, R]]^2)/vs + 
+    Sin[theta]*((Mh12*vev*Cos[theta]*(dZ[HAG0]*QuantumField[Subscript[G0, R]]*
+          QuantumField[Subscript[HA, R]] + dZ[HAHA]*
+          QuantumField[Subscript[HA, R]]^2))/vs + 
+      QuantumField[Subscript[HA, R]]^2*
+       ((-((dvs1*Mh12*vev)/vs^2) + (dvev1*Mh12 + dMh121*vev)/vs)*Cos[theta] - 
+        (dtheta1*Mh12*vev*Sin[theta])/vs)))/4, 
+  (-((dtheta1*Mh22*vev*Cos[theta]^2*QuantumField[Subscript[HA, R]]^2)/vs) - 
+    Sin[theta]*((Mh22*vev*Cos[theta]*(dZ[HAG0]*QuantumField[Subscript[G0, R]]*
+          QuantumField[Subscript[HA, R]] + dZ[HAHA]*
+          QuantumField[Subscript[HA, R]]^2))/vs + 
+      QuantumField[Subscript[HA, R]]^2*
+       ((-((dvs1*Mh22*vev)/vs^2) + (dvev1*Mh22 + dMh221*vev)/vs)*Cos[theta] - 
+        (dtheta1*Mh22*vev*Sin[theta])/vs)))/4, 
+  (-(d2*dtheta1*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[HA, R]]^2) - 
+    (((d2*dvs1 + dd21*vs)*QuantumField[Subscript[h1, R]] + 
+        (d2*vs*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/2)*
+       QuantumField[Subscript[HA, R]]^2 + 
+      d2*vs*QuantumField[Subscript[h1, R]]*
+       (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+          Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))*
+     Sin[theta])/4, (-(d2*dtheta1*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2) - 
+    Sin[theta]*(d2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+       QuantumField[Subscript[h2, R]]*
+       (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+          Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2) + 
+      QuantumField[Subscript[HA, R]]^2*
+       ((d2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/2 + 
+        QuantumField[Subscript[h2, R]]*
+         ((d2*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/2 + 
+          QuantumField[Subscript[h1, R]]*(dd21*Cos[theta] - 
+            d2*dtheta1*Sin[theta])))))/4, 
+  (2*dtheta1*Mh22*vev^2*Cos[theta]*Sin[theta] + 
+    2*dvev1*Mh22*vev*Sin[theta]^2 + dMh221*vev^2*Sin[theta]^2)/8, 
+  -(dtheta1*Mh12*vs^2*Cos[theta]*Sin[theta]) - dvs1*Mh12*vs*Sin[theta]^2 - 
+   (dMh121*vs^2*Sin[theta]^2)/2, 
+  (-2*dtheta1*Mh22*vev*Cos[theta]*QuantumField[Subscript[G0, R]]^4*
+     Sin[theta] + 2*dvev1*Mh22*QuantumField[Subscript[G0, R]]^4*
+     Sin[theta]^2 - dMh221*vev*QuantumField[Subscript[G0, R]]^4*
+     Sin[theta]^2 - 2*Mh22*vev*dZ[G0G0]*QuantumField[Subscript[G0, R]]^4*
+     Sin[theta]^2 - 2*Mh22*vev*dZ[G0HA]*QuantumField[Subscript[G0, R]]^3*
+     QuantumField[Subscript[HA, R]]*Sin[theta]^2)/(8*vev^3), 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*Sin[theta])/
+      vev^2 - (((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2 + (Mh22*dZ[GpGp])/vev^2)*
+        QuantumField[Subscript[G0, R]]^2 + 
+       (Mh22*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+          dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+            Subscript[HA, R]]))/vev^2)*Sin[theta]^2))/2, 
+  -(QuantumField[Subscript[Gm, R]]^2*QuantumField[Subscript[Gp, R]]^2*
+     (2*dtheta1*Mh22*vev*Cos[theta]*Sin[theta] - 2*dvev1*Mh22*Sin[theta]^2 + 
+      dMh221*vev*Sin[theta]^2 + 2*Mh22*vev*dZ[GpGp]*Sin[theta]^2))/(2*vev^3), 
+  -(dTh1*QuantumField[Subscript[h1, R]]*Sin[theta]^2), 
+  (4*dtheta1*Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     Sin[theta] + 2*dvev1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     Sin[theta]^2 + 2*dMh121*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     Sin[theta]^2 + Mh12*vev*Cos[theta]*dZ[h1h1]*
+     QuantumField[Subscript[h1, R]]*Sin[theta]^2 + 
+    Mh12*vev*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^2 - 2*dtheta1*Mh12*vev*QuantumField[Subscript[h1, R]]*
+     Sin[theta]^3)/4, (-4*dtheta1*Mh22*vev*Cos[theta]^2*
+     QuantumField[Subscript[h1, R]]*Sin[theta] - 2*dvev1*Mh22*Cos[theta]*
+     QuantumField[Subscript[h1, R]]*Sin[theta]^2 - 
+    2*dMh221*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[theta]^2 - 
+    Mh22*vev*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     Sin[theta]^2 - Mh22*vev*Cos[theta]*dZ[h1h2]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    2*dtheta1*Mh22*vev*QuantumField[Subscript[h1, R]]*Sin[theta]^3)/4, 
+  ((-2*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*Sin[theta])/vev - 
+    Sin[theta]^2*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev + QuantumField[Subscript[G0, R]]^2*
+       ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+           Cos[theta] - (dtheta1*Mh22*Sin[theta])/vev))))/2, 
+  QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   ((-2*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*Sin[theta])/
+     vev - Sin[theta]^2*
+     ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h1, R]]*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+         Cos[theta] + (Mh22*Cos[theta]*dZ[GpGp])/vev - 
+        (dtheta1*Mh22*Sin[theta])/vev))), 
+  -2*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*Sin[theta] - 
+   dMh221*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2 - 
+   Mh22*Cos[theta]^2*dZ[h1h1]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2 - 
+   Mh22*Cos[theta]^2*dZ[h1h2]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+   2*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^3, 
+  ((-2*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]^2*Sin[theta])/vev^2 - 
+    Sin[theta]^2*((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev^2 + QuantumField[Subscript[G0, R]]^2*
+       ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/vev^2 + QuantumField[Subscript[h1, R]]^2*
+         (((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2)*Cos[theta]^2 - 
+          (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/vev^2))))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+       Sin[theta])/vev^2 - Sin[theta]^2*
+      ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+          dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]]))/vev^2 + QuantumField[Subscript[h1, R]]^2*
+        (((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2)*Cos[theta]^2 + 
+         (Mh22*Cos[theta]^2*dZ[GpGp])/vev^2 - (2*dtheta1*Mh22*Cos[theta]*
+           Sin[theta])/vev^2))))/2, 
+  (-4*dtheta1*Mh22*vev*Cos[theta]^4*QuantumField[Subscript[h1, R]]^3*
+     Sin[theta] + 2*dvev1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+     Sin[theta]^2 - 2*dMh221*vev*Cos[theta]^3*QuantumField[Subscript[h1, R]]^
+      3*Sin[theta]^2 - 3*Mh22*vev*Cos[theta]^3*dZ[h1h1]*
+     QuantumField[Subscript[h1, R]]^3*Sin[theta]^2 - 
+    3*Mh22*vev*Cos[theta]^3*dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    6*dtheta1*Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+     Sin[theta]^3)/(4*vev^2), 
+  (-2*dtheta1*Mh22*vev*Cos[theta]^5*QuantumField[Subscript[h1, R]]^4*
+     Sin[theta] + 2*dvev1*Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]^4*
+     Sin[theta]^2 - dMh221*vev*Cos[theta]^4*QuantumField[Subscript[h1, R]]^4*
+     Sin[theta]^2 - 2*Mh22*vev*Cos[theta]^4*dZ[h1h1]*
+     QuantumField[Subscript[h1, R]]^4*Sin[theta]^2 - 
+    2*Mh22*vev*Cos[theta]^4*dZ[h1h2]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    4*dtheta1*Mh22*vev*Cos[theta]^3*QuantumField[Subscript[h1, R]]^4*
+     Sin[theta]^3)/(8*vev^3), -(dTh2*QuantumField[Subscript[h2, R]]*
+    Sin[theta]^2), 
+  (-3*(4*dtheta1*Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h2, R]]*
+      Sin[theta] + Mh12*vs*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+      Sin[theta]^2 + 2*dvs1*Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]*
+      Sin[theta]^2 + 2*dMh121*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+      Sin[theta]^2 + Mh12*vs*Cos[theta]*dZ[h2h2]*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^2 - 
+     2*dtheta1*Mh12*vs*QuantumField[Subscript[h2, R]]*Sin[theta]^3))/4, 
+  (4*dtheta1*Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+    Mh22*vs*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]*Sin[theta]^2 + 
+    2*dvs1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    2*dMh221*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    Mh22*vs*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]]*Sin[theta]^2 - 
+    2*dtheta1*Mh22*vs*QuantumField[Subscript[h2, R]]*Sin[theta]^3)/4, 
+  -((dTh2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev), 
+  ((2*dtheta1*Mh12*vev*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vs + 
+    Sin[theta]^2*((Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh12*vev*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12*vev)/vs^2) + 
+            (dvev1*Mh12 + dMh121*vev)/vs)*Cos[theta]^2 - 
+          (2*dtheta1*Mh12*vev*Cos[theta]*Sin[theta])/vs))))/2, 
+  ((-2*dtheta1*Mh22*vev*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vs - 
+    Sin[theta]^2*((Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh22*vev*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22*vev)/vs^2) + 
+            (dvev1*Mh22 + dMh221*vev)/vs)*Cos[theta]^2 - 
+          (2*dtheta1*Mh22*vev*Cos[theta]*Sin[theta])/vs))))/2, 
+  ((-2*dtheta1*Mh12*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vev - 
+    Sin[theta]^2*((Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh12*vs*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*
+         (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+           Cos[theta]^2 - (2*dtheta1*Mh12*vs*Cos[theta]*Sin[theta])/vev))))/
+   2, ((2*dtheta1*Mh22*vs*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vev + 
+    Sin[theta]^2*((Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh22*vs*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*
+         (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+           Cos[theta]^2 - (2*dtheta1*Mh22*vs*Cos[theta]*Sin[theta])/vev))))/
+   2, (-3*(2*d2*dtheta1*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]*Sin[theta] + 
+     Sin[theta]^2*((d2*vs*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/2 + 
+       QuantumField[Subscript[h2, R]]*(d2*vs*Cos[theta]*
+          (dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]) + QuantumField[Subscript[h1, R]]^2*
+          ((d2*dvs1 + dd21*vs)*Cos[theta] - d2*dtheta1*vs*Sin[theta])))))/4, 
+  -(dTh1*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/(2*vev), 
+  -2*dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h2, R]]^2*Sin[theta] - 
+   Mh12*Cos[theta]^2*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]^2 - 
+   dMh121*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2 - 
+   Mh12*Cos[theta]^2*dZ[h2h2]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2 + 
+   2*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3, 
+  ((-2*dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta])/vev^2 - 
+    Sin[theta]^2*((Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev^2 + QuantumField[Subscript[G0, R]]^2*
+       ((Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^2))/vev^2 + 
+        QuantumField[Subscript[h2, R]]^2*
+         (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^2 - 
+          (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/vev^2))))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h2, R]]^2*
+       Sin[theta])/vev^2 - Sin[theta]^2*
+      ((Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+           QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+           QuantumField[Subscript[h2, R]]^2))/vev^2 + 
+       QuantumField[Subscript[h2, R]]^2*
+        (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^2 + 
+         (Mh12*Cos[theta]^2*dZ[GpGp])/vev^2 - (2*dtheta1*Mh12*Cos[theta]*
+           Sin[theta])/vev^2))))/2, 
+  (-3*((2*dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+       QuantumField[Subscript[h2, R]]^2*Sin[theta])/vev + 
+     Sin[theta]^2*((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+        vev + QuantumField[Subscript[h2, R]]^2*
+        ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+         QuantumField[Subscript[h1, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+            Cos[theta]^3 - (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/vev)))))/
+   2, (-3*(2*d2*dtheta1*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta] + 
+     Sin[theta]^2*(d2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2) + 
+       QuantumField[Subscript[h2, R]]^2*(d2*Cos[theta]^2*
+          (dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]) + QuantumField[Subscript[h1, R]]^2*
+          (dd21*Cos[theta]^2 - 2*d2*dtheta1*Cos[theta]*Sin[theta])))))/8, 
+  (-3*((2*dtheta1*Mh12*Cos[theta]^5*QuantumField[Subscript[h1, R]]^2*
+       QuantumField[Subscript[h2, R]]^2*Sin[theta])/vev^2 + 
+     Sin[theta]^2*((Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+        vev^2 + QuantumField[Subscript[h2, R]]^2*
+        ((Mh12*Cos[theta]^4*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+            dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]]))/vev^2 + QuantumField[Subscript[h1, R]]^2*
+          (((-2*dvev1*Mh12)/vev^3 + dMh121/vev^2)*Cos[theta]^4 - 
+           (4*dtheta1*Mh12*Cos[theta]^3*Sin[theta])/vev^2)))))/4, 
+  (-2*d2*dtheta1*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[HA, R]]^2*Sin[theta] - 
+    ((dd21*QuantumField[Subscript[h1, R]]^2 + 
+        d2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+          dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]]))*QuantumField[Subscript[HA, R]]^2 + 
+      d2*QuantumField[Subscript[h1, R]]^2*
+       (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+          Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))*
+     Sin[theta]^2)/8, -3*dtheta1*Mh12*vs*Cos[theta]*
+    QuantumField[Subscript[h1, R]]*Sin[theta]^2 - 
+   dvs1*Mh12*QuantumField[Subscript[h1, R]]*Sin[theta]^3 - 
+   dMh121*vs*QuantumField[Subscript[h1, R]]*Sin[theta]^3 - 
+   (Mh12*vs*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta]^3)/2 - 
+   (Mh12*vs*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[theta]^3)/2, 
+  ((3*dtheta1*Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+      Sin[theta]^2)/vs + Sin[theta]^3*
+     ((Mh12*vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vs + QuantumField[Subscript[h1, R]]^2*
+       ((-((dvs1*Mh12*vev)/vs^2) + (dvev1*Mh12 + dMh121*vev)/vs)*Cos[theta] - 
+        (dtheta1*Mh12*vev*Sin[theta])/vs)))/4, 
+  ((-3*dtheta1*Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+      Sin[theta]^2)/vs - Sin[theta]^3*
+     ((Mh22*vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vs + QuantumField[Subscript[h1, R]]^2*
+       ((-((dvs1*Mh22*vev)/vs^2) + (dvev1*Mh22 + dMh221*vev)/vs)*Cos[theta] - 
+        (dtheta1*Mh22*vev*Sin[theta])/vs)))/4, 
+  (-6*d2*dtheta1*vs*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+     Sin[theta]^2 - 2*d2*dvs1*QuantumField[Subscript[h1, R]]^3*Sin[theta]^3 - 
+    2*dd21*vs*QuantumField[Subscript[h1, R]]^3*Sin[theta]^3 - 
+    3*d2*vs*dZ[h1h1]*QuantumField[Subscript[h1, R]]^3*Sin[theta]^3 - 
+    3*d2*vs*dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3)/8, 
+  ((3*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev + 
+    (QuantumField[Subscript[G0, R]]^2*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+         QuantumField[Subscript[h2, R]] + 
+        (Mh22*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev)) + 
+      (Mh22*QuantumField[Subscript[h2, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev)*Sin[theta]^3)/2, 
+  QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   ((3*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[theta]^2)/
+     vev + ((-((dvev1*Mh22)/vev^2) + dMh221/vev + (Mh22*dZ[GpGp])/vev)*
+       QuantumField[Subscript[h2, R]] + 
+      (Mh22*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta]^3), 
+  (-6*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 - 
+    Mh12*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^3 - 
+    2*dMh121*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 - 
+    Mh12*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 - 
+    Mh12*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 - 
+    Mh12*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3 + 
+    2*dtheta1*Mh12*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^4)/2, 
+  (6*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    Mh22*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^3 + 
+    2*dMh221*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 + 
+    Mh22*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 + 
+    Mh22*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 + 
+    Mh22*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3 - 
+    2*dtheta1*Mh22*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^4)/2, 
+  ((3*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+      Sin[theta]^2)/vev^2 + Sin[theta]^3*
+     ((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev^2 + QuantumField[Subscript[G0, R]]^2*
+       ((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+          QuantumField[Subscript[h1, R]]*(((-2*dvev1*Mh22)/vev^3 + 
+              dMh221/vev^2)*Cos[theta] - (dtheta1*Mh22*Sin[theta])/vev^2)))))/
+   2, QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   ((3*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev^2 + 
+    Sin[theta]^3*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+        QuantumField[Subscript[h1, R]]*(((-2*dvev1*Mh22)/vev^3 + 
+            dMh221/vev^2)*Cos[theta] + (Mh22*Cos[theta]*dZ[GpGp])/vev^2 - 
+          (dtheta1*Mh22*Sin[theta])/vev^2)))), 
+  (3*((3*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+       QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev + 
+     Sin[theta]^3*((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+       QuantumField[Subscript[h2, R]]*
+        ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+            dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+          ((-((dvev1*Mh22)/vev^2) + dMh221/vev)*Cos[theta]^2 - 
+           (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/vev)))))/2, 
+  (-6*d2*dtheta1*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 - 
+    d2*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]^4*Sin[theta]^3 - 
+    2*dd21*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 - 
+    3*d2*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 - 
+    d2*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^3 - 
+    3*d2*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]^3 + 
+    2*d2*dtheta1*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^4)/8, 
+  ((3*dtheta1*Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]^3*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev^2 + 
+    Sin[theta]^3*((Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+      QuantumField[Subscript[h2, R]]*
+       ((3*Mh22*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[
+             Subscript[h2, R]]))/(2*vev^2) + QuantumField[Subscript[h1, R]]^3*
+         (((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2)*Cos[theta]^3 - 
+          (3*dtheta1*Mh22*Cos[theta]^2*Sin[theta])/vev^2))))/2, 
+  (dTh2*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/(2*vev), 
+  ((3*dtheta1*Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+      Sin[theta]^2)/vev + Sin[theta]^3*
+     ((Mh12*vs*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+          QuantumField[Subscript[h2, R]]^2))/vev + 
+      QuantumField[Subscript[h2, R]]^2*
+       (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+         Cos[theta] - (dtheta1*Mh12*vs*Sin[theta])/vev)))/4, 
+  ((-3*dtheta1*Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+      Sin[theta]^2)/vev - Sin[theta]^3*
+     ((Mh22*vs*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+          QuantumField[Subscript[h2, R]]^2))/vev + 
+      QuantumField[Subscript[h2, R]]^2*
+       (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+         Cos[theta] - (dtheta1*Mh22*vs*Sin[theta])/vev)))/4, 
+  (6*dtheta1*Mh12*vev*Cos[theta]^3*QuantumField[Subscript[h2, R]]^3*
+     Sin[theta]^2 + 3*Mh12*vev*Cos[theta]^2*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^3 - 2*dvev1*Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^
+      3*Sin[theta]^3 + 2*dMh121*vev*Cos[theta]^2*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta]^3 + 
+    3*Mh12*vev*Cos[theta]^2*dZ[h2h2]*QuantumField[Subscript[h2, R]]^3*
+     Sin[theta]^3 - 4*dtheta1*Mh12*vev*Cos[theta]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta]^4)/(4*vev^2), 
+  ((3*dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^3*Sin[theta]^2)/vev^2 + 
+    Sin[theta]^3*((3*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+          QuantumField[Subscript[h2, R]]^3))/(2*vev^2) + 
+      QuantumField[Subscript[h2, R]]^3*
+       ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+        QuantumField[Subscript[h1, R]]*(((-2*dvev1*Mh12)/vev^3 + 
+            dMh121/vev^2)*Cos[theta]^3 - (3*dtheta1*Mh12*Cos[theta]^2*
+            Sin[theta])/vev^2))))/2, 
+  (-4*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^3 - 
+    dMh121*QuantumField[Subscript[h1, R]]^2*Sin[theta]^4 - 
+    Mh12*dZ[h1h1]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^4 - 
+    Mh12*dZ[h1h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^4)/2, 
+  (-4*d2*dtheta1*Cos[theta]*QuantumField[Subscript[h1, R]]^4*Sin[theta]^3 - 
+    dd21*QuantumField[Subscript[h1, R]]^4*Sin[theta]^4 - 
+    2*d2*dZ[h1h1]*QuantumField[Subscript[h1, R]]^4*Sin[theta]^4 - 
+    2*d2*dZ[h1h2]*QuantumField[Subscript[h1, R]]^3*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^4)/16, 
+  (-4*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^3 - 
+    Mh22*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^4 - 
+    dMh221*QuantumField[Subscript[h2, R]]^2*Sin[theta]^4 - 
+    Mh22*dZ[h2h2]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/2, 
+  ((-4*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/vev^2 - 
+    (QuantumField[Subscript[G0, R]]^2*(((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2)*
+         QuantumField[Subscript[h2, R]]^2 + 
+        (Mh22*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vev^2) + (Mh22*QuantumField[Subscript[h2, R]]^2*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev^2)*Sin[theta]^4)/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-4*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+       Sin[theta]^3)/vev^2 - 
+     (((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2 + (Mh22*dZ[GpGp])/vev^2)*
+        QuantumField[Subscript[h2, R]]^2 + 
+       (Mh22*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+        vev^2)*Sin[theta]^4))/2, 
+  (-3*((4*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+       QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/vev + 
+     Sin[theta]^4*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+        vev + QuantumField[Subscript[h2, R]]^2*
+        ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+         QuantumField[Subscript[h1, R]]*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+            Cos[theta] - (dtheta1*Mh22*Sin[theta])/vev)))))/2, 
+  (-3*((4*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+       QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/vev^2 + 
+     Sin[theta]^4*((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+        vev^2 + QuantumField[Subscript[h2, R]]^2*
+        ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+            dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]]))/vev^2 + QuantumField[Subscript[h1, R]]^2*
+          (((-2*dvev1*Mh22)/vev^3 + dMh221/vev^2)*Cos[theta]^2 - 
+           (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/vev^2)))))/4, 
+  (-4*dtheta1*Mh12*vev*Cos[theta]^3*QuantumField[Subscript[h2, R]]^4*
+     Sin[theta]^3 - 2*Mh12*vev*Cos[theta]^2*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]^3*
+     Sin[theta]^4 + 2*dvev1*Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^
+      4*Sin[theta]^4 - dMh121*vev*Cos[theta]^2*QuantumField[Subscript[h2, R]]^
+      4*Sin[theta]^4 - 2*Mh12*vev*Cos[theta]^2*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]^4*Sin[theta]^4 + 
+    2*dtheta1*Mh12*vev*Cos[theta]*QuantumField[Subscript[h2, R]]^4*
+     Sin[theta]^5)/(8*vev^3), 
+  (10*dtheta1*Mh22*vev*Cos[theta]*QuantumField[Subscript[h2, R]]^3*
+     Sin[theta]^4 + 3*Mh22*vev*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^2*Sin[theta]^5 - 
+    2*dvev1*Mh22*QuantumField[Subscript[h2, R]]^3*Sin[theta]^5 + 
+    2*dMh221*vev*QuantumField[Subscript[h2, R]]^3*Sin[theta]^5 + 
+    3*Mh22*vev*dZ[h2h2]*QuantumField[Subscript[h2, R]]^3*Sin[theta]^5)/
+   (4*vev^2), ((5*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^3*Sin[theta]^4)/vev^2 + 
+    Sin[theta]^5*((3*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+          QuantumField[Subscript[h2, R]]^3))/(2*vev^2) + 
+      QuantumField[Subscript[h2, R]]^3*
+       ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev^2) + 
+        QuantumField[Subscript[h1, R]]*(((-2*dvev1*Mh22)/vev^3 + 
+            dMh221/vev^2)*Cos[theta] - (dtheta1*Mh22*Sin[theta])/vev^2))))/2, 
+  (-6*dtheta1*Mh22*vev*Cos[theta]*QuantumField[Subscript[h2, R]]^4*
+     Sin[theta]^5 - 2*Mh22*vev*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]^3*Sin[theta]^6 + 
+    2*dvev1*Mh22*QuantumField[Subscript[h2, R]]^4*Sin[theta]^6 - 
+    dMh221*vev*QuantumField[Subscript[h2, R]]^4*Sin[theta]^6 - 
+    2*Mh22*vev*dZ[h2h2]*QuantumField[Subscript[h2, R]]^4*Sin[theta]^6)/
+   (8*vev^3), (-2*dtheta1*Mh12*vev*vs*Cos[2*theta] - 
+    dvs1*Mh12*vev*Sin[2*theta] - dvev1*Mh12*vs*Sin[2*theta] - 
+    dMh121*vev*vs*Sin[2*theta])/8, (2*dtheta1*Mh22*vev*vs*Cos[2*theta] + 
+    dvs1*Mh22*vev*Sin[2*theta] + dvev1*Mh22*vs*Sin[2*theta] + 
+    dMh221*vev*vs*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*vs*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2)/vev - 
+    (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+       QuantumField[Subscript[G0, R]]^2 + 
+      (Mh12*vs*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*vs*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2)/vev + 
+    (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+       QuantumField[Subscript[G0, R]]^2 + 
+      (Mh22*vs*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev)*Sin[2*theta])/8, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*vs*Cos[2*theta])/vev - 
+     ((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs + 
+       (Mh12*vs*dZ[GpGp])/vev)*Sin[2*theta]))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*vs*Cos[2*theta])/vev + 
+     ((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs + 
+       (Mh22*vs*dZ[GpGp])/vev)*Sin[2*theta]))/4, 
+  (-4*dtheta1*Mh12*vs*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]] - 2*dvs1*Mh12*Cos[theta]*
+     QuantumField[Subscript[h1, R]]*Sin[2*theta] - 
+    2*dMh121*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*Sin[2*theta] - 
+    Mh12*vs*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[2*theta] - 
+    Mh12*vs*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h2, R]]*Sin[2*theta] + 
+    2*dtheta1*Mh12*vs*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta])/
+   8, (2*dtheta1*Mh22*vs*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]] + 
+    ((Mh22*vs*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h1h2]*QuantumField[Subscript[h2, R]]))/2 + 
+      QuantumField[Subscript[h1, R]]*((dvs1*Mh22 + dMh221*vs)*Cos[theta] - 
+        dtheta1*Mh22*vs*Sin[theta]))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*vs*Cos[theta]^2*Cos[2*theta]*
+      QuantumField[Subscript[h1, R]]^2)/vev - 
+    ((Mh12*vs*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+       (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+         Cos[theta]^2 - (2*dtheta1*Mh12*vs*Cos[theta]*Sin[theta])/vev))*
+     Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*vs*Cos[theta]^2*Cos[2*theta]*
+      QuantumField[Subscript[h1, R]]^2)/vev + 
+    ((Mh22*vs*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+       (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+         Cos[theta]^2 - (2*dtheta1*Mh22*vs*Cos[theta]*Sin[theta])/vev))*
+     Sin[2*theta])/8, (-4*dtheta1*Mh12*vev*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h2, R]] - Mh12*vev*Cos[theta]*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]*Sin[2*theta] - 
+    2*dvev1*Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[2*theta] - 
+    2*dMh121*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*Sin[2*theta] - 
+    Mh12*vev*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]]*
+     Sin[2*theta] + 2*dtheta1*Mh12*vev*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta])/8, 
+  (2*dtheta1*Mh22*vev*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h2, R]] + 
+    ((Mh22*vev*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/2 + 
+      QuantumField[Subscript[h2, R]]*((dvev1*Mh22 + dMh221*vev)*Cos[theta] - 
+        dtheta1*Mh22*vev*Sin[theta]))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]])/vev - 
+    ((Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev + QuantumField[Subscript[G0, R]]^2*
+       ((Mh12*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+           Cos[theta] - (dtheta1*Mh12*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]])/vev + 
+    ((Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/vev + QuantumField[Subscript[G0, R]]^2*
+       ((Mh22*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+           Cos[theta] - (dtheta1*Mh22*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]])/
+      vev - ((Mh12*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+       QuantumField[Subscript[h2, R]]*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+          Cos[theta] + (Mh12*Cos[theta]*dZ[GpGp])/vev - 
+         (dtheta1*Mh12*Sin[theta])/vev))*Sin[2*theta]))/2, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]])/
+      vev + ((Mh22*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+       QuantumField[Subscript[h2, R]]*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+          Cos[theta] + (Mh22*Cos[theta]*dZ[GpGp])/vev - 
+         (dtheta1*Mh22*Sin[theta])/vev))*Sin[2*theta]))/2, 
+  (-4*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] - Mh12*Cos[theta]^2*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]^2*Sin[2*theta] - 
+    2*dMh121*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] - 
+    Mh12*Cos[theta]^2*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] - 
+    Mh12*Cos[theta]^2*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] - 
+    Mh12*Cos[theta]^2*dZ[h1h2]*QuantumField[Subscript[h2, R]]^2*
+     Sin[2*theta] + 4*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/4, 
+  (4*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] + Mh22*Cos[theta]^2*dZ[h2h1]*
+     QuantumField[Subscript[h1, R]]^2*Sin[2*theta] + 
+    2*dMh221*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] + 
+    Mh22*Cos[theta]^2*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] + 
+    Mh22*Cos[theta]^2*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] + 
+    Mh22*Cos[theta]^2*dZ[h1h2]*QuantumField[Subscript[h2, R]]^2*
+     Sin[2*theta] - 4*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       2*QuantumField[Subscript[h2, R]])/vev - 
+    ((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+         ((-((dvev1*Mh12)/vev^2) + dMh121/vev)*Cos[theta]^3 - 
+          (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]])/vev + 
+    ((Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+      QuantumField[Subscript[h2, R]]*
+       ((Mh22*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+         ((-((dvev1*Mh22)/vev^2) + dMh221/vev)*Cos[theta]^3 - 
+          (3*dtheta1*Mh22*Cos[theta]^2*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*vev*Cos[theta]^2*Cos[2*theta]*
+      QuantumField[Subscript[h2, R]]^2)/vs - 
+    ((Mh12*vev*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+          QuantumField[Subscript[h2, R]]^2))/vs + 
+      QuantumField[Subscript[h2, R]]^2*
+       ((-((dvs1*Mh12*vev)/vs^2) + (dvev1*Mh12 + dMh121*vev)/vs)*
+         Cos[theta]^2 - (2*dtheta1*Mh12*vev*Cos[theta]*Sin[theta])/vs))*
+     Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*vev*Cos[theta]^2*Cos[2*theta]*
+      QuantumField[Subscript[h2, R]]^2)/vs + 
+    ((Mh22*vev*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+          QuantumField[Subscript[h2, R]]^2))/vs + 
+      QuantumField[Subscript[h2, R]]^2*
+       ((-((dvs1*Mh22*vev)/vs^2) + (dvev1*Mh22 + dMh221*vev)/vs)*
+         Cos[theta]^2 - (2*dtheta1*Mh22*vev*Cos[theta]*Sin[theta])/vs))*
+     Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[G0, R]]^
+       2*QuantumField[Subscript[h2, R]]^2)/(vev*vs) - 
+    ((Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/(vev*vs) + QuantumField[Subscript[G0, R]]^2*
+       ((Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^2))/(vev*vs) + 
+        QuantumField[Subscript[h2, R]]^2*((-((dvs1*Mh12)/(vev*vs^2)) + 
+            (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta]^2 - 
+          (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/(vev*vs))))*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h2, R]]^2)/(vev*vs) + 
+    ((Mh22*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+        (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+         dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]]))/(vev*vs) + QuantumField[Subscript[G0, R]]^2*
+       ((Mh22*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^2))/(vev*vs) + 
+        QuantumField[Subscript[h2, R]]^2*((-((dvs1*Mh22)/(vev*vs^2)) + 
+            (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta]^2 - 
+          (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/(vev*vs))))*Sin[2*theta])/8, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*
+       QuantumField[Subscript[h2, R]]^2)/(vev*vs) - 
+     ((Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+           QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+           QuantumField[Subscript[h2, R]]^2))/(vev*vs) + 
+       QuantumField[Subscript[h2, R]]^2*
+        ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+            vs)*Cos[theta]^2 + (Mh12*Cos[theta]^2*dZ[GpGp])/(vev*vs) - 
+         (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/(vev*vs)))*Sin[2*theta]))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h2, R]]^
+        2)/(vev*vs) + 
+     ((Mh22*Cos[theta]^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+           QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+           QuantumField[Subscript[h2, R]]^2))/(vev*vs) + 
+       QuantumField[Subscript[h2, R]]^2*
+        ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+            vs)*Cos[theta]^2 + (Mh22*Cos[theta]^2*dZ[GpGp])/(vev*vs) - 
+         (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/(vev*vs)))*Sin[2*theta]))/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2)/vs - 
+    ((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+       vs + QuantumField[Subscript[h2, R]]^2*
+       ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/vs^2) + dMh121/vs)*
+           Cos[theta]^3 - (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/vs)))*
+     Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2)/vs + 
+    ((Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+       vs + QuantumField[Subscript[h2, R]]^2*
+       ((Mh22*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/vs^2) + dMh221/vs)*
+           Cos[theta]^3 - (3*dtheta1*Mh22*Cos[theta]^2*Sin[theta])/vs)))*
+     Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]^4*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       2*QuantumField[Subscript[h2, R]]^2)/(vev*vs) - 
+    ((Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+       (vev*vs) + QuantumField[Subscript[h2, R]]^2*
+       ((Mh12*Cos[theta]^4*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^2*
+         ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+             vs)*Cos[theta]^4 - (4*dtheta1*Mh12*Cos[theta]^3*Sin[theta])/
+           (vev*vs))))*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[theta]^4*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]^2)/(vev*vs) + 
+    ((Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]^2*
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+       (vev*vs) + QuantumField[Subscript[h2, R]]^2*
+       ((Mh22*Cos[theta]^4*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^2*
+         ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+             vs)*Cos[theta]^4 - (4*dtheta1*Mh22*Cos[theta]^3*Sin[theta])/
+           (vev*vs))))*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*vev*Cos[2*theta]*QuantumField[Subscript[HA, R]]^2)/vs - 
+    ((-((dvs1*Mh12*vev)/vs^2) + (dvev1*Mh12 + dMh121*vev)/vs)*
+       QuantumField[Subscript[HA, R]]^2 + 
+      (Mh12*vev*(dZ[HAG0]*QuantumField[Subscript[G0, R]]*
+          QuantumField[Subscript[HA, R]] + dZ[HAHA]*
+          QuantumField[Subscript[HA, R]]^2))/vs)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*vev*Cos[2*theta]*QuantumField[Subscript[HA, R]]^2)/vs + 
+    ((-((dvs1*Mh22*vev)/vs^2) + (dvev1*Mh22 + dMh221*vev)/vs)*
+       QuantumField[Subscript[HA, R]]^2 + 
+      (Mh22*vev*(dZ[HAG0]*QuantumField[Subscript[G0, R]]*
+          QuantumField[Subscript[HA, R]] + dZ[HAHA]*
+          QuantumField[Subscript[HA, R]]^2))/vs)*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[HA, R]]^2)/(vev*vs) - 
+    ((Mh12*QuantumField[Subscript[G0, R]]^2*
+        (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+       (vev*vs) + QuantumField[Subscript[HA, R]]^2*
+       ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*
+         QuantumField[Subscript[G0, R]]^2 + 
+        (Mh12*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/(vev*vs)))*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[HA, R]]^2)/(vev*vs) + 
+    ((Mh22*QuantumField[Subscript[G0, R]]^2*
+        (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+       (vev*vs) + QuantumField[Subscript[HA, R]]^2*
+       ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*
+         QuantumField[Subscript[G0, R]]^2 + 
+        (Mh22*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/(vev*vs)))*Sin[2*theta])/8, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[HA, R]]^2)/
+      (vev*vs) - ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + 
+           dMh121/vev)/vs + (Mh12*dZ[GpGp])/(vev*vs))*
+        QuantumField[Subscript[HA, R]]^2 + 
+       (Mh12*(dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+            Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+        (vev*vs))*Sin[2*theta]))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[HA, R]]^2)/
+      (vev*vs) + ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + 
+           dMh221/vev)/vs + (Mh22*dZ[GpGp])/(vev*vs))*
+        QuantumField[Subscript[HA, R]]^2 + 
+       (Mh22*(dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+            Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+        (vev*vs))*Sin[2*theta]))/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[HA, R]]^2)/vs - 
+    ((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+       vs + QuantumField[Subscript[HA, R]]^2*
+       ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/vs^2) + dMh121/vs)*
+           Cos[theta] - (dtheta1*Mh12*Sin[theta])/vs)))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[HA, R]]^2)/vs + 
+    ((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+       vs + QuantumField[Subscript[HA, R]]^2*
+       ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/vs^2) + dMh221/vs)*
+           Cos[theta] - (dtheta1*Mh22*Sin[theta])/vs)))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       2*QuantumField[Subscript[HA, R]]^2)/(vev*vs) - 
+    ((Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+        (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+       (vev*vs) + QuantumField[Subscript[HA, R]]^2*
+       ((Mh12*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^2*
+         ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+             vs)*Cos[theta]^2 - (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/
+           (vev*vs))))*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[HA, R]]^2)/(vev*vs) + 
+    ((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+        (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+           Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+       (vev*vs) + QuantumField[Subscript[HA, R]]^2*
+       ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^2*
+         ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+             vs)*Cos[theta]^2 - (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/
+           (vev*vs))))*Sin[2*theta])/8, 
+  (-4*dtheta1*Mh12*vev*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+     Sin[theta] - 2*dtheta1*Mh12*vev*Cos[theta]*
+     QuantumField[Subscript[h1, R]]*Sin[2*theta] - 
+    2*dvev1*Mh12*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta] - 
+    2*dMh121*vev*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta] - 
+    Mh12*vev*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta]*
+     Sin[2*theta] - Mh12*vev*dZ[h1h2]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta])/8, 
+  (4*dtheta1*Mh22*vev*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+     Sin[theta] + 2*dtheta1*Mh22*vev*Cos[theta]*
+     QuantumField[Subscript[h1, R]]*Sin[2*theta] + 
+    2*dvev1*Mh22*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta] + 
+    2*dMh221*vev*QuantumField[Subscript[h1, R]]*Sin[theta]*Sin[2*theta] + 
+    Mh22*vev*dZ[h1h1]*QuantumField[Subscript[h1, R]]*Sin[theta]*
+     Sin[2*theta] + Mh22*vev*dZ[h1h2]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*Sin[theta])/vev - 
+    ((dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+        QuantumField[Subscript[h1, R]])/vev + 
+      (QuantumField[Subscript[G0, R]]^2*((-((dvev1*Mh12)/vev^2) + dMh121/vev)*
+           QuantumField[Subscript[h1, R]] + 
+          (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev)) + 
+        (Mh12*QuantumField[Subscript[h1, R]]*
+          (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/vev)*Sin[theta])*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*Sin[theta])/vev + 
+    ((dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+        QuantumField[Subscript[h1, R]])/vev + 
+      (QuantumField[Subscript[G0, R]]^2*((-((dvev1*Mh22)/vev^2) + dMh221/vev)*
+           QuantumField[Subscript[h1, R]] + 
+          (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev)) + 
+        (Mh22*QuantumField[Subscript[h1, R]]*
+          (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/vev)*Sin[theta])*Sin[2*theta])/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h1, R]]*Sin[theta])/
+      vev - ((dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]])/vev + 
+       ((-((dvev1*Mh12)/vev^2) + dMh121/vev + (Mh12*dZ[GpGp])/vev)*
+          QuantumField[Subscript[h1, R]] + 
+         (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+      Sin[2*theta]))/2, (QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h1, R]]*Sin[theta])/
+      vev + ((dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]])/vev + 
+       ((-((dvev1*Mh22)/vev^2) + dMh221/vev + (Mh22*dZ[GpGp])/vev)*
+          QuantumField[Subscript[h1, R]] + 
+         (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+      Sin[2*theta]))/2, (-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta] - 
+    dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*Sin[2*theta] - 
+    dMh121*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta]*
+     Sin[2*theta] - Mh12*Cos[theta]*dZ[h1h1]*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta]*Sin[2*theta] - Mh12*Cos[theta]*dZ[h1h2]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+     Sin[2*theta] + dtheta1*Mh12*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta]^2*Sin[2*theta])/2, 
+  (2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta] + dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+     Sin[2*theta] + dMh221*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta]*Sin[2*theta] + Mh22*Cos[theta]*dZ[h1h1]*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta]*Sin[2*theta] + 
+    Mh22*Cos[theta]*dZ[h1h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta] - 
+    dtheta1*Mh22*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*Sin[2*theta])/
+   2, ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*
+      QuantumField[Subscript[h1, R]]^3*Sin[theta])/vev - 
+    ((dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3)/vev + 
+      Sin[theta]*((3*Mh12*Cos[theta]^2*
+          (dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[
+             Subscript[h2, R]]))/(2*vev) + QuantumField[Subscript[h1, R]]^3*
+         ((-((dvev1*Mh12)/vev^2) + dMh121/vev)*Cos[theta]^2 - 
+          (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^3*
+      Sin[theta])/vev + 
+    ((dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3)/vev + 
+      Sin[theta]*((3*Mh22*Cos[theta]^2*
+          (dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[
+             Subscript[h2, R]]))/(2*vev) + QuantumField[Subscript[h1, R]]^3*
+         ((-((dvev1*Mh22)/vev^2) + dMh221/vev)*Cos[theta]^2 - 
+          (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  (4*dtheta1*Mh12*vs*Cos[2*theta]*QuantumField[Subscript[h2, R]]*Sin[theta] + 
+    2*dtheta1*Mh12*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+     Sin[2*theta] + Mh12*vs*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     Sin[theta]*Sin[2*theta] + 2*dvs1*Mh12*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta] + 2*dMh121*vs*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta] + Mh12*vs*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/8, 
+  (-4*dtheta1*Mh22*vs*Cos[2*theta]*QuantumField[Subscript[h2, R]]*
+     Sin[theta] - 2*dtheta1*Mh22*vs*Cos[theta]*QuantumField[Subscript[h2, R]]*
+     Sin[2*theta] - Mh22*vs*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     Sin[theta]*Sin[2*theta] - 2*dvs1*Mh22*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta] - 2*dMh221*vs*QuantumField[Subscript[h2, R]]*
+     Sin[theta]*Sin[2*theta] - Mh22*vs*dZ[h2h2]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*vev*Cos[theta]*Cos[2*theta]*
+      QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+      Sin[theta])/vs - 
+    ((dtheta1*Mh12*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]])/vs + 
+      Sin[theta]*((Mh12*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh12*vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12*vev)/vs^2) + 
+              (dvev1*Mh12 + dMh121*vev)/vs)*Cos[theta] - 
+            (dtheta1*Mh12*vev*Sin[theta])/vs))))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*vev*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vs + 
+    ((dtheta1*Mh22*vev*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]])/vs + 
+      Sin[theta]*((Mh22*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh22*vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22*vev)/vs^2) + 
+              (dvev1*Mh22 + dMh221*vev)/vs)*Cos[theta] - 
+            (dtheta1*Mh22*vev*Sin[theta])/vs))))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh12*vs*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vev + 
+    ((dtheta1*Mh12*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]])/vev + 
+      Sin[theta]*((Mh12*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh12*vs*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+          QuantumField[Subscript[h1, R]]*(((dvs1*Mh12)/vev + 
+              (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*Cos[theta] - 
+            (dtheta1*Mh12*vs*Sin[theta])/vev))))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*vs*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vev - 
+    ((dtheta1*Mh22*vs*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]])/vev + 
+      Sin[theta]*((Mh22*vs*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh22*vs*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+          QuantumField[Subscript[h1, R]]*(((dvs1*Mh22)/vev + 
+              (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*Cos[theta] - 
+            (dtheta1*Mh22*vs*Sin[theta])/vev))))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+      Sin[theta])/(vev*vs) - 
+    ((dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+        QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]])/
+       (vev*vs) + Sin[theta]*((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]]*
+          (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/(vev*vs) + QuantumField[Subscript[G0, R]]^2*
+         ((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+            (dZ[h2h1]*QuantumField[Subscript[h1, R]] + dZ[h2h2]*
+              QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h2, R]]*
+           ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+               dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+            QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/(vev*vs^2)) + 
+                (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta] - 
+              (dtheta1*Mh12*Sin[theta])/(vev*vs))))))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+      Sin[theta])/(vev*vs) + 
+    ((dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[G0, R]]^2*
+        QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]])/
+       (vev*vs) + Sin[theta]*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]]*
+          (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/(vev*vs) + QuantumField[Subscript[G0, R]]^2*
+         ((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+            (dZ[h2h1]*QuantumField[Subscript[h1, R]] + dZ[h2h2]*
+              QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h2, R]]*
+           ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+               dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+            QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/(vev*vs^2)) + 
+                (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta] - 
+              (dtheta1*Mh22*Sin[theta])/(vev*vs))))))*Sin[2*theta])/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+       QuantumField[Subscript[h2, R]]*Sin[theta])/(vev*vs) - 
+     ((dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+         QuantumField[Subscript[h2, R]])/(vev*vs) + 
+       Sin[theta]*((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+           (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+         QuantumField[Subscript[h2, R]]*
+          ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+              dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+           QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/(vev*vs^2)) + 
+               (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta] + 
+             (Mh12*Cos[theta]*dZ[GpGp])/(vev*vs) - (dtheta1*Mh12*Sin[theta])/
+              (vev*vs)))))*Sin[2*theta]))/2, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+       QuantumField[Subscript[h2, R]]*Sin[theta])/(vev*vs) + 
+     ((dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+         QuantumField[Subscript[h2, R]])/(vev*vs) + 
+       Sin[theta]*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+           (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+         QuantumField[Subscript[h2, R]]*
+          ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+              dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+           QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/(vev*vs^2)) + 
+               (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta] + 
+             (Mh22*Cos[theta]*dZ[GpGp])/(vev*vs) - (dtheta1*Mh22*Sin[theta])/
+              (vev*vs)))))*Sin[2*theta]))/2, 
+  ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       2*QuantumField[Subscript[h2, R]]*Sin[theta])/vs - 
+    ((dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]])/vs + 
+      Sin[theta]*((Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh12*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/vs + QuantumField[Subscript[h1, R]]^2*
+           ((-((dvs1*Mh12)/vs^2) + dMh121/vs)*Cos[theta]^2 - 
+            (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/vs))))*Sin[2*theta])/2, 
+  ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/vs + 
+    ((dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]])/vs + 
+      Sin[theta]*((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/vs + QuantumField[Subscript[h1, R]]^2*
+           ((-((dvs1*Mh22)/vs^2) + dMh221/vs)*Cos[theta]^2 - 
+            (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/vs))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh12*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       3*QuantumField[Subscript[h2, R]]*Sin[theta])/(vev*vs) - 
+    ((dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]^3*
+        QuantumField[Subscript[h2, R]])/(vev*vs) + 
+      Sin[theta]*((Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((3*Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[
+                h2, R]]))/(2*vev*vs) + QuantumField[Subscript[h1, R]]^3*
+           ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+               vs)*Cos[theta]^3 - (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/
+             (vev*vs)))))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]^3*
+      QuantumField[Subscript[h2, R]]*Sin[theta])/(vev*vs) + 
+    ((dtheta1*Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]^3*
+        QuantumField[Subscript[h2, R]])/(vev*vs) + 
+      Sin[theta]*((Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^3*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((3*Mh22*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[
+                h2, R]]))/(2*vev*vs) + QuantumField[Subscript[h1, R]]^3*
+           ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+               vs)*Cos[theta]^3 - (3*dtheta1*Mh22*Cos[theta]^2*Sin[theta])/
+             (vev*vs)))))*Sin[2*theta])/4, 
+  (2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta] + dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[2*theta] + Mh12*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta] + 
+    dMh121*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]*
+     Sin[2*theta] + Mh12*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]*Sin[2*theta] - dtheta1*Mh12*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^2*Sin[2*theta])/2, 
+  (-2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta] - dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[2*theta] - Mh22*Cos[theta]*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta] - 
+    dMh221*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta]*
+     Sin[2*theta] - Mh22*Cos[theta]*dZ[h2h2]*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]*Sin[2*theta] + dtheta1*Mh22*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^2*Sin[2*theta])/2, 
+  ((2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta])/vev + 
+    ((dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^2)/vev + 
+      Sin[theta]*((Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vev + QuantumField[Subscript[h2, R]]^2*
+         ((Mh12*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+          QuantumField[Subscript[h1, R]]*((-((dvev1*Mh12)/vev^2) + 
+              dMh121/vev)*Cos[theta]^2 - (2*dtheta1*Mh12*Cos[theta]*
+              Sin[theta])/vev))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta])/vev - 
+    ((dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^2)/vev + 
+      Sin[theta]*((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vev + QuantumField[Subscript[h2, R]]^2*
+         ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+          QuantumField[Subscript[h1, R]]*((-((dvev1*Mh22)/vev^2) + 
+              dMh221/vev)*Cos[theta]^2 - (2*dtheta1*Mh22*Cos[theta]*
+              Sin[theta])/vev))))*Sin[2*theta])/2, 
+  ((2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h2, R]]^3*
+      Sin[theta])/vs + 
+    ((dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h2, R]]^3)/vs + 
+      Sin[theta]*((3*Mh12*Cos[theta]^2*(dZ[h2h1]*QuantumField[
+             Subscript[h1, R]]*QuantumField[Subscript[h2, R]]^2 + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]^3))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]^3*((-((dvs1*Mh12)/vs^2) + dMh121/vs)*
+           Cos[theta]^2 - (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/vs)))*
+     Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h2, R]]^
+       3*Sin[theta])/vs - 
+    ((dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h2, R]]^3)/vs + 
+      Sin[theta]*((3*Mh22*Cos[theta]^2*(dZ[h2h1]*QuantumField[
+             Subscript[h1, R]]*QuantumField[Subscript[h2, R]]^2 + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]^3))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]^3*((-((dvs1*Mh22)/vs^2) + dMh221/vs)*
+           Cos[theta]^2 - (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/vs)))*
+     Sin[2*theta])/4, 
+  ((2*dtheta1*Mh12*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^3*Sin[theta])/(vev*vs) + 
+    ((dtheta1*Mh12*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^3)/(vev*vs) + 
+      Sin[theta]*((3*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^3))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]^3*
+         ((Mh12*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/(vev*vs^2)) + 
+              (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta]^3 - 
+            (3*dtheta1*Mh12*Cos[theta]^2*Sin[theta])/(vev*vs)))))*
+     Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*Cos[theta]^3*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^3*Sin[theta])/(vev*vs) - 
+    ((dtheta1*Mh22*Cos[theta]^4*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^3)/(vev*vs) + 
+      Sin[theta]*((3*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^3))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]^3*
+         ((Mh22*Cos[theta]^3*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/(vev*vs^2)) + 
+              (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta]^3 - 
+            (3*dtheta1*Mh22*Cos[theta]^2*Sin[theta])/(vev*vs)))))*
+     Sin[2*theta])/4, 
+  ((2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h2, R]]*
+      QuantumField[Subscript[HA, R]]^2*Sin[theta])/vs + 
+    ((dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]*
+        QuantumField[Subscript[HA, R]]^2)/vs + 
+      (((-((dvs1*Mh12)/vs^2) + dMh121/vs)*QuantumField[Subscript[h2, R]] + 
+          (Mh12*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs))*
+         QuantumField[Subscript[HA, R]]^2 + 
+        (Mh12*QuantumField[Subscript[h2, R]]*
+          (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+         vs)*Sin[theta])*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h2, R]]*
+      QuantumField[Subscript[HA, R]]^2*Sin[theta])/vs - 
+    ((dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]*
+        QuantumField[Subscript[HA, R]]^2)/vs + 
+      (((-((dvs1*Mh22)/vs^2) + dMh221/vs)*QuantumField[Subscript[h2, R]] + 
+          (Mh22*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs))*
+         QuantumField[Subscript[HA, R]]^2 + 
+        (Mh22*QuantumField[Subscript[h2, R]]*
+          (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+         vs)*Sin[theta])*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+      Sin[theta])/(vev*vs) + 
+    ((dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2)/
+       (vev*vs) + Sin[theta]*((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]]*(dZ[HAG0]*QuantumField[
+             Subscript[G0, R]]*QuantumField[Subscript[HA, R]] + 
+           dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/(vev*vs) + 
+        QuantumField[Subscript[HA, R]]^2*
+         ((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+            (dZ[h2h1]*QuantumField[Subscript[h1, R]] + dZ[h2h2]*
+              QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h2, R]]*
+           ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+               dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+            QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/(vev*vs^2)) + 
+                (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta] - 
+              (dtheta1*Mh12*Sin[theta])/(vev*vs))))))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2*
+      Sin[theta])/(vev*vs) - 
+    ((dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]*QuantumField[Subscript[HA, R]]^2)/
+       (vev*vs) + Sin[theta]*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          QuantumField[Subscript[h2, R]]*(dZ[HAG0]*QuantumField[
+             Subscript[G0, R]]*QuantumField[Subscript[HA, R]] + 
+           dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/(vev*vs) + 
+        QuantumField[Subscript[HA, R]]^2*
+         ((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+            (dZ[h2h1]*QuantumField[Subscript[h1, R]] + dZ[h2h2]*
+              QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h2, R]]*
+           ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+               dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+            QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/(vev*vs^2)) + 
+                (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta] - 
+              (dtheta1*Mh22*Sin[theta])/(vev*vs))))))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*vev*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      Sin[theta]^2)/vs - 
+    ((2*dtheta1*Mh12*vev*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+        Sin[theta])/vs + ((-((dvs1*Mh12*vev)/vs^2) + 
+          (dvev1*Mh12 + dMh121*vev)/vs)*QuantumField[Subscript[h1, R]]^2 + 
+        (Mh12*vev*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/vs)*Sin[theta]^2)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*vev*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      Sin[theta]^2)/vs + 
+    ((2*dtheta1*Mh22*vev*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+        Sin[theta])/vs + ((-((dvs1*Mh22*vev)/vs^2) + 
+          (dvev1*Mh22 + dMh221*vev)/vs)*QuantumField[Subscript[h1, R]]^2 + 
+        (Mh22*vev*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]]))/vs)*Sin[theta]^2)*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]^2*Sin[theta]^2)/(vev*vs) - 
+    ((2*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+        QuantumField[Subscript[h1, R]]^2*Sin[theta])/(vev*vs) + 
+      (QuantumField[Subscript[G0, R]]^2*((-((dvs1*Mh12)/(vev*vs^2)) + 
+            (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*
+           QuantumField[Subscript[h1, R]]^2 + 
+          (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/(vev*vs)) + (Mh12*QuantumField[Subscript[h1, R]]^2*
+          (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/(vev*vs))*Sin[theta]^2)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[G0, R]]^2*
+      QuantumField[Subscript[h1, R]]^2*Sin[theta]^2)/(vev*vs) + 
+    ((2*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[G0, R]]^2*
+        QuantumField[Subscript[h1, R]]^2*Sin[theta])/(vev*vs) + 
+      (QuantumField[Subscript[G0, R]]^2*((-((dvs1*Mh22)/(vev*vs^2)) + 
+            (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*
+           QuantumField[Subscript[h1, R]]^2 + 
+          (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/(vev*vs)) + (Mh22*QuantumField[Subscript[h1, R]]^2*
+          (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+           dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]]))/(vev*vs))*Sin[theta]^2)*Sin[2*theta])/8, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+       Sin[theta]^2)/(vev*vs) - 
+     ((2*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta])/
+        (vev*vs) + ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + 
+             dMh121/vev)/vs + (Mh12*dZ[GpGp])/(vev*vs))*
+          QuantumField[Subscript[h1, R]]^2 + 
+         (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+            dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]]))/(vev*vs))*Sin[theta]^2)*Sin[2*theta]))/4, 
+  (QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+       Sin[theta]^2)/(vev*vs) + 
+     ((2*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*Sin[theta])/
+        (vev*vs) + ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + 
+             dMh221/vev)/vs + (Mh22*dZ[GpGp])/(vev*vs))*
+          QuantumField[Subscript[h1, R]]^2 + 
+         (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+            dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]]))/(vev*vs))*Sin[theta]^2)*Sin[2*theta]))/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^3*
+      Sin[theta]^2)/vs - 
+    ((2*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+        Sin[theta])/vs + Sin[theta]^2*
+       ((3*Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[
+             Subscript[h2, R]]))/(2*vs) + QuantumField[Subscript[h1, R]]^3*
+         ((-((dvs1*Mh12)/vs^2) + dMh121/vs)*Cos[theta] - 
+          (dtheta1*Mh12*Sin[theta])/vs)))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^3*
+      Sin[theta]^2)/vs + 
+    ((2*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+        Sin[theta])/vs + Sin[theta]^2*
+       ((3*Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+           dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[
+             Subscript[h2, R]]))/(2*vs) + QuantumField[Subscript[h1, R]]^3*
+         ((-((dvs1*Mh22)/vs^2) + dMh221/vs)*Cos[theta] - 
+          (dtheta1*Mh22*Sin[theta])/vs)))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       4*Sin[theta]^2)/(vev*vs) - 
+    ((2*dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^4*
+        Sin[theta])/(vev*vs) + Sin[theta]^2*
+       ((Mh12*Cos[theta]^2*(2*dZ[h1h1]*QuantumField[Subscript[h1, R]]^4 + 
+           2*dZ[h1h2]*QuantumField[Subscript[h1, R]]^3*QuantumField[
+             Subscript[h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^4*
+         ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+             vs)*Cos[theta]^2 - (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/
+           (vev*vs))))*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^4*
+      Sin[theta]^2)/(vev*vs) + 
+    ((2*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^4*
+        Sin[theta])/(vev*vs) + Sin[theta]^2*
+       ((Mh22*Cos[theta]^2*(2*dZ[h1h1]*QuantumField[Subscript[h1, R]]^4 + 
+           2*dZ[h1h2]*QuantumField[Subscript[h1, R]]^3*QuantumField[
+             Subscript[h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^4*
+         ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+             vs)*Cos[theta]^2 - (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/
+           (vev*vs))))*Sin[2*theta])/8, 
+  (4*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    4*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta] + 
+    Mh12*dZ[h2h1]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*
+     Sin[2*theta] + 2*dMh121*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta] + 
+    Mh12*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta] + 
+    Mh12*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta] + 
+    Mh12*dZ[h1h2]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/
+   4, (-4*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 - 
+    4*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]*Sin[2*theta] - 
+    Mh22*dZ[h2h1]*QuantumField[Subscript[h1, R]]^2*Sin[theta]^2*
+     Sin[2*theta] - 2*dMh221*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta] - 
+    Mh22*dZ[h1h1]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta] - 
+    Mh22*dZ[h2h2]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2*Sin[2*theta] - 
+    Mh22*dZ[h1h2]*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2*Sin[2*theta])/
+   4, ((2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       2*QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev + 
+    ((2*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]*Sin[theta])/vev + 
+      Sin[theta]^2*((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+           ((-((dvev1*Mh12)/vev^2) + dMh121/vev)*Cos[theta] - 
+            (dtheta1*Mh12*Sin[theta])/vev))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vev - 
+    ((2*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]*Sin[theta])/vev + 
+      Sin[theta]^2*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]*
+         ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/vev + QuantumField[Subscript[h1, R]]^2*
+           ((-((dvev1*Mh22)/vev^2) + dMh221/vev)*Cos[theta] - 
+            (dtheta1*Mh22*Sin[theta])/vev))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh12*vs*Cos[2*theta]*QuantumField[Subscript[h2, R]]^2*
+      Sin[theta]^2)/vev - 
+    ((2*dtheta1*Mh12*vs*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+        Sin[theta])/vev + 
+      (((dvs1*Mh12)/vev + (-((dvev1*Mh12)/vev^2) + dMh121/vev)*vs)*
+         QuantumField[Subscript[h2, R]]^2 + 
+        (Mh12*vs*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^2))/vev)*Sin[theta]^2)*
+     Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*vs*Cos[2*theta]*QuantumField[Subscript[h2, R]]^2*
+      Sin[theta]^2)/vev + 
+    ((2*dtheta1*Mh22*vs*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+        Sin[theta])/vev + 
+      (((dvs1*Mh22)/vev + (-((dvev1*Mh22)/vev^2) + dMh221/vev)*vs)*
+         QuantumField[Subscript[h2, R]]^2 + 
+        (Mh22*vs*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]] + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^2))/vev)*Sin[theta]^2)*
+     Sin[2*theta])/8, 
+  ((2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/vs + 
+    ((2*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta])/vs + 
+      Sin[theta]^2*((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vs + QuantumField[Subscript[h2, R]]^2*
+         ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/vs^2) + dMh121/vs)*
+             Cos[theta] - (dtheta1*Mh12*Sin[theta])/vs))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/vs - 
+    ((2*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta])/vs + 
+      Sin[theta]^2*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vs + QuantumField[Subscript[h2, R]]^2*
+         ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/vs^2) + dMh221/vs)*
+             Cos[theta] - (dtheta1*Mh22*Sin[theta])/vs))))*Sin[2*theta])/2, 
+  ((2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/(vev*vs) + 
+    ((2*dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta])/(vev*vs) + 
+      Sin[theta]^2*((Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         (vev*vs) + QuantumField[Subscript[h2, R]]^2*
+         ((Mh12*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^2*
+           ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+               vs)*Cos[theta]^2 - (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/
+             (vev*vs)))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h1, R]]^
+       2*QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/(vev*vs) - 
+    ((2*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta])/(vev*vs) + 
+      Sin[theta]^2*((Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         (vev*vs) + QuantumField[Subscript[h2, R]]^2*
+         ((Mh22*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/(vev*vs) + QuantumField[Subscript[h1, R]]^2*
+           ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+               vs)*Cos[theta]^2 - (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/
+             (vev*vs)))))*Sin[2*theta])/2, 
+  ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]]^3*
+      Sin[theta]^2)/vev - 
+    ((2*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h2, R]]^3*
+        Sin[theta])/vev + Sin[theta]^2*
+       ((3*Mh12*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^3))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]^3*
+         ((-((dvev1*Mh12)/vev^2) + dMh121/vev)*Cos[theta] - 
+          (dtheta1*Mh12*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h2, R]]^3*
+      Sin[theta]^2)/vev + 
+    ((2*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h2, R]]^3*
+        Sin[theta])/vev + Sin[theta]^2*
+       ((3*Mh22*Cos[theta]*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^3))/(2*vev) + 
+        QuantumField[Subscript[h2, R]]^3*
+         ((-((dvev1*Mh22)/vev^2) + dMh221/vev)*Cos[theta] - 
+          (dtheta1*Mh22*Sin[theta])/vev)))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h2, R]]^
+       4*Sin[theta]^2)/(vev*vs) - 
+    ((2*dtheta1*Mh12*Cos[theta]^3*QuantumField[Subscript[h2, R]]^4*
+        Sin[theta])/(vev*vs) + Sin[theta]^2*
+       ((Mh12*Cos[theta]^2*(2*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^3 + 2*dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^4))/(vev*vs) + 
+        QuantumField[Subscript[h2, R]]^4*((-((dvs1*Mh12)/(vev*vs^2)) + 
+            (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta]^2 - 
+          (2*dtheta1*Mh12*Cos[theta]*Sin[theta])/(vev*vs))))*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[theta]^2*Cos[2*theta]*QuantumField[Subscript[h2, R]]^4*
+      Sin[theta]^2)/(vev*vs) + 
+    ((2*dtheta1*Mh22*Cos[theta]^3*QuantumField[Subscript[h2, R]]^4*
+        Sin[theta])/(vev*vs) + Sin[theta]^2*
+       ((Mh22*Cos[theta]^2*(2*dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^3 + 2*dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^4))/(vev*vs) + 
+        QuantumField[Subscript[h2, R]]^4*((-((dvs1*Mh22)/(vev*vs^2)) + 
+            (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta]^2 - 
+          (2*dtheta1*Mh22*Cos[theta]*Sin[theta])/(vev*vs))))*Sin[2*theta])/8, 
+  ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h2, R]]^2*
+      QuantumField[Subscript[HA, R]]^2*Sin[theta]^2)/(vev*vs) - 
+    ((2*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+        QuantumField[Subscript[HA, R]]^2*Sin[theta])/(vev*vs) + 
+      (((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*
+           QuantumField[Subscript[h2, R]]^2 + 
+          (Mh12*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+               Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^
+               2))/(vev*vs))*QuantumField[Subscript[HA, R]]^2 + 
+        (Mh12*QuantumField[Subscript[h2, R]]^2*
+          (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+         (vev*vs))*Sin[theta]^2)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h2, R]]^2*
+      QuantumField[Subscript[HA, R]]^2*Sin[theta]^2)/(vev*vs) + 
+    ((2*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+        QuantumField[Subscript[HA, R]]^2*Sin[theta])/(vev*vs) + 
+      (((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*
+           QuantumField[Subscript[h2, R]]^2 + 
+          (Mh22*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+               Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^
+               2))/(vev*vs))*QuantumField[Subscript[HA, R]]^2 + 
+        (Mh22*QuantumField[Subscript[h2, R]]^2*
+          (dZ[HAG0]*QuantumField[Subscript[G0, R]]*QuantumField[
+             Subscript[HA, R]] + dZ[HAHA]*QuantumField[Subscript[HA, R]]^2))/
+         (vev*vs))*Sin[theta]^2)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^3)/vs + 
+    ((3*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vs + 
+      ((Mh12*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]*((-((dvs1*Mh12)/vs^2) + dMh121/vs)*
+           QuantumField[Subscript[h1, R]]^2 + 
+          (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/vs))*Sin[theta]^3)*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^3)/vs - 
+    ((3*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]*Sin[theta]^2)/vs + 
+      ((Mh22*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vs) + 
+        QuantumField[Subscript[h2, R]]*((-((dvs1*Mh22)/vs^2) + dMh221/vs)*
+           QuantumField[Subscript[h1, R]]^2 + 
+          (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/vs))*Sin[theta]^3)*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^3*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^3)/(vev*vs) + 
+    ((3*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+        QuantumField[Subscript[h2, R]]*Sin[theta]^2)/(vev*vs) + 
+      Sin[theta]^3*((Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((3*Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[
+                h2, R]]))/(2*vev*vs) + QuantumField[Subscript[h1, R]]^3*
+           ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+               vs)*Cos[theta] - (dtheta1*Mh12*Sin[theta])/(vev*vs)))))*
+     Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]^3*
+      QuantumField[Subscript[h2, R]]*Sin[theta]^3)/(vev*vs) - 
+    ((3*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]^3*
+        QuantumField[Subscript[h2, R]]*Sin[theta]^2)/(vev*vs) + 
+      Sin[theta]^3*((Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^3*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]*
+         ((3*Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^3 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]^2*QuantumField[Subscript[
+                h2, R]]))/(2*vev*vs) + QuantumField[Subscript[h1, R]]^3*
+           ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+               vs)*Cos[theta] - (dtheta1*Mh22*Sin[theta])/(vev*vs)))))*
+     Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/vev - 
+    ((3*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/vev + 
+      ((Mh12*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vev + QuantumField[Subscript[h2, R]]^2*
+         ((-((dvev1*Mh12)/vev^2) + dMh121/vev)*QuantumField[
+            Subscript[h1, R]] + (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, 
+                R]] + dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev)))*
+       Sin[theta]^3)*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/vev + 
+    ((3*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/vev + 
+      ((Mh22*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         vev + QuantumField[Subscript[h2, R]]^2*
+         ((-((dvev1*Mh22)/vev^2) + dMh221/vev)*QuantumField[
+            Subscript[h1, R]] + (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, 
+                R]] + dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev)))*
+       Sin[theta]^3)*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^3*Sin[theta]^3)/(vev*vs) - 
+    ((3*dtheta1*Mh12*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^3*Sin[theta]^2)/(vev*vs) + 
+      Sin[theta]^3*((3*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^3))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]^3*
+         ((Mh12*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh12)/(vev*vs^2)) + 
+              (-((dvev1*Mh12)/vev^2) + dMh121/vev)/vs)*Cos[theta] - 
+            (dtheta1*Mh12*Sin[theta])/(vev*vs)))))*Sin[2*theta])/4, 
+  ((2*dtheta1*Mh22*Cos[theta]*Cos[2*theta]*QuantumField[Subscript[h1, R]]*
+      QuantumField[Subscript[h2, R]]^3*Sin[theta]^3)/(vev*vs) + 
+    ((3*dtheta1*Mh22*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]^3*Sin[theta]^2)/(vev*vs) + 
+      Sin[theta]^3*((3*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*
+            QuantumField[Subscript[h2, R]]^2 + dZ[h2h2]*
+            QuantumField[Subscript[h2, R]]^3))/(2*vev*vs) + 
+        QuantumField[Subscript[h2, R]]^3*
+         ((Mh22*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev*vs) + 
+          QuantumField[Subscript[h1, R]]*((-((dvs1*Mh22)/(vev*vs^2)) + 
+              (-((dvev1*Mh22)/vev^2) + dMh221/vev)/vs)*Cos[theta] - 
+            (dtheta1*Mh22*Sin[theta])/(vev*vs)))))*Sin[2*theta])/4, 
+  ((-2*dtheta1*Mh12*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/(vev*vs) - 
+    ((4*dtheta1*Mh12*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/(vev*vs) + 
+      ((Mh12*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         (vev*vs) + QuantumField[Subscript[h2, R]]^2*
+         ((-((dvs1*Mh12)/(vev*vs^2)) + (-((dvev1*Mh12)/vev^2) + dMh121/vev)/
+             vs)*QuantumField[Subscript[h1, R]]^2 + 
+          (Mh12*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/(vev*vs)))*Sin[theta]^4)*Sin[2*theta])/8, 
+  ((2*dtheta1*Mh22*Cos[2*theta]*QuantumField[Subscript[h1, R]]^2*
+      QuantumField[Subscript[h2, R]]^2*Sin[theta]^4)/(vev*vs) + 
+    ((4*dtheta1*Mh22*Cos[theta]*QuantumField[Subscript[h1, R]]^2*
+        QuantumField[Subscript[h2, R]]^2*Sin[theta]^3)/(vev*vs) + 
+      ((Mh22*QuantumField[Subscript[h1, R]]^2*
+          (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+             Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+         (vev*vs) + QuantumField[Subscript[h2, R]]^2*
+         ((-((dvs1*Mh22)/(vev*vs^2)) + (-((dvev1*Mh22)/vev^2) + dMh221/vev)/
+             vs)*QuantumField[Subscript[h1, R]]^2 + 
+          (Mh22*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+             dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[Subscript[
+                h2, R]]))/(vev*vs)))*Sin[theta]^4)*Sin[2*theta])/8}}

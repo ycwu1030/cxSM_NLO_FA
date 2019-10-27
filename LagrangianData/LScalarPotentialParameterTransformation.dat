@@ -1,0 +1,8 @@
+{mu2 -> -(Lam*vev^2) - (del2*vs^2)/4 + (Th1*Cos[theta])/vev - 
+   (Th2*Sin[theta])/vev, a1 -> -(vs*(4*b1 + 2*b2 + del2*vev^2 + d2*vs^2))/
+    (4*Sqrt[2]) + (Th2*Cos[theta])/Sqrt[2] + (Th1*Sin[theta])/Sqrt[2], 
+ Lam -> (Mh12*Cos[theta]^2)/(2*vev^2) + (Mh22*Sin[theta]^2)/(2*vev^2), 
+ del2 -> (Mh12*Sin[2*theta])/(vev*vs) - (Mh22*Sin[2*theta])/(vev*vs), 
+ b1 -> -MHA2/2 - (d2*vs^2)/4 + (Mh22*Cos[theta]^2)/2 + (Mh12*Sin[theta]^2)/2, 
+ b2 -> MHA2 - d2*vs^2 + Mh12*Sin[theta]*(-((vev*Cos[theta])/vs) + 
+     Sin[theta]) + Mh22*Cos[theta]*(Cos[theta] + (vev*Sin[theta])/vs)}

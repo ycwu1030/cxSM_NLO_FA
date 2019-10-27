@@ -25,12 +25,12 @@ SetAttributes[FieldCharge,Listable];
 (*The two doublets and corresponding Charged Conjugate*)
 Phi={QuantumField[Gp],(vev+H+I QuantumField[G0])/Sqrt[2]};
 PhiC={QuantumField[Gm],(vev+H-I QuantumField[G0])/Sqrt[2]};
-CS=((*vs+*)s+I QuantumField[HA])/Sqrt[2];
-CSC=((*vs+*)s-I QuantumField[HA])/Sqrt[2];
+CS=(vs+s+I QuantumField[HA])/Sqrt[2];
+CSC=(vs+s-I QuantumField[HA])/Sqrt[2];
 
 
 (*Definition of the CP-even fields in terms of physics fields, by the rotation matrix of theta*)
-{H,s}=(*RotationMatrix[theta].*){QuantumField[h1],QuantumField[h2]};
+{H,s}=RotationMatrix[theta].{QuantumField[h1],QuantumField[h2]};
 
 
 (*Field Renormalization AND some other information*)

@@ -1,0 +1,1268 @@
+{{-(PL*IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[i$4251], jFR27]*
+    IndexDelta[SUNIndex[j$4251], jFL24]*Mf[2, i$4251]*
+    QuantumField[Subscript[Fe, R], SUNIndex[jFL24]]*
+    QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFR27]]*
+    SumOver[i$4251, NF]*SumOver[jFL24, NF]*SumOver[jFR27, NF]*
+    SumOver[j$4251, NF]), -(PR*IndexDelta[i$4251, j$4251]*
+    IndexDelta[SUNIndex[i$4251], jFL30]*IndexDelta[SUNIndex[j$4251], jFR29]*
+    Mf[2, i$4251]*QuantumField[Subscript[Fe, R], SUNIndex[jFR29]]*
+    QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFL30]]*
+    SumOver[i$4251, NF]*SumOver[jFL30, NF]*SumOver[jFR29, NF]*
+    SumOver[j$4251, NF]), (I*PL*IndexDelta[i$4251, j$4251]*Mf[2, i$4251]*
+    QuantumField[Subscript[G0, R]]*SumOver[i$4251, NF]*
+    (PL*IndexDelta[SUNIndex[j$4251], jFL32]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFL32]]*SumOver[jFL32, NF] + 
+     PR*IndexDelta[SUNIndex[j$4251], jFR33]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFR33]]*SumOver[jFR33, NF])*
+    (PR*IndexDelta[SUNIndex[i$4251], jFL34]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFL34]]*SumOver[jFL34, NF] + 
+     PL*IndexDelta[SUNIndex[i$4251], jFR35]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFR35]]*SumOver[jFR35, NF])*
+    SumOver[j$4251, NF])/vev, ((-I)*PR*IndexDelta[i$4251, j$4251]*
+    Mf[2, i$4251]*QuantumField[Subscript[G0, R]]*SumOver[i$4251, NF]*
+    (PL*IndexDelta[SUNIndex[j$4251], jFL36]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFL36]]*SumOver[jFL36, NF] + 
+     PR*IndexDelta[SUNIndex[j$4251], jFR37]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFR37]]*SumOver[jFR37, NF])*
+    (PR*IndexDelta[SUNIndex[i$4251], jFL38]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFL38]]*SumOver[jFL38, NF] + 
+     PL*IndexDelta[SUNIndex[i$4251], jFR39]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFR39]]*SumOver[jFR39, NF])*
+    SumOver[j$4251, NF])/vev, 
+  -((PL*Cos[theta]*IndexDelta[i$4251, j$4251]*Mf[2, i$4251]*
+     QuantumField[Subscript[h1, R]]*SumOver[i$4251, NF]*
+     (PL*IndexDelta[SUNIndex[j$4251], jFL40]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFL40]]*SumOver[jFL40, NF] + 
+      PR*IndexDelta[SUNIndex[j$4251], jFR41]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFR41]]*SumOver[jFR41, NF])*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL42]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL42]]*SumOver[jFL42, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR43]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR43]]*SumOver[jFR43, NF])*
+     SumOver[j$4251, NF])/vev), 
+  -((PR*Cos[theta]*IndexDelta[i$4251, j$4251]*Mf[2, i$4251]*
+     QuantumField[Subscript[h1, R]]*SumOver[i$4251, NF]*
+     (PL*IndexDelta[SUNIndex[j$4251], jFL44]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFL44]]*SumOver[jFL44, NF] + 
+      PR*IndexDelta[SUNIndex[j$4251], jFR45]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFR45]]*SumOver[jFR45, NF])*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL46]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL46]]*SumOver[jFL46, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR47]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR47]]*SumOver[jFR47, NF])*
+     SumOver[j$4251, NF])/vev), 
+  -((Sqrt[2]*PL*IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[j$4251], 
+      jFL48]*Mf[2, i$4251]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[FNu, R], SUNIndex[jFL48]]*SumOver[i$4251, NF]*
+     SumOver[jFL48, NF]*(PR*IndexDelta[SUNIndex[i$4251], jFL49]*
+       QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFL49]]*
+       SumOver[jFL49, NF] + PL*IndexDelta[SUNIndex[i$4251], jFR50]*
+       QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFR50]]*
+       SumOver[jFR50, NF])*SumOver[j$4251, NF])/vev), 
+  -((Sqrt[2]*PR*IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[i$4251], 
+      jFL53]*Mf[2, i$4251]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[HCbar[FNu], R], SUNIndex[jFL53]]*
+     SumOver[i$4251, NF]*SumOver[jFL53, NF]*
+     (PL*IndexDelta[SUNIndex[j$4251], jFL51]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFL51]]*SumOver[jFL51, NF] + 
+      PR*IndexDelta[SUNIndex[j$4251], jFR52]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFR52]]*SumOver[jFR52, NF])*SumOver[j$4251, NF])/vev), 
+  (PL*IndexDelta[i$4251, j$4251]*Mf[2, i$4251]*QuantumField[Subscript[h2, R]]*
+    Sin[theta]*SumOver[i$4251, NF]*(PL*IndexDelta[SUNIndex[j$4251], jFL54]*
+      QuantumField[Subscript[Fe, R], SUNIndex[jFL54]]*SumOver[jFL54, NF] + 
+     PR*IndexDelta[SUNIndex[j$4251], jFR55]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFR55]]*SumOver[jFR55, NF])*
+    (PR*IndexDelta[SUNIndex[i$4251], jFL56]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFL56]]*SumOver[jFL56, NF] + 
+     PL*IndexDelta[SUNIndex[i$4251], jFR57]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFR57]]*SumOver[jFR57, NF])*
+    SumOver[j$4251, NF])/vev, (PR*IndexDelta[i$4251, j$4251]*Mf[2, i$4251]*
+    QuantumField[Subscript[h2, R]]*Sin[theta]*SumOver[i$4251, NF]*
+    (PL*IndexDelta[SUNIndex[j$4251], jFL58]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFL58]]*SumOver[jFL58, NF] + 
+     PR*IndexDelta[SUNIndex[j$4251], jFR59]*QuantumField[Subscript[Fe, R], 
+       SUNIndex[jFR59]]*SumOver[jFR59, NF])*
+    (PR*IndexDelta[SUNIndex[i$4251], jFL60]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFL60]]*SumOver[jFL60, NF] + 
+     PL*IndexDelta[SUNIndex[i$4251], jFR61]*QuantumField[
+       Subscript[HCbar[Fe], R], SUNIndex[jFR61]]*SumOver[jFR61, NF])*
+    SumOver[j$4251, NF])/vev, -(PL*IndexDelta[jUR$4245bar, k$4470]*
+    IndexDelta[k$4470, jUpL$4244]*Mf[3, k$4470]*
+    (PL*IndexDelta[SUNIndex[jUpL$4244], jFL62]*QuantumField[
+       Subscript[FUp, R], SUNIndex[jFL62], SUNIndex[qc$4241]]*
+      SumOver[jFL62, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR63]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFR63], SUNIndex[qc$4241]]*
+      SumOver[jFR63, NF])*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL64]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL64], 
+       SUNIndex[qc$4241]]*SumOver[jFL64, NF] + 
+     PL*IndexDelta[SUNIndex[jUR$4245bar], jFR65]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR65], 
+       SUNIndex[qc$4241]]*SumOver[jFR65, NF])*SumOver[jUpL$4244, NF]*
+    SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF]), 
+  ((-I)*PL*IndexDelta[jUR$4245bar, k$4470]*IndexDelta[k$4470, jUpL$4244]*
+    Mf[3, k$4470]*QuantumField[Subscript[G0, R]]*
+    (PL*IndexDelta[SUNIndex[jUpL$4244], jFL66]*QuantumField[
+       Subscript[FUp, R], SUNIndex[jFL66], SUNIndex[qc$4241]]*
+      SumOver[jFL66, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR67]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFR67], SUNIndex[qc$4241]]*
+      SumOver[jFR67, NF])*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL68]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL68], 
+       SUNIndex[qc$4241]]*SumOver[jFL68, NF] + 
+     PL*IndexDelta[SUNIndex[jUR$4245bar], jFR69]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR69], 
+       SUNIndex[qc$4241]]*SumOver[jFR69, NF])*SumOver[jUpL$4244, NF]*
+    SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF])/vev, 
+  -((PL*Cos[theta]*IndexDelta[jUR$4245bar, k$4470]*
+     IndexDelta[k$4470, jUpL$4244]*Mf[3, k$4470]*
+     QuantumField[Subscript[h1, R]]*
+     (PL*IndexDelta[SUNIndex[jUpL$4244], jFL70]*QuantumField[
+        Subscript[FUp, R], SUNIndex[jFL70], SUNIndex[qc$4241]]*
+       SumOver[jFL70, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR71]*
+       QuantumField[Subscript[FUp, R], SUNIndex[jFR71], SUNIndex[qc$4241]]*
+       SumOver[jFR71, NF])*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL72]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL72], 
+        SUNIndex[qc$4241]]*SumOver[jFL72, NF] + 
+      PL*IndexDelta[SUNIndex[jUR$4245bar], jFR73]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR73], 
+        SUNIndex[qc$4241]]*SumOver[jFR73, NF])*SumOver[jUpL$4244, NF]*
+     SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF])/vev), 
+  (PL*IndexDelta[jUR$4245bar, k$4470]*IndexDelta[k$4470, jUpL$4244]*
+    Mf[3, k$4470]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+    (PL*IndexDelta[SUNIndex[jUpL$4244], jFL74]*QuantumField[
+       Subscript[FUp, R], SUNIndex[jFL74], SUNIndex[qc$4241]]*
+      SumOver[jFL74, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR75]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFR75], SUNIndex[qc$4241]]*
+      SumOver[jFR75, NF])*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL76]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL76], 
+       SUNIndex[qc$4241]]*SumOver[jFL76, NF] + 
+     PL*IndexDelta[SUNIndex[jUR$4245bar], jFR77]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR77], 
+       SUNIndex[qc$4241]]*SumOver[jFR77, NF])*SumOver[jUpL$4244, NF]*
+    SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF])/vev, 
+  -(PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+    Mf[4, k$4471]*SumOver[jDownL$4249, NF]*SumOver[jDR$4250bar, NF]*
+    (PL*IndexDelta[SUNIndex[jDownL$4249], jFL78]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFL78], SUNIndex[qc$4246]]*
+      SumOver[jFL78, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR79]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR79], SUNIndex[qc$4246]]*
+      SumOver[jFR79, NF])*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL80]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL80], 
+       SUNIndex[qc$4246]]*SumOver[jFL80, NF] + 
+     PL*IndexDelta[SUNIndex[jDR$4250bar], jFR81]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR81], 
+       SUNIndex[qc$4246]]*SumOver[jFR81, NF])*SumOver[k$4471, NF]), 
+  (I*PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+    Mf[4, k$4471]*QuantumField[Subscript[G0, R]]*SumOver[jDownL$4249, NF]*
+    SumOver[jDR$4250bar, NF]*(PL*IndexDelta[SUNIndex[jDownL$4249], jFL82]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFL82], SUNIndex[qc$4246]]*
+      SumOver[jFL82, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR83]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR83], SUNIndex[qc$4246]]*
+      SumOver[jFR83, NF])*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL84]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL84], 
+       SUNIndex[qc$4246]]*SumOver[jFL84, NF] + 
+     PL*IndexDelta[SUNIndex[jDR$4250bar], jFR85]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR85], 
+       SUNIndex[qc$4246]]*SumOver[jFR85, NF])*SumOver[k$4471, NF])/vev, 
+  -((PL*Cos[theta]*IndexDelta[jDR$4250bar, k$4471]*
+     IndexDelta[k$4471, jDownL$4249]*Mf[4, k$4471]*
+     QuantumField[Subscript[h1, R]]*SumOver[jDownL$4249, NF]*
+     SumOver[jDR$4250bar, NF]*(PL*IndexDelta[SUNIndex[jDownL$4249], jFL86]*
+       QuantumField[Subscript[FDown, R], SUNIndex[jFL86], SUNIndex[qc$4246]]*
+       SumOver[jFL86, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR87]*
+       QuantumField[Subscript[FDown, R], SUNIndex[jFR87], SUNIndex[qc$4246]]*
+       SumOver[jFR87, NF])*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL88]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL88], 
+        SUNIndex[qc$4246]]*SumOver[jFL88, NF] + 
+      PL*IndexDelta[SUNIndex[jDR$4250bar], jFR89]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR89], 
+        SUNIndex[qc$4246]]*SumOver[jFR89, NF])*SumOver[k$4471, NF])/vev), 
+  (PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+    Mf[4, k$4471]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+    SumOver[jDownL$4249, NF]*SumOver[jDR$4250bar, NF]*
+    (PL*IndexDelta[SUNIndex[jDownL$4249], jFL90]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFL90], SUNIndex[qc$4246]]*
+      SumOver[jFL90, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR91]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR91], SUNIndex[qc$4246]]*
+      SumOver[jFR91, NF])*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL92]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL92], 
+       SUNIndex[qc$4246]]*SumOver[jFL92, NF] + 
+     PL*IndexDelta[SUNIndex[jDR$4250bar], jFR93]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR93], 
+       SUNIndex[qc$4246]]*SumOver[jFR93, NF])*SumOver[k$4471, NF])/vev, 
+  -(PR*IndexDelta[jUpL$4242bar, k$4472]*IndexDelta[k$4472, jUR$4243]*
+    Mf[3, k$4472]*(PL*IndexDelta[SUNIndex[jUR$4243], jFL94]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFL94], SUNIndex[qc$4241]]*
+      SumOver[jFL94, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR95]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFR95], SUNIndex[qc$4241]]*
+      SumOver[jFR95, NF])*(PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL96]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL96], 
+       SUNIndex[qc$4241]]*SumOver[jFL96, NF] + 
+     PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR97]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR97], 
+       SUNIndex[qc$4241]]*SumOver[jFR97, NF])*SumOver[jUpL$4242bar, NF]*
+    SumOver[jUR$4243, NF]*SumOver[k$4472, NF]), 
+  (I*PR*IndexDelta[jUpL$4242bar, k$4472]*IndexDelta[k$4472, jUR$4243]*
+    Mf[3, k$4472]*QuantumField[Subscript[G0, R]]*
+    (PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL100]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL100], 
+       SUNIndex[qc$4241]]*SumOver[jFL100, NF] + 
+     PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR101]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR101], 
+       SUNIndex[qc$4241]]*SumOver[jFR101, NF])*
+    (PL*IndexDelta[SUNIndex[jUR$4243], jFL98]*QuantumField[Subscript[FUp, R], 
+       SUNIndex[jFL98], SUNIndex[qc$4241]]*SumOver[jFL98, NF] + 
+     PR*IndexDelta[SUNIndex[jUR$4243], jFR99]*QuantumField[Subscript[FUp, R], 
+       SUNIndex[jFR99], SUNIndex[qc$4241]]*SumOver[jFR99, NF])*
+    SumOver[jUpL$4242bar, NF]*SumOver[jUR$4243, NF]*SumOver[k$4472, NF])/vev, 
+  -((PR*Cos[theta]*IndexDelta[jUpL$4242bar, k$4472]*
+     IndexDelta[k$4472, jUR$4243]*Mf[3, k$4472]*
+     QuantumField[Subscript[h1, R]]*
+     (PL*IndexDelta[SUNIndex[jUR$4243], jFL102]*QuantumField[
+        Subscript[FUp, R], SUNIndex[jFL102], SUNIndex[qc$4241]]*
+       SumOver[jFL102, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR103]*
+       QuantumField[Subscript[FUp, R], SUNIndex[jFR103], SUNIndex[qc$4241]]*
+       SumOver[jFR103, NF])*(PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL104]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL104], 
+        SUNIndex[qc$4241]]*SumOver[jFL104, NF] + 
+      PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR105]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR105], 
+        SUNIndex[qc$4241]]*SumOver[jFR105, NF])*SumOver[jUpL$4242bar, NF]*
+     SumOver[jUR$4243, NF]*SumOver[k$4472, NF])/vev), 
+  (PR*IndexDelta[jUpL$4242bar, k$4472]*IndexDelta[k$4472, jUR$4243]*
+    Mf[3, k$4472]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+    (PL*IndexDelta[SUNIndex[jUR$4243], jFL106]*QuantumField[
+       Subscript[FUp, R], SUNIndex[jFL106], SUNIndex[qc$4241]]*
+      SumOver[jFL106, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR107]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFR107], SUNIndex[qc$4241]]*
+      SumOver[jFR107, NF])*(PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL108]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL108], 
+       SUNIndex[qc$4241]]*SumOver[jFL108, NF] + 
+     PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR109]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR109], 
+       SUNIndex[qc$4241]]*SumOver[jFR109, NF])*SumOver[jUpL$4242bar, NF]*
+    SumOver[jUR$4243, NF]*SumOver[k$4472, NF])/vev, 
+  -(PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+    Mf[4, k$4473]*SumOver[jDownL$4247bar, NF]*SumOver[jDR$4248, NF]*
+    (PL*IndexDelta[SUNIndex[jDR$4248], jFL110]*QuantumField[
+       Subscript[FDown, R], SUNIndex[jFL110], SUNIndex[qc$4246]]*
+      SumOver[jFL110, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR111]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR111], SUNIndex[qc$4246]]*
+      SumOver[jFR111, NF])*(PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL112]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL112], 
+       SUNIndex[qc$4246]]*SumOver[jFL112, NF] + 
+     PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR113]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR113], 
+       SUNIndex[qc$4246]]*SumOver[jFR113, NF])*SumOver[k$4473, NF]), 
+  ((-I)*PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+    Mf[4, k$4473]*QuantumField[Subscript[G0, R]]*SumOver[jDownL$4247bar, NF]*
+    SumOver[jDR$4248, NF]*(PL*IndexDelta[SUNIndex[jDR$4248], jFL114]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFL114], SUNIndex[qc$4246]]*
+      SumOver[jFL114, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR115]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR115], SUNIndex[qc$4246]]*
+      SumOver[jFR115, NF])*(PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL116]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL116], 
+       SUNIndex[qc$4246]]*SumOver[jFL116, NF] + 
+     PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR117]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR117], 
+       SUNIndex[qc$4246]]*SumOver[jFR117, NF])*SumOver[k$4473, NF])/vev, 
+  -((PR*Cos[theta]*IndexDelta[jDownL$4247bar, k$4473]*
+     IndexDelta[k$4473, jDR$4248]*Mf[4, k$4473]*
+     QuantumField[Subscript[h1, R]]*SumOver[jDownL$4247bar, NF]*
+     SumOver[jDR$4248, NF]*(PL*IndexDelta[SUNIndex[jDR$4248], jFL118]*
+       QuantumField[Subscript[FDown, R], SUNIndex[jFL118], SUNIndex[qc$4246]]*
+       SumOver[jFL118, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR119]*
+       QuantumField[Subscript[FDown, R], SUNIndex[jFR119], SUNIndex[qc$4246]]*
+       SumOver[jFR119, NF])*(PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL120]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL120], 
+        SUNIndex[qc$4246]]*SumOver[jFL120, NF] + 
+      PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR121]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR121], 
+        SUNIndex[qc$4246]]*SumOver[jFR121, NF])*SumOver[k$4473, NF])/vev), 
+  (PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+    Mf[4, k$4473]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+    SumOver[jDownL$4247bar, NF]*SumOver[jDR$4248, NF]*
+    (PL*IndexDelta[SUNIndex[jDR$4248], jFL122]*QuantumField[
+       Subscript[FDown, R], SUNIndex[jFL122], SUNIndex[qc$4246]]*
+      SumOver[jFL122, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR123]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR123], SUNIndex[qc$4246]]*
+      SumOver[jFR123, NF])*(PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL124]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL124], 
+       SUNIndex[qc$4246]]*SumOver[jFL124, NF] + 
+     PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR125]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR125], 
+       SUNIndex[qc$4246]]*SumOver[jFR125, NF])*SumOver[k$4473, NF])/vev, 
+  -((Sqrt[2]*PR*IndexDelta[k$4473, jDR$4248]*Mf[4, k$4473]*
+     QuantumField[Subscript[Gp, R]]*SumOver[jDR$4248, NF]*
+     (PL*IndexDelta[SUNIndex[jDR$4248], jFL126]*QuantumField[
+        Subscript[FDown, R], SUNIndex[jFL126], SUNIndex[qc$4246]]*
+       SumOver[jFL126, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR127]*
+       QuantumField[Subscript[FDown, R], SUNIndex[jFR127], SUNIndex[qc$4246]]*
+       SumOver[jFR127, NF])*(PR*IndexDelta[SUNIndex[jUpL$4247bar], jFL128]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL128], 
+        SUNIndex[qc$4246]]*SumOver[jFL128, NF] + 
+      PL*IndexDelta[SUNIndex[jUpL$4247bar], jFR129]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR129], 
+        SUNIndex[qc$4246]]*SumOver[jFR129, NF])*SumOver[jUpL$4247bar, NF]*
+     SumOver[k$4473, NF]*VCKM[jUpL$4247bar, k$4473])/vev), 
+  (Sqrt[2]*PL*IndexDelta[jUR$4245bar, k$4470]*Mf[3, k$4470]*
+    QuantumField[Subscript[Gp, R]]*SumOver[jDownL$4244, NF]*
+    (PL*IndexDelta[SUNIndex[jDownL$4244], jFL130]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFL130], SUNIndex[qc$4241]]*
+      SumOver[jFL130, NF] + PR*IndexDelta[SUNIndex[jDownL$4244], jFR131]*
+      QuantumField[Subscript[FDown, R], SUNIndex[jFR131], SUNIndex[qc$4241]]*
+      SumOver[jFR131, NF])*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL132]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL132], 
+       SUNIndex[qc$4241]]*SumOver[jFL132, NF] + 
+     PL*IndexDelta[SUNIndex[jUR$4245bar], jFR133]*
+      QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR133], 
+       SUNIndex[qc$4241]]*SumOver[jFR133, NF])*SumOver[jUR$4245bar, NF]*
+    SumOver[k$4470, NF]*VCKM[k$4470, jDownL$4244])/vev, 
+  (Sqrt[2]*PR*IndexDelta[k$4472, jUR$4243]*Mf[3, k$4472]*
+    QuantumField[Subscript[Gm, R]]*SumOver[jDownL$4242bar, NF]*
+    (PL*IndexDelta[SUNIndex[jUR$4243], jFL134]*QuantumField[
+       Subscript[FUp, R], SUNIndex[jFL134], SUNIndex[qc$4241]]*
+      SumOver[jFL134, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR135]*
+      QuantumField[Subscript[FUp, R], SUNIndex[jFR135], SUNIndex[qc$4241]]*
+      SumOver[jFR135, NF])*(PR*IndexDelta[SUNIndex[jDownL$4242bar], jFL136]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL136], 
+       SUNIndex[qc$4241]]*SumOver[jFL136, NF] + 
+     PL*IndexDelta[SUNIndex[jDownL$4242bar], jFR137]*
+      QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR137], 
+       SUNIndex[qc$4241]]*SumOver[jFR137, NF])*SumOver[jUR$4243, NF]*
+    SumOver[k$4472, NF]*VCKMC[jDownL$4242bar, k$4472])/vev, 
+  -((Sqrt[2]*PL*IndexDelta[jDR$4250bar, k$4471]*Mf[4, k$4471]*
+     QuantumField[Subscript[Gm, R]]*SumOver[jDR$4250bar, NF]*
+     (PL*IndexDelta[SUNIndex[jUpL$4249], jFL138]*QuantumField[
+        Subscript[FUp, R], SUNIndex[jFL138], SUNIndex[qc$4246]]*
+       SumOver[jFL138, NF] + PR*IndexDelta[SUNIndex[jUpL$4249], jFR139]*
+       QuantumField[Subscript[FUp, R], SUNIndex[jFR139], SUNIndex[qc$4246]]*
+       SumOver[jFR139, NF])*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL140]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL140], 
+        SUNIndex[qc$4246]]*SumOver[jFL140, NF] + 
+      PL*IndexDelta[SUNIndex[jDR$4250bar], jFR141]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR141], 
+        SUNIndex[qc$4246]]*SumOver[jFR141, NF])*SumOver[jUpL$4249, NF]*
+     SumOver[k$4471, NF]*VCKMC[k$4471, jUpL$4249])/vev)}, 
+ {-(PL*dMf1[2, i$4251]*IndexDelta[i$4251, j$4251]*
+     IndexDelta[SUNIndex[i$4251], jFR27]*IndexDelta[SUNIndex[j$4251], jFL24]*
+     QuantumField[Subscript[Fe, R], SUNIndex[jFL24]]*
+     QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFR27]]*
+     SumOver[i$4251, NF]*SumOver[jFL24, NF]*SumOver[jFR27, NF]*
+     SumOver[j$4251, NF]) - (PL*dZfL[2, SUNIndex[j$4251], jFL24]*
+     IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[i$4251], jFR27]*
+     Mf[2, i$4251]*QuantumField[Subscript[Fe, R], SUNIndex[jFL24]]*
+     QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFR27]]*
+     SumOver[i$4251, NF]*SumOver[jFL24, NF]*SumOver[jFR27, NF]*
+     SumOver[j$4251, NF])/2 - (PL*dZfRC[2, SUNIndex[i$4251], jFR27]*
+     IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[j$4251], jFL24]*
+     Mf[2, i$4251]*QuantumField[Subscript[Fe, R], SUNIndex[jFL24]]*
+     QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFR27]]*
+     SumOver[i$4251, NF]*SumOver[jFL24, NF]*SumOver[jFR27, NF]*
+     SumOver[j$4251, NF])/2, 
+  -(PR*dMf1[2, i$4251]*IndexDelta[i$4251, j$4251]*
+     IndexDelta[SUNIndex[i$4251], jFL30]*IndexDelta[SUNIndex[j$4251], jFR29]*
+     QuantumField[Subscript[Fe, R], SUNIndex[jFR29]]*
+     QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFL30]]*
+     SumOver[i$4251, NF]*SumOver[jFL30, NF]*SumOver[jFR29, NF]*
+     SumOver[j$4251, NF]) - (PR*dZfR[2, SUNIndex[j$4251], jFR29]*
+     IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[i$4251], jFL30]*
+     Mf[2, i$4251]*QuantumField[Subscript[Fe, R], SUNIndex[jFR29]]*
+     QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFL30]]*
+     SumOver[i$4251, NF]*SumOver[jFL30, NF]*SumOver[jFR29, NF]*
+     SumOver[j$4251, NF])/2 - (PR*dZfLC[2, SUNIndex[i$4251], jFL30]*
+     IndexDelta[i$4251, j$4251]*IndexDelta[SUNIndex[j$4251], jFR29]*
+     Mf[2, i$4251]*QuantumField[Subscript[Fe, R], SUNIndex[jFR29]]*
+     QuantumField[Subscript[HCbar[Fe], R], SUNIndex[jFL30]]*
+     SumOver[i$4251, NF]*SumOver[jFL30, NF]*SumOver[jFR29, NF]*
+     SumOver[j$4251, NF])/2, I*PL*IndexDelta[i$4251, j$4251]*
+   SumOver[i$4251, NF]*((Mf[2, i$4251]*QuantumField[Subscript[G0, R]]*
+      (PL*IndexDelta[SUNIndex[j$4251], jFL32]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFL32]]*SumOver[jFL32, NF] + 
+       PR*IndexDelta[SUNIndex[j$4251], jFR33]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFR33]]*SumOver[jFR33, NF])*
+      (PR*dZfLC[2, SUNIndex[i$4251], jFL34]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFL34]]*SumOver[jFL34, NF] + 
+       PL*dZfRC[2, SUNIndex[i$4251], jFR35]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFR35]]*SumOver[jFR35, NF]))/
+     (2*vev) + ((Mf[2, i$4251]*QuantumField[Subscript[G0, R]]*
+        (PL*dZfL[2, SUNIndex[j$4251], jFL32]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFL32]]*SumOver[jFL32, NF] + 
+         PR*dZfR[2, SUNIndex[j$4251], jFR33]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFR33]]*SumOver[jFR33, NF]))/(2*vev) + 
+      ((dMf1[2, i$4251]/vev - (dvev1*Mf[2, i$4251])/vev^2)*
+         QuantumField[Subscript[G0, R]] + 
+        (Mf[2, i$4251]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+           dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*vev))*
+       (PL*IndexDelta[SUNIndex[j$4251], jFL32]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL32]]*SumOver[jFL32, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR33]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR33]]*SumOver[jFR33, NF]))*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL34]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL34]]*SumOver[jFL34, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR35]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR35]]*SumOver[jFR35, NF]))*
+   SumOver[j$4251, NF], (-I)*PR*IndexDelta[i$4251, j$4251]*
+   SumOver[i$4251, NF]*((Mf[2, i$4251]*QuantumField[Subscript[G0, R]]*
+      (PL*IndexDelta[SUNIndex[j$4251], jFL36]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFL36]]*SumOver[jFL36, NF] + 
+       PR*IndexDelta[SUNIndex[j$4251], jFR37]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFR37]]*SumOver[jFR37, NF])*
+      (PR*dZfLC[2, SUNIndex[i$4251], jFL38]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFL38]]*SumOver[jFL38, NF] + 
+       PL*dZfRC[2, SUNIndex[i$4251], jFR39]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFR39]]*SumOver[jFR39, NF]))/
+     (2*vev) + ((Mf[2, i$4251]*QuantumField[Subscript[G0, R]]*
+        (PL*dZfL[2, SUNIndex[j$4251], jFL36]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFL36]]*SumOver[jFL36, NF] + 
+         PR*dZfR[2, SUNIndex[j$4251], jFR37]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFR37]]*SumOver[jFR37, NF]))/(2*vev) + 
+      ((dMf1[2, i$4251]/vev - (dvev1*Mf[2, i$4251])/vev^2)*
+         QuantumField[Subscript[G0, R]] + 
+        (Mf[2, i$4251]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+           dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*vev))*
+       (PL*IndexDelta[SUNIndex[j$4251], jFL36]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL36]]*SumOver[jFL36, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR37]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR37]]*SumOver[jFR37, NF]))*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL38]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL38]]*SumOver[jFL38, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR39]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR39]]*SumOver[jFR39, NF]))*
+   SumOver[j$4251, NF], PL*IndexDelta[i$4251, j$4251]*SumOver[i$4251, NF]*
+   (-(Cos[theta]*Mf[2, i$4251]*QuantumField[Subscript[h1, R]]*
+       (PL*IndexDelta[SUNIndex[j$4251], jFL40]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL40]]*SumOver[jFL40, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR41]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR41]]*SumOver[jFR41, NF])*
+       (PR*dZfLC[2, SUNIndex[i$4251], jFL42]*QuantumField[
+          Subscript[HCbar[Fe], R], SUNIndex[jFL42]]*SumOver[jFL42, NF] + 
+        PL*dZfRC[2, SUNIndex[i$4251], jFR43]*QuantumField[
+          Subscript[HCbar[Fe], R], SUNIndex[jFR43]]*SumOver[jFR43, NF]))/
+     (2*vev) - ((Cos[theta]*Mf[2, i$4251]*QuantumField[Subscript[h1, R]]*
+        (PL*dZfL[2, SUNIndex[j$4251], jFL40]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFL40]]*SumOver[jFL40, NF] + 
+         PR*dZfR[2, SUNIndex[j$4251], jFR41]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFR41]]*SumOver[jFR41, NF]))/(2*vev) + 
+      ((Cos[theta]*Mf[2, i$4251]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((Cos[theta]*dMf1[2, i$4251])/vev + 
+          Mf[2, i$4251]*(-((dvev1*Cos[theta])/vev^2) - (dtheta1*Sin[theta])/
+             vev)))*(PL*IndexDelta[SUNIndex[j$4251], jFL40]*
+         QuantumField[Subscript[Fe, R], SUNIndex[jFL40]]*SumOver[jFL40, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR41]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR41]]*SumOver[jFR41, NF]))*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL42]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL42]]*SumOver[jFL42, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR43]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR43]]*SumOver[jFR43, NF]))*
+   SumOver[j$4251, NF], PR*IndexDelta[i$4251, j$4251]*SumOver[i$4251, NF]*
+   (-(Cos[theta]*Mf[2, i$4251]*QuantumField[Subscript[h1, R]]*
+       (PL*IndexDelta[SUNIndex[j$4251], jFL44]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL44]]*SumOver[jFL44, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR45]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR45]]*SumOver[jFR45, NF])*
+       (PR*dZfLC[2, SUNIndex[i$4251], jFL46]*QuantumField[
+          Subscript[HCbar[Fe], R], SUNIndex[jFL46]]*SumOver[jFL46, NF] + 
+        PL*dZfRC[2, SUNIndex[i$4251], jFR47]*QuantumField[
+          Subscript[HCbar[Fe], R], SUNIndex[jFR47]]*SumOver[jFR47, NF]))/
+     (2*vev) - ((Cos[theta]*Mf[2, i$4251]*QuantumField[Subscript[h1, R]]*
+        (PL*dZfL[2, SUNIndex[j$4251], jFL44]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFL44]]*SumOver[jFL44, NF] + 
+         PR*dZfR[2, SUNIndex[j$4251], jFR45]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFR45]]*SumOver[jFR45, NF]))/(2*vev) + 
+      ((Cos[theta]*Mf[2, i$4251]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((Cos[theta]*dMf1[2, i$4251])/vev + 
+          Mf[2, i$4251]*(-((dvev1*Cos[theta])/vev^2) - (dtheta1*Sin[theta])/
+             vev)))*(PL*IndexDelta[SUNIndex[j$4251], jFL44]*
+         QuantumField[Subscript[Fe, R], SUNIndex[jFL44]]*SumOver[jFL44, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR45]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR45]]*SumOver[jFR45, NF]))*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL46]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL46]]*SumOver[jFL46, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR47]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR47]]*SumOver[jFR47, NF]))*
+   SumOver[j$4251, NF], Sqrt[2]*PL*IndexDelta[i$4251, j$4251]*
+   QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[FNu, R], 
+    SUNIndex[jFL48]]*SumOver[i$4251, NF]*
+   (-(IndexDelta[SUNIndex[j$4251], jFL48]*Mf[2, i$4251]*SumOver[jFL48, NF]*
+       (PR*dZfLC[2, SUNIndex[i$4251], jFL49]*QuantumField[
+          Subscript[HCbar[Fe], R], SUNIndex[jFL49]]*SumOver[jFL49, NF] + 
+        PL*dZfRC[2, SUNIndex[i$4251], jFR50]*QuantumField[
+          Subscript[HCbar[Fe], R], SUNIndex[jFR50]]*SumOver[jFR50, NF]))/
+     (2*vev) - ((dZfL[1, SUNIndex[j$4251], jFL48]*Mf[2, i$4251]*
+        SumOver[jFL48, NF])/(2*vev) + IndexDelta[SUNIndex[j$4251], jFL48]*
+       (dMf1[2, i$4251]/vev + (-(dvev1/vev^2) + dZ[GpGp]/(2*vev))*
+         Mf[2, i$4251])*SumOver[jFL48, NF])*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL49]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL49]]*SumOver[jFL49, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR50]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR50]]*SumOver[jFR50, NF]))*
+   SumOver[j$4251, NF], Sqrt[2]*PR*IndexDelta[i$4251, j$4251]*
+   QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[HCbar[FNu], R], 
+    SUNIndex[jFL53]]*SumOver[i$4251, NF]*
+   (-(IndexDelta[SUNIndex[i$4251], jFL53]*Mf[2, i$4251]*SumOver[jFL53, NF]*
+       (PL*dZfL[2, SUNIndex[j$4251], jFL51]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL51]]*SumOver[jFL51, NF] + 
+        PR*dZfR[2, SUNIndex[j$4251], jFR52]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR52]]*SumOver[jFR52, NF]))/(2*vev) - 
+    ((dZfLC[1, SUNIndex[i$4251], jFL53]*Mf[2, i$4251]*SumOver[jFL53, NF])/
+       (2*vev) + IndexDelta[SUNIndex[i$4251], jFL53]*(dMf1[2, i$4251]/vev + 
+        (-(dvev1/vev^2) + dZ[GpGp]/(2*vev))*Mf[2, i$4251])*
+       SumOver[jFL53, NF])*(PL*IndexDelta[SUNIndex[j$4251], jFL51]*
+       QuantumField[Subscript[Fe, R], SUNIndex[jFL51]]*SumOver[jFL51, NF] + 
+      PR*IndexDelta[SUNIndex[j$4251], jFR52]*QuantumField[Subscript[Fe, R], 
+        SUNIndex[jFR52]]*SumOver[jFR52, NF]))*SumOver[j$4251, NF], 
+  PL*IndexDelta[i$4251, j$4251]*SumOver[i$4251, NF]*
+   ((Mf[2, i$4251]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+      (PL*IndexDelta[SUNIndex[j$4251], jFL54]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFL54]]*SumOver[jFL54, NF] + 
+       PR*IndexDelta[SUNIndex[j$4251], jFR55]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFR55]]*SumOver[jFR55, NF])*
+      (PR*dZfLC[2, SUNIndex[i$4251], jFL56]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFL56]]*SumOver[jFL56, NF] + 
+       PL*dZfRC[2, SUNIndex[i$4251], jFR57]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFR57]]*SumOver[jFR57, NF]))/
+     (2*vev) + ((Mf[2, i$4251]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+        (PL*dZfL[2, SUNIndex[j$4251], jFL54]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFL54]]*SumOver[jFL54, NF] + 
+         PR*dZfR[2, SUNIndex[j$4251], jFR55]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFR55]]*SumOver[jFR55, NF]))/(2*vev) + 
+      ((dtheta1*Cos[theta]*Mf[2, i$4251]*QuantumField[Subscript[h2, R]])/
+         vev + ((dMf1[2, i$4251]/vev - (dvev1*Mf[2, i$4251])/vev^2)*
+           QuantumField[Subscript[h2, R]] + 
+          (Mf[2, i$4251]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+       (PL*IndexDelta[SUNIndex[j$4251], jFL54]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL54]]*SumOver[jFL54, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR55]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR55]]*SumOver[jFR55, NF]))*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL56]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL56]]*SumOver[jFL56, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR57]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR57]]*SumOver[jFR57, NF]))*
+   SumOver[j$4251, NF], PR*IndexDelta[i$4251, j$4251]*SumOver[i$4251, NF]*
+   ((Mf[2, i$4251]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+      (PL*IndexDelta[SUNIndex[j$4251], jFL58]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFL58]]*SumOver[jFL58, NF] + 
+       PR*IndexDelta[SUNIndex[j$4251], jFR59]*QuantumField[Subscript[Fe, R], 
+         SUNIndex[jFR59]]*SumOver[jFR59, NF])*
+      (PR*dZfLC[2, SUNIndex[i$4251], jFL60]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFL60]]*SumOver[jFL60, NF] + 
+       PL*dZfRC[2, SUNIndex[i$4251], jFR61]*QuantumField[
+         Subscript[HCbar[Fe], R], SUNIndex[jFR61]]*SumOver[jFR61, NF]))/
+     (2*vev) + ((Mf[2, i$4251]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+        (PL*dZfL[2, SUNIndex[j$4251], jFL58]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFL58]]*SumOver[jFL58, NF] + 
+         PR*dZfR[2, SUNIndex[j$4251], jFR59]*QuantumField[Subscript[Fe, R], 
+           SUNIndex[jFR59]]*SumOver[jFR59, NF]))/(2*vev) + 
+      ((dtheta1*Cos[theta]*Mf[2, i$4251]*QuantumField[Subscript[h2, R]])/
+         vev + ((dMf1[2, i$4251]/vev - (dvev1*Mf[2, i$4251])/vev^2)*
+           QuantumField[Subscript[h2, R]] + 
+          (Mf[2, i$4251]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+       (PL*IndexDelta[SUNIndex[j$4251], jFL58]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFL58]]*SumOver[jFL58, NF] + 
+        PR*IndexDelta[SUNIndex[j$4251], jFR59]*QuantumField[Subscript[Fe, R], 
+          SUNIndex[jFR59]]*SumOver[jFR59, NF]))*
+     (PR*IndexDelta[SUNIndex[i$4251], jFL60]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFL60]]*SumOver[jFL60, NF] + 
+      PL*IndexDelta[SUNIndex[i$4251], jFR61]*QuantumField[
+        Subscript[HCbar[Fe], R], SUNIndex[jFR61]]*SumOver[jFR61, NF]))*
+   SumOver[j$4251, NF], PL*IndexDelta[jUR$4245bar, k$4470]*
+   IndexDelta[k$4470, jUpL$4244]*
+   (-(Mf[3, k$4470]*(PL*IndexDelta[SUNIndex[jUpL$4244], jFL62]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFL62], SUNIndex[qc$4241]]*
+         SumOver[jFL62, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR63]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR63], SUNIndex[qc$4241]]*
+         SumOver[jFR63, NF])*(PR*dZfLC[3, SUNIndex[jUR$4245bar], jFL64]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL64], 
+          SUNIndex[qc$4241]]*SumOver[jFL64, NF] + 
+        PL*dZfRC[3, SUNIndex[jUR$4245bar], jFR65]*QuantumField[
+          Subscript[HCbar[FUp], R], SUNIndex[jFR65], SUNIndex[qc$4241]]*
+         SumOver[jFR65, NF]))/2 - 
+    ((Mf[3, k$4470]*(PL*dZfL[3, SUNIndex[jUpL$4244], jFL62]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFL62], SUNIndex[qc$4241]]*
+          SumOver[jFL62, NF] + PR*dZfR[3, SUNIndex[jUpL$4244], jFR63]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR63], SUNIndex[qc$4241]]*
+          SumOver[jFR63, NF]))/2 + dMf1[3, k$4470]*
+       (PL*IndexDelta[SUNIndex[jUpL$4244], jFL62]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL62], SUNIndex[qc$4241]]*
+         SumOver[jFL62, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR63]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR63], SUNIndex[qc$4241]]*
+         SumOver[jFR63, NF]))*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL64]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL64], 
+        SUNIndex[qc$4241]]*SumOver[jFL64, NF] + 
+      PL*IndexDelta[SUNIndex[jUR$4245bar], jFR65]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR65], 
+        SUNIndex[qc$4241]]*SumOver[jFR65, NF]))*SumOver[jUpL$4244, NF]*
+   SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF], 
+  (-I)*PL*IndexDelta[jUR$4245bar, k$4470]*IndexDelta[k$4470, jUpL$4244]*
+   ((Mf[3, k$4470]*QuantumField[Subscript[G0, R]]*
+      (PL*IndexDelta[SUNIndex[jUpL$4244], jFL66]*QuantumField[
+         Subscript[FUp, R], SUNIndex[jFL66], SUNIndex[qc$4241]]*
+        SumOver[jFL66, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR67]*
+        QuantumField[Subscript[FUp, R], SUNIndex[jFR67], SUNIndex[qc$4241]]*
+        SumOver[jFR67, NF])*(PR*dZfLC[3, SUNIndex[jUR$4245bar], jFL68]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL68], 
+         SUNIndex[qc$4241]]*SumOver[jFL68, NF] + 
+       PL*dZfRC[3, SUNIndex[jUR$4245bar], jFR69]*QuantumField[
+         Subscript[HCbar[FUp], R], SUNIndex[jFR69], SUNIndex[qc$4241]]*
+        SumOver[jFR69, NF]))/(2*vev) + 
+    ((Mf[3, k$4470]*QuantumField[Subscript[G0, R]]*
+        (PL*dZfL[3, SUNIndex[jUpL$4244], jFL66]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFL66], SUNIndex[qc$4241]]*
+          SumOver[jFL66, NF] + PR*dZfR[3, SUNIndex[jUpL$4244], jFR67]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR67], SUNIndex[qc$4241]]*
+          SumOver[jFR67, NF]))/(2*vev) + 
+      ((dMf1[3, k$4470]/vev - (dvev1*Mf[3, k$4470])/vev^2)*
+         QuantumField[Subscript[G0, R]] + 
+        (Mf[3, k$4470]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+           dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*vev))*
+       (PL*IndexDelta[SUNIndex[jUpL$4244], jFL66]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL66], SUNIndex[qc$4241]]*
+         SumOver[jFL66, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR67]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR67], SUNIndex[qc$4241]]*
+         SumOver[jFR67, NF]))*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL68]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL68], 
+        SUNIndex[qc$4241]]*SumOver[jFL68, NF] + 
+      PL*IndexDelta[SUNIndex[jUR$4245bar], jFR69]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR69], 
+        SUNIndex[qc$4241]]*SumOver[jFR69, NF]))*SumOver[jUpL$4244, NF]*
+   SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF], 
+  PL*IndexDelta[jUR$4245bar, k$4470]*IndexDelta[k$4470, jUpL$4244]*
+   (-(Cos[theta]*Mf[3, k$4470]*QuantumField[Subscript[h1, R]]*
+       (PL*IndexDelta[SUNIndex[jUpL$4244], jFL70]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL70], SUNIndex[qc$4241]]*
+         SumOver[jFL70, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR71]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR71], SUNIndex[qc$4241]]*
+         SumOver[jFR71, NF])*(PR*dZfLC[3, SUNIndex[jUR$4245bar], jFL72]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL72], 
+          SUNIndex[qc$4241]]*SumOver[jFL72, NF] + 
+        PL*dZfRC[3, SUNIndex[jUR$4245bar], jFR73]*QuantumField[
+          Subscript[HCbar[FUp], R], SUNIndex[jFR73], SUNIndex[qc$4241]]*
+         SumOver[jFR73, NF]))/(2*vev) - 
+    ((Cos[theta]*Mf[3, k$4470]*QuantumField[Subscript[h1, R]]*
+        (PL*dZfL[3, SUNIndex[jUpL$4244], jFL70]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFL70], SUNIndex[qc$4241]]*
+          SumOver[jFL70, NF] + PR*dZfR[3, SUNIndex[jUpL$4244], jFR71]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR71], SUNIndex[qc$4241]]*
+          SumOver[jFR71, NF]))/(2*vev) + 
+      ((Cos[theta]*Mf[3, k$4470]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((Cos[theta]*dMf1[3, k$4470])/vev + 
+          Mf[3, k$4470]*(-((dvev1*Cos[theta])/vev^2) - (dtheta1*Sin[theta])/
+             vev)))*(PL*IndexDelta[SUNIndex[jUpL$4244], jFL70]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFL70], SUNIndex[qc$4241]]*
+         SumOver[jFL70, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR71]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR71], SUNIndex[qc$4241]]*
+         SumOver[jFR71, NF]))*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL72]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL72], 
+        SUNIndex[qc$4241]]*SumOver[jFL72, NF] + 
+      PL*IndexDelta[SUNIndex[jUR$4245bar], jFR73]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR73], 
+        SUNIndex[qc$4241]]*SumOver[jFR73, NF]))*SumOver[jUpL$4244, NF]*
+   SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF], 
+  PL*IndexDelta[jUR$4245bar, k$4470]*IndexDelta[k$4470, jUpL$4244]*
+   ((Mf[3, k$4470]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+      (PL*IndexDelta[SUNIndex[jUpL$4244], jFL74]*QuantumField[
+         Subscript[FUp, R], SUNIndex[jFL74], SUNIndex[qc$4241]]*
+        SumOver[jFL74, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR75]*
+        QuantumField[Subscript[FUp, R], SUNIndex[jFR75], SUNIndex[qc$4241]]*
+        SumOver[jFR75, NF])*(PR*dZfLC[3, SUNIndex[jUR$4245bar], jFL76]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL76], 
+         SUNIndex[qc$4241]]*SumOver[jFL76, NF] + 
+       PL*dZfRC[3, SUNIndex[jUR$4245bar], jFR77]*QuantumField[
+         Subscript[HCbar[FUp], R], SUNIndex[jFR77], SUNIndex[qc$4241]]*
+        SumOver[jFR77, NF]))/(2*vev) + 
+    ((Mf[3, k$4470]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+        (PL*dZfL[3, SUNIndex[jUpL$4244], jFL74]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFL74], SUNIndex[qc$4241]]*
+          SumOver[jFL74, NF] + PR*dZfR[3, SUNIndex[jUpL$4244], jFR75]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR75], SUNIndex[qc$4241]]*
+          SumOver[jFR75, NF]))/(2*vev) + 
+      ((dtheta1*Cos[theta]*Mf[3, k$4470]*QuantumField[Subscript[h2, R]])/
+         vev + ((dMf1[3, k$4470]/vev - (dvev1*Mf[3, k$4470])/vev^2)*
+           QuantumField[Subscript[h2, R]] + 
+          (Mf[3, k$4470]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+       (PL*IndexDelta[SUNIndex[jUpL$4244], jFL74]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL74], SUNIndex[qc$4241]]*
+         SumOver[jFL74, NF] + PR*IndexDelta[SUNIndex[jUpL$4244], jFR75]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR75], SUNIndex[qc$4241]]*
+         SumOver[jFR75, NF]))*(PR*IndexDelta[SUNIndex[jUR$4245bar], jFL76]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL76], 
+        SUNIndex[qc$4241]]*SumOver[jFL76, NF] + 
+      PL*IndexDelta[SUNIndex[jUR$4245bar], jFR77]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR77], 
+        SUNIndex[qc$4241]]*SumOver[jFR77, NF]))*SumOver[jUpL$4244, NF]*
+   SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF], 
+  PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+   SumOver[jDownL$4249, NF]*SumOver[jDR$4250bar, NF]*
+   (-(Mf[4, k$4471]*(PL*IndexDelta[SUNIndex[jDownL$4249], jFL78]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFL78], 
+          SUNIndex[qc$4246]]*SumOver[jFL78, NF] + 
+        PR*IndexDelta[SUNIndex[jDownL$4249], jFR79]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFR79], SUNIndex[qc$4246]]*
+         SumOver[jFR79, NF])*(PR*dZfLC[4, SUNIndex[jDR$4250bar], jFL80]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL80], 
+          SUNIndex[qc$4246]]*SumOver[jFL80, NF] + 
+        PL*dZfRC[4, SUNIndex[jDR$4250bar], jFR81]*QuantumField[
+          Subscript[HCbar[FDown], R], SUNIndex[jFR81], SUNIndex[qc$4246]]*
+         SumOver[jFR81, NF]))/2 - 
+    ((Mf[4, k$4471]*(PL*dZfL[4, SUNIndex[jDownL$4249], jFL78]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFL78], 
+           SUNIndex[qc$4246]]*SumOver[jFL78, NF] + 
+         PR*dZfR[4, SUNIndex[jDownL$4249], jFR79]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFR79], SUNIndex[qc$4246]]*
+          SumOver[jFR79, NF]))/2 + dMf1[4, k$4471]*
+       (PL*IndexDelta[SUNIndex[jDownL$4249], jFL78]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL78], SUNIndex[qc$4246]]*
+         SumOver[jFL78, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR79]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR79], 
+          SUNIndex[qc$4246]]*SumOver[jFR79, NF]))*
+     (PR*IndexDelta[SUNIndex[jDR$4250bar], jFL80]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL80], 
+        SUNIndex[qc$4246]]*SumOver[jFL80, NF] + 
+      PL*IndexDelta[SUNIndex[jDR$4250bar], jFR81]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR81], 
+        SUNIndex[qc$4246]]*SumOver[jFR81, NF]))*SumOver[k$4471, NF], 
+  I*PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+   SumOver[jDownL$4249, NF]*SumOver[jDR$4250bar, NF]*
+   ((Mf[4, k$4471]*QuantumField[Subscript[G0, R]]*
+      (PL*IndexDelta[SUNIndex[jDownL$4249], jFL82]*QuantumField[
+         Subscript[FDown, R], SUNIndex[jFL82], SUNIndex[qc$4246]]*
+        SumOver[jFL82, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR83]*
+        QuantumField[Subscript[FDown, R], SUNIndex[jFR83], SUNIndex[qc$4246]]*
+        SumOver[jFR83, NF])*(PR*dZfLC[4, SUNIndex[jDR$4250bar], jFL84]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL84], 
+         SUNIndex[qc$4246]]*SumOver[jFL84, NF] + 
+       PL*dZfRC[4, SUNIndex[jDR$4250bar], jFR85]*QuantumField[
+         Subscript[HCbar[FDown], R], SUNIndex[jFR85], SUNIndex[qc$4246]]*
+        SumOver[jFR85, NF]))/(2*vev) + 
+    ((Mf[4, k$4471]*QuantumField[Subscript[G0, R]]*
+        (PL*dZfL[4, SUNIndex[jDownL$4249], jFL82]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFL82], SUNIndex[qc$4246]]*
+          SumOver[jFL82, NF] + PR*dZfR[4, SUNIndex[jDownL$4249], jFR83]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFR83], 
+           SUNIndex[qc$4246]]*SumOver[jFR83, NF]))/(2*vev) + 
+      ((dMf1[4, k$4471]/vev - (dvev1*Mf[4, k$4471])/vev^2)*
+         QuantumField[Subscript[G0, R]] + 
+        (Mf[4, k$4471]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+           dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*vev))*
+       (PL*IndexDelta[SUNIndex[jDownL$4249], jFL82]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL82], SUNIndex[qc$4246]]*
+         SumOver[jFL82, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR83]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR83], 
+          SUNIndex[qc$4246]]*SumOver[jFR83, NF]))*
+     (PR*IndexDelta[SUNIndex[jDR$4250bar], jFL84]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL84], 
+        SUNIndex[qc$4246]]*SumOver[jFL84, NF] + 
+      PL*IndexDelta[SUNIndex[jDR$4250bar], jFR85]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR85], 
+        SUNIndex[qc$4246]]*SumOver[jFR85, NF]))*SumOver[k$4471, NF], 
+  PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+   SumOver[jDownL$4249, NF]*SumOver[jDR$4250bar, NF]*
+   (-(Cos[theta]*Mf[4, k$4471]*QuantumField[Subscript[h1, R]]*
+       (PL*IndexDelta[SUNIndex[jDownL$4249], jFL86]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL86], SUNIndex[qc$4246]]*
+         SumOver[jFL86, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR87]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR87], 
+          SUNIndex[qc$4246]]*SumOver[jFR87, NF])*
+       (PR*dZfLC[4, SUNIndex[jDR$4250bar], jFL88]*QuantumField[
+          Subscript[HCbar[FDown], R], SUNIndex[jFL88], SUNIndex[qc$4246]]*
+         SumOver[jFL88, NF] + PL*dZfRC[4, SUNIndex[jDR$4250bar], jFR89]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR89], 
+          SUNIndex[qc$4246]]*SumOver[jFR89, NF]))/(2*vev) - 
+    ((Cos[theta]*Mf[4, k$4471]*QuantumField[Subscript[h1, R]]*
+        (PL*dZfL[4, SUNIndex[jDownL$4249], jFL86]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFL86], SUNIndex[qc$4246]]*
+          SumOver[jFL86, NF] + PR*dZfR[4, SUNIndex[jDownL$4249], jFR87]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFR87], 
+           SUNIndex[qc$4246]]*SumOver[jFR87, NF]))/(2*vev) + 
+      ((Cos[theta]*Mf[4, k$4471]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((Cos[theta]*dMf1[4, k$4471])/vev + 
+          Mf[4, k$4471]*(-((dvev1*Cos[theta])/vev^2) - (dtheta1*Sin[theta])/
+             vev)))*(PL*IndexDelta[SUNIndex[jDownL$4249], jFL86]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFL86], 
+          SUNIndex[qc$4246]]*SumOver[jFL86, NF] + 
+        PR*IndexDelta[SUNIndex[jDownL$4249], jFR87]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFR87], SUNIndex[qc$4246]]*
+         SumOver[jFR87, NF]))*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL88]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL88], 
+        SUNIndex[qc$4246]]*SumOver[jFL88, NF] + 
+      PL*IndexDelta[SUNIndex[jDR$4250bar], jFR89]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR89], 
+        SUNIndex[qc$4246]]*SumOver[jFR89, NF]))*SumOver[k$4471, NF], 
+  PL*IndexDelta[jDR$4250bar, k$4471]*IndexDelta[k$4471, jDownL$4249]*
+   SumOver[jDownL$4249, NF]*SumOver[jDR$4250bar, NF]*
+   ((Mf[4, k$4471]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+      (PL*IndexDelta[SUNIndex[jDownL$4249], jFL90]*QuantumField[
+         Subscript[FDown, R], SUNIndex[jFL90], SUNIndex[qc$4246]]*
+        SumOver[jFL90, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR91]*
+        QuantumField[Subscript[FDown, R], SUNIndex[jFR91], SUNIndex[qc$4246]]*
+        SumOver[jFR91, NF])*(PR*dZfLC[4, SUNIndex[jDR$4250bar], jFL92]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL92], 
+         SUNIndex[qc$4246]]*SumOver[jFL92, NF] + 
+       PL*dZfRC[4, SUNIndex[jDR$4250bar], jFR93]*QuantumField[
+         Subscript[HCbar[FDown], R], SUNIndex[jFR93], SUNIndex[qc$4246]]*
+        SumOver[jFR93, NF]))/(2*vev) + 
+    ((Mf[4, k$4471]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+        (PL*dZfL[4, SUNIndex[jDownL$4249], jFL90]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFL90], SUNIndex[qc$4246]]*
+          SumOver[jFL90, NF] + PR*dZfR[4, SUNIndex[jDownL$4249], jFR91]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFR91], 
+           SUNIndex[qc$4246]]*SumOver[jFR91, NF]))/(2*vev) + 
+      ((dtheta1*Cos[theta]*Mf[4, k$4471]*QuantumField[Subscript[h2, R]])/
+         vev + ((dMf1[4, k$4471]/vev - (dvev1*Mf[4, k$4471])/vev^2)*
+           QuantumField[Subscript[h2, R]] + 
+          (Mf[4, k$4471]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+       (PL*IndexDelta[SUNIndex[jDownL$4249], jFL90]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL90], SUNIndex[qc$4246]]*
+         SumOver[jFL90, NF] + PR*IndexDelta[SUNIndex[jDownL$4249], jFR91]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR91], 
+          SUNIndex[qc$4246]]*SumOver[jFR91, NF]))*
+     (PR*IndexDelta[SUNIndex[jDR$4250bar], jFL92]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL92], 
+        SUNIndex[qc$4246]]*SumOver[jFL92, NF] + 
+      PL*IndexDelta[SUNIndex[jDR$4250bar], jFR93]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR93], 
+        SUNIndex[qc$4246]]*SumOver[jFR93, NF]))*SumOver[k$4471, NF], 
+  PR*IndexDelta[jUpL$4242bar, k$4472]*IndexDelta[k$4472, jUR$4243]*
+   (-(Mf[3, k$4472]*(PL*IndexDelta[SUNIndex[jUR$4243], jFL94]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFL94], SUNIndex[qc$4241]]*
+         SumOver[jFL94, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR95]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR95], SUNIndex[qc$4241]]*
+         SumOver[jFR95, NF])*(PR*dZfLC[3, SUNIndex[jUpL$4242bar], jFL96]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL96], 
+          SUNIndex[qc$4241]]*SumOver[jFL96, NF] + 
+        PL*dZfRC[3, SUNIndex[jUpL$4242bar], jFR97]*QuantumField[
+          Subscript[HCbar[FUp], R], SUNIndex[jFR97], SUNIndex[qc$4241]]*
+         SumOver[jFR97, NF]))/2 - 
+    ((Mf[3, k$4472]*(PL*dZfL[3, SUNIndex[jUR$4243], jFL94]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFL94], SUNIndex[qc$4241]]*
+          SumOver[jFL94, NF] + PR*dZfR[3, SUNIndex[jUR$4243], jFR95]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR95], SUNIndex[qc$4241]]*
+          SumOver[jFR95, NF]))/2 + dMf1[3, k$4472]*
+       (PL*IndexDelta[SUNIndex[jUR$4243], jFL94]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL94], SUNIndex[qc$4241]]*
+         SumOver[jFL94, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR95]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR95], SUNIndex[qc$4241]]*
+         SumOver[jFR95, NF]))*(PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL96]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL96], 
+        SUNIndex[qc$4241]]*SumOver[jFL96, NF] + 
+      PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR97]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR97], 
+        SUNIndex[qc$4241]]*SumOver[jFR97, NF]))*SumOver[jUpL$4242bar, NF]*
+   SumOver[jUR$4243, NF]*SumOver[k$4472, NF], 
+  I*PR*IndexDelta[jUpL$4242bar, k$4472]*IndexDelta[k$4472, jUR$4243]*
+   ((Mf[3, k$4472]*QuantumField[Subscript[G0, R]]*
+      (PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL100]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL100], 
+         SUNIndex[qc$4241]]*SumOver[jFL100, NF] + 
+       PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR101]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR101], 
+         SUNIndex[qc$4241]]*SumOver[jFR101, NF])*
+      (PL*dZfL[3, SUNIndex[jUR$4243], jFL98]*QuantumField[Subscript[FUp, R], 
+         SUNIndex[jFL98], SUNIndex[qc$4241]]*SumOver[jFL98, NF] + 
+       PR*dZfR[3, SUNIndex[jUR$4243], jFR99]*QuantumField[Subscript[FUp, R], 
+         SUNIndex[jFR99], SUNIndex[qc$4241]]*SumOver[jFR99, NF]))/(2*vev) + 
+    ((Mf[3, k$4472]*QuantumField[Subscript[G0, R]]*
+        (PR*dZfLC[3, SUNIndex[jUpL$4242bar], jFL100]*QuantumField[
+           Subscript[HCbar[FUp], R], SUNIndex[jFL100], SUNIndex[qc$4241]]*
+          SumOver[jFL100, NF] + PL*dZfRC[3, SUNIndex[jUpL$4242bar], jFR101]*
+          QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR101], 
+           SUNIndex[qc$4241]]*SumOver[jFR101, NF]))/(2*vev) + 
+      ((dMf1[3, k$4472]/vev - (dvev1*Mf[3, k$4472])/vev^2)*
+         QuantumField[Subscript[G0, R]] + 
+        (Mf[3, k$4472]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+           dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*vev))*
+       (PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL100]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL100], 
+          SUNIndex[qc$4241]]*SumOver[jFL100, NF] + 
+        PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR101]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR101], 
+          SUNIndex[qc$4241]]*SumOver[jFR101, NF]))*
+     (PL*IndexDelta[SUNIndex[jUR$4243], jFL98]*QuantumField[
+        Subscript[FUp, R], SUNIndex[jFL98], SUNIndex[qc$4241]]*
+       SumOver[jFL98, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR99]*
+       QuantumField[Subscript[FUp, R], SUNIndex[jFR99], SUNIndex[qc$4241]]*
+       SumOver[jFR99, NF]))*SumOver[jUpL$4242bar, NF]*SumOver[jUR$4243, NF]*
+   SumOver[k$4472, NF], PR*IndexDelta[jUpL$4242bar, k$4472]*
+   IndexDelta[k$4472, jUR$4243]*
+   (-(Cos[theta]*Mf[3, k$4472]*QuantumField[Subscript[h1, R]]*
+       (PL*IndexDelta[SUNIndex[jUR$4243], jFL102]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL102], SUNIndex[qc$4241]]*
+         SumOver[jFL102, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR103]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR103], SUNIndex[qc$4241]]*
+         SumOver[jFR103, NF])*(PR*dZfLC[3, SUNIndex[jUpL$4242bar], jFL104]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL104], 
+          SUNIndex[qc$4241]]*SumOver[jFL104, NF] + 
+        PL*dZfRC[3, SUNIndex[jUpL$4242bar], jFR105]*QuantumField[
+          Subscript[HCbar[FUp], R], SUNIndex[jFR105], SUNIndex[qc$4241]]*
+         SumOver[jFR105, NF]))/(2*vev) - 
+    ((Cos[theta]*Mf[3, k$4472]*QuantumField[Subscript[h1, R]]*
+        (PL*dZfL[3, SUNIndex[jUR$4243], jFL102]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFL102], SUNIndex[qc$4241]]*
+          SumOver[jFL102, NF] + PR*dZfR[3, SUNIndex[jUR$4243], jFR103]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR103], 
+           SUNIndex[qc$4241]]*SumOver[jFR103, NF]))/(2*vev) + 
+      ((Cos[theta]*Mf[3, k$4472]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((Cos[theta]*dMf1[3, k$4472])/vev + 
+          Mf[3, k$4472]*(-((dvev1*Cos[theta])/vev^2) - (dtheta1*Sin[theta])/
+             vev)))*(PL*IndexDelta[SUNIndex[jUR$4243], jFL102]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFL102], SUNIndex[qc$4241]]*
+         SumOver[jFL102, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR103]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR103], SUNIndex[qc$4241]]*
+         SumOver[jFR103, NF]))*(PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL104]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL104], 
+        SUNIndex[qc$4241]]*SumOver[jFL104, NF] + 
+      PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR105]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR105], 
+        SUNIndex[qc$4241]]*SumOver[jFR105, NF]))*SumOver[jUpL$4242bar, NF]*
+   SumOver[jUR$4243, NF]*SumOver[k$4472, NF], 
+  PR*IndexDelta[jUpL$4242bar, k$4472]*IndexDelta[k$4472, jUR$4243]*
+   ((Mf[3, k$4472]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+      (PL*IndexDelta[SUNIndex[jUR$4243], jFL106]*QuantumField[
+         Subscript[FUp, R], SUNIndex[jFL106], SUNIndex[qc$4241]]*
+        SumOver[jFL106, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR107]*
+        QuantumField[Subscript[FUp, R], SUNIndex[jFR107], SUNIndex[qc$4241]]*
+        SumOver[jFR107, NF])*(PR*dZfLC[3, SUNIndex[jUpL$4242bar], jFL108]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL108], 
+         SUNIndex[qc$4241]]*SumOver[jFL108, NF] + 
+       PL*dZfRC[3, SUNIndex[jUpL$4242bar], jFR109]*QuantumField[
+         Subscript[HCbar[FUp], R], SUNIndex[jFR109], SUNIndex[qc$4241]]*
+        SumOver[jFR109, NF]))/(2*vev) + 
+    ((Mf[3, k$4472]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+        (PL*dZfL[3, SUNIndex[jUR$4243], jFL106]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFL106], SUNIndex[qc$4241]]*
+          SumOver[jFL106, NF] + PR*dZfR[3, SUNIndex[jUR$4243], jFR107]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFR107], 
+           SUNIndex[qc$4241]]*SumOver[jFR107, NF]))/(2*vev) + 
+      ((dtheta1*Cos[theta]*Mf[3, k$4472]*QuantumField[Subscript[h2, R]])/
+         vev + ((dMf1[3, k$4472]/vev - (dvev1*Mf[3, k$4472])/vev^2)*
+           QuantumField[Subscript[h2, R]] + 
+          (Mf[3, k$4472]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+       (PL*IndexDelta[SUNIndex[jUR$4243], jFL106]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL106], SUNIndex[qc$4241]]*
+         SumOver[jFL106, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR107]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR107], SUNIndex[qc$4241]]*
+         SumOver[jFR107, NF]))*(PR*IndexDelta[SUNIndex[jUpL$4242bar], jFL108]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL108], 
+        SUNIndex[qc$4241]]*SumOver[jFL108, NF] + 
+      PL*IndexDelta[SUNIndex[jUpL$4242bar], jFR109]*
+       QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR109], 
+        SUNIndex[qc$4241]]*SumOver[jFR109, NF]))*SumOver[jUpL$4242bar, NF]*
+   SumOver[jUR$4243, NF]*SumOver[k$4472, NF], 
+  PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+   SumOver[jDownL$4247bar, NF]*SumOver[jDR$4248, NF]*
+   (-(Mf[4, k$4473]*(PL*IndexDelta[SUNIndex[jDR$4248], jFL110]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFL110], 
+          SUNIndex[qc$4246]]*SumOver[jFL110, NF] + 
+        PR*IndexDelta[SUNIndex[jDR$4248], jFR111]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFR111], SUNIndex[qc$4246]]*
+         SumOver[jFR111, NF])*(PR*dZfLC[4, SUNIndex[jDownL$4247bar], jFL112]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL112], 
+          SUNIndex[qc$4246]]*SumOver[jFL112, NF] + 
+        PL*dZfRC[4, SUNIndex[jDownL$4247bar], jFR113]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR113], 
+          SUNIndex[qc$4246]]*SumOver[jFR113, NF]))/2 - 
+    ((Mf[4, k$4473]*(PL*dZfL[4, SUNIndex[jDR$4248], jFL110]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFL110], 
+           SUNIndex[qc$4246]]*SumOver[jFL110, NF] + 
+         PR*dZfR[4, SUNIndex[jDR$4248], jFR111]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFR111], SUNIndex[qc$4246]]*
+          SumOver[jFR111, NF]))/2 + dMf1[4, k$4473]*
+       (PL*IndexDelta[SUNIndex[jDR$4248], jFL110]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL110], SUNIndex[qc$4246]]*
+         SumOver[jFL110, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR111]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR111], 
+          SUNIndex[qc$4246]]*SumOver[jFR111, NF]))*
+     (PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL112]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL112], 
+        SUNIndex[qc$4246]]*SumOver[jFL112, NF] + 
+      PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR113]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR113], 
+        SUNIndex[qc$4246]]*SumOver[jFR113, NF]))*SumOver[k$4473, NF], 
+  (-I)*PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+   SumOver[jDownL$4247bar, NF]*SumOver[jDR$4248, NF]*
+   ((Mf[4, k$4473]*QuantumField[Subscript[G0, R]]*
+      (PL*IndexDelta[SUNIndex[jDR$4248], jFL114]*QuantumField[
+         Subscript[FDown, R], SUNIndex[jFL114], SUNIndex[qc$4246]]*
+        SumOver[jFL114, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR115]*
+        QuantumField[Subscript[FDown, R], SUNIndex[jFR115], 
+         SUNIndex[qc$4246]]*SumOver[jFR115, NF])*
+      (PR*dZfLC[4, SUNIndex[jDownL$4247bar], jFL116]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL116], 
+         SUNIndex[qc$4246]]*SumOver[jFL116, NF] + 
+       PL*dZfRC[4, SUNIndex[jDownL$4247bar], jFR117]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR117], 
+         SUNIndex[qc$4246]]*SumOver[jFR117, NF]))/(2*vev) + 
+    ((Mf[4, k$4473]*QuantumField[Subscript[G0, R]]*
+        (PL*dZfL[4, SUNIndex[jDR$4248], jFL114]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFL114], SUNIndex[qc$4246]]*
+          SumOver[jFL114, NF] + PR*dZfR[4, SUNIndex[jDR$4248], jFR115]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFR115], 
+           SUNIndex[qc$4246]]*SumOver[jFR115, NF]))/(2*vev) + 
+      ((dMf1[4, k$4473]/vev - (dvev1*Mf[4, k$4473])/vev^2)*
+         QuantumField[Subscript[G0, R]] + 
+        (Mf[4, k$4473]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+           dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*vev))*
+       (PL*IndexDelta[SUNIndex[jDR$4248], jFL114]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL114], SUNIndex[qc$4246]]*
+         SumOver[jFL114, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR115]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR115], 
+          SUNIndex[qc$4246]]*SumOver[jFR115, NF]))*
+     (PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL116]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL116], 
+        SUNIndex[qc$4246]]*SumOver[jFL116, NF] + 
+      PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR117]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR117], 
+        SUNIndex[qc$4246]]*SumOver[jFR117, NF]))*SumOver[k$4473, NF], 
+  PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+   SumOver[jDownL$4247bar, NF]*SumOver[jDR$4248, NF]*
+   (-(Cos[theta]*Mf[4, k$4473]*QuantumField[Subscript[h1, R]]*
+       (PL*IndexDelta[SUNIndex[jDR$4248], jFL118]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL118], SUNIndex[qc$4246]]*
+         SumOver[jFL118, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR119]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR119], 
+          SUNIndex[qc$4246]]*SumOver[jFR119, NF])*
+       (PR*dZfLC[4, SUNIndex[jDownL$4247bar], jFL120]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL120], 
+          SUNIndex[qc$4246]]*SumOver[jFL120, NF] + 
+        PL*dZfRC[4, SUNIndex[jDownL$4247bar], jFR121]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR121], 
+          SUNIndex[qc$4246]]*SumOver[jFR121, NF]))/(2*vev) - 
+    ((Cos[theta]*Mf[4, k$4473]*QuantumField[Subscript[h1, R]]*
+        (PL*dZfL[4, SUNIndex[jDR$4248], jFL118]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFL118], SUNIndex[qc$4246]]*
+          SumOver[jFL118, NF] + PR*dZfR[4, SUNIndex[jDR$4248], jFR119]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFR119], 
+           SUNIndex[qc$4246]]*SumOver[jFR119, NF]))/(2*vev) + 
+      ((Cos[theta]*Mf[4, k$4473]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*vev) + 
+        QuantumField[Subscript[h1, R]]*((Cos[theta]*dMf1[4, k$4473])/vev + 
+          Mf[4, k$4473]*(-((dvev1*Cos[theta])/vev^2) - (dtheta1*Sin[theta])/
+             vev)))*(PL*IndexDelta[SUNIndex[jDR$4248], jFL118]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFL118], 
+          SUNIndex[qc$4246]]*SumOver[jFL118, NF] + 
+        PR*IndexDelta[SUNIndex[jDR$4248], jFR119]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFR119], SUNIndex[qc$4246]]*
+         SumOver[jFR119, NF]))*(PR*IndexDelta[SUNIndex[jDownL$4247bar], 
+        jFL120]*QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL120], 
+        SUNIndex[qc$4246]]*SumOver[jFL120, NF] + 
+      PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR121]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR121], 
+        SUNIndex[qc$4246]]*SumOver[jFR121, NF]))*SumOver[k$4473, NF], 
+  PR*IndexDelta[jDownL$4247bar, k$4473]*IndexDelta[k$4473, jDR$4248]*
+   SumOver[jDownL$4247bar, NF]*SumOver[jDR$4248, NF]*
+   ((Mf[4, k$4473]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+      (PL*IndexDelta[SUNIndex[jDR$4248], jFL122]*QuantumField[
+         Subscript[FDown, R], SUNIndex[jFL122], SUNIndex[qc$4246]]*
+        SumOver[jFL122, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR123]*
+        QuantumField[Subscript[FDown, R], SUNIndex[jFR123], 
+         SUNIndex[qc$4246]]*SumOver[jFR123, NF])*
+      (PR*dZfLC[4, SUNIndex[jDownL$4247bar], jFL124]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL124], 
+         SUNIndex[qc$4246]]*SumOver[jFL124, NF] + 
+       PL*dZfRC[4, SUNIndex[jDownL$4247bar], jFR125]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR125], 
+         SUNIndex[qc$4246]]*SumOver[jFR125, NF]))/(2*vev) + 
+    ((Mf[4, k$4473]*QuantumField[Subscript[h2, R]]*Sin[theta]*
+        (PL*dZfL[4, SUNIndex[jDR$4248], jFL122]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFL122], SUNIndex[qc$4246]]*
+          SumOver[jFL122, NF] + PR*dZfR[4, SUNIndex[jDR$4248], jFR123]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFR123], 
+           SUNIndex[qc$4246]]*SumOver[jFR123, NF]))/(2*vev) + 
+      ((dtheta1*Cos[theta]*Mf[4, k$4473]*QuantumField[Subscript[h2, R]])/
+         vev + ((dMf1[4, k$4473]/vev - (dvev1*Mf[4, k$4473])/vev^2)*
+           QuantumField[Subscript[h2, R]] + 
+          (Mf[4, k$4473]*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+             dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*vev))*Sin[theta])*
+       (PL*IndexDelta[SUNIndex[jDR$4248], jFL122]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL122], SUNIndex[qc$4246]]*
+         SumOver[jFL122, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR123]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR123], 
+          SUNIndex[qc$4246]]*SumOver[jFR123, NF]))*
+     (PR*IndexDelta[SUNIndex[jDownL$4247bar], jFL124]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL124], 
+        SUNIndex[qc$4246]]*SumOver[jFL124, NF] + 
+      PL*IndexDelta[SUNIndex[jDownL$4247bar], jFR125]*
+       QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR125], 
+        SUNIndex[qc$4246]]*SumOver[jFR125, NF]))*SumOver[k$4473, NF], 
+  Sqrt[2]*PR*IndexDelta[k$4473, jDR$4248]*QuantumField[Subscript[Gp, R]]*
+   SumOver[jDR$4248, NF]*SumOver[jUpL$4247bar, NF]*SumOver[k$4473, NF]*
+   (-((dVCKM[jUpL$4247bar, k$4473]*Mf[4, k$4473]*
+       (PL*IndexDelta[SUNIndex[jDR$4248], jFL126]*QuantumField[
+          Subscript[FDown, R], SUNIndex[jFL126], SUNIndex[qc$4246]]*
+         SumOver[jFL126, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR127]*
+         QuantumField[Subscript[FDown, R], SUNIndex[jFR127], 
+          SUNIndex[qc$4246]]*SumOver[jFR127, NF])*
+       (PR*IndexDelta[SUNIndex[jUpL$4247bar], jFL128]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL128], 
+          SUNIndex[qc$4246]]*SumOver[jFL128, NF] + 
+        PL*IndexDelta[SUNIndex[jUpL$4247bar], jFR129]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR129], 
+          SUNIndex[qc$4246]]*SumOver[jFR129, NF]))/vev) - 
+    ((Mf[4, k$4473]*(PL*IndexDelta[SUNIndex[jDR$4248], jFL126]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFL126], 
+           SUNIndex[qc$4246]]*SumOver[jFL126, NF] + 
+         PR*IndexDelta[SUNIndex[jDR$4248], jFR127]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFR127], SUNIndex[qc$4246]]*
+          SumOver[jFR127, NF])*(PR*dZfLC[3, SUNIndex[jUpL$4247bar], jFL128]*
+          QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL128], 
+           SUNIndex[qc$4246]]*SumOver[jFL128, NF] + 
+         PL*dZfRC[3, SUNIndex[jUpL$4247bar], jFR129]*QuantumField[
+           Subscript[HCbar[FUp], R], SUNIndex[jFR129], SUNIndex[qc$4246]]*
+          SumOver[jFR129, NF]))/(2*vev) + 
+      ((Mf[4, k$4473]*(PL*dZfL[4, SUNIndex[jDR$4248], jFL126]*
+            QuantumField[Subscript[FDown, R], SUNIndex[jFL126], 
+             SUNIndex[qc$4246]]*SumOver[jFL126, NF] + 
+           PR*dZfR[4, SUNIndex[jDR$4248], jFR127]*QuantumField[
+             Subscript[FDown, R], SUNIndex[jFR127], SUNIndex[qc$4246]]*
+            SumOver[jFR127, NF]))/(2*vev) + (dMf1[4, k$4473]/vev + 
+          (-(dvev1/vev^2) + dZ[GpGp]/(2*vev))*Mf[4, k$4473])*
+         (PL*IndexDelta[SUNIndex[jDR$4248], jFL126]*QuantumField[
+            Subscript[FDown, R], SUNIndex[jFL126], SUNIndex[qc$4246]]*
+           SumOver[jFL126, NF] + PR*IndexDelta[SUNIndex[jDR$4248], jFR127]*
+           QuantumField[Subscript[FDown, R], SUNIndex[jFR127], 
+            SUNIndex[qc$4246]]*SumOver[jFR127, NF]))*
+       (PR*IndexDelta[SUNIndex[jUpL$4247bar], jFL128]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL128], 
+          SUNIndex[qc$4246]]*SumOver[jFL128, NF] + 
+        PL*IndexDelta[SUNIndex[jUpL$4247bar], jFR129]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR129], 
+          SUNIndex[qc$4246]]*SumOver[jFR129, NF]))*
+     VCKM[jUpL$4247bar, k$4473]), Sqrt[2]*PL*IndexDelta[jUR$4245bar, k$4470]*
+   QuantumField[Subscript[Gp, R]]*SumOver[jDownL$4244, NF]*
+   SumOver[jUR$4245bar, NF]*SumOver[k$4470, NF]*
+   ((dVCKM[k$4470, jDownL$4244]*Mf[3, k$4470]*
+      (PL*IndexDelta[SUNIndex[jDownL$4244], jFL130]*
+        QuantumField[Subscript[FDown, R], SUNIndex[jFL130], 
+         SUNIndex[qc$4241]]*SumOver[jFL130, NF] + 
+       PR*IndexDelta[SUNIndex[jDownL$4244], jFR131]*
+        QuantumField[Subscript[FDown, R], SUNIndex[jFR131], 
+         SUNIndex[qc$4241]]*SumOver[jFR131, NF])*
+      (PR*IndexDelta[SUNIndex[jUR$4245bar], jFL132]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL132], 
+         SUNIndex[qc$4241]]*SumOver[jFL132, NF] + 
+       PL*IndexDelta[SUNIndex[jUR$4245bar], jFR133]*
+        QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR133], 
+         SUNIndex[qc$4241]]*SumOver[jFR133, NF]))/vev + 
+    ((Mf[3, k$4470]*(PL*IndexDelta[SUNIndex[jDownL$4244], jFL130]*
+          QuantumField[Subscript[FDown, R], SUNIndex[jFL130], 
+           SUNIndex[qc$4241]]*SumOver[jFL130, NF] + 
+         PR*IndexDelta[SUNIndex[jDownL$4244], jFR131]*QuantumField[
+           Subscript[FDown, R], SUNIndex[jFR131], SUNIndex[qc$4241]]*
+          SumOver[jFR131, NF])*(PR*dZfLC[3, SUNIndex[jUR$4245bar], jFL132]*
+          QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFL132], 
+           SUNIndex[qc$4241]]*SumOver[jFL132, NF] + 
+         PL*dZfRC[3, SUNIndex[jUR$4245bar], jFR133]*QuantumField[
+           Subscript[HCbar[FUp], R], SUNIndex[jFR133], SUNIndex[qc$4241]]*
+          SumOver[jFR133, NF]))/(2*vev) + 
+      ((Mf[3, k$4470]*(PL*dZfL[4, SUNIndex[jDownL$4244], jFL130]*
+            QuantumField[Subscript[FDown, R], SUNIndex[jFL130], 
+             SUNIndex[qc$4241]]*SumOver[jFL130, NF] + 
+           PR*dZfR[4, SUNIndex[jDownL$4244], jFR131]*QuantumField[
+             Subscript[FDown, R], SUNIndex[jFR131], SUNIndex[qc$4241]]*
+            SumOver[jFR131, NF]))/(2*vev) + (dMf1[3, k$4470]/vev + 
+          (-(dvev1/vev^2) + dZ[GpGp]/(2*vev))*Mf[3, k$4470])*
+         (PL*IndexDelta[SUNIndex[jDownL$4244], jFL130]*QuantumField[
+            Subscript[FDown, R], SUNIndex[jFL130], SUNIndex[qc$4241]]*
+           SumOver[jFL130, NF] + PR*IndexDelta[SUNIndex[jDownL$4244], jFR131]*
+           QuantumField[Subscript[FDown, R], SUNIndex[jFR131], 
+            SUNIndex[qc$4241]]*SumOver[jFR131, NF]))*
+       (PR*IndexDelta[SUNIndex[jUR$4245bar], jFL132]*QuantumField[
+          Subscript[HCbar[FUp], R], SUNIndex[jFL132], SUNIndex[qc$4241]]*
+         SumOver[jFL132, NF] + PL*IndexDelta[SUNIndex[jUR$4245bar], jFR133]*
+         QuantumField[Subscript[HCbar[FUp], R], SUNIndex[jFR133], 
+          SUNIndex[qc$4241]]*SumOver[jFR133, NF]))*
+     VCKM[k$4470, jDownL$4244]), Sqrt[2]*PR*IndexDelta[k$4472, jUR$4243]*
+   QuantumField[Subscript[Gm, R]]*SumOver[jDownL$4242bar, NF]*
+   SumOver[jUR$4243, NF]*SumOver[k$4472, NF]*
+   ((dVCKMC[jDownL$4242bar, k$4472]*Mf[3, k$4472]*
+      (PL*IndexDelta[SUNIndex[jUR$4243], jFL134]*QuantumField[
+         Subscript[FUp, R], SUNIndex[jFL134], SUNIndex[qc$4241]]*
+        SumOver[jFL134, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR135]*
+        QuantumField[Subscript[FUp, R], SUNIndex[jFR135], SUNIndex[qc$4241]]*
+        SumOver[jFR135, NF])*(PR*IndexDelta[SUNIndex[jDownL$4242bar], jFL136]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL136], 
+         SUNIndex[qc$4241]]*SumOver[jFL136, NF] + 
+       PL*IndexDelta[SUNIndex[jDownL$4242bar], jFR137]*
+        QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR137], 
+         SUNIndex[qc$4241]]*SumOver[jFR137, NF]))/vev + 
+    ((Mf[3, k$4472]*(PL*IndexDelta[SUNIndex[jUR$4243], jFL134]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFL134], 
+           SUNIndex[qc$4241]]*SumOver[jFL134, NF] + 
+         PR*IndexDelta[SUNIndex[jUR$4243], jFR135]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFR135], SUNIndex[qc$4241]]*
+          SumOver[jFR135, NF])*(PR*dZfLC[4, SUNIndex[jDownL$4242bar], jFL136]*
+          QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL136], 
+           SUNIndex[qc$4241]]*SumOver[jFL136, NF] + 
+         PL*dZfRC[4, SUNIndex[jDownL$4242bar], jFR137]*QuantumField[
+           Subscript[HCbar[FDown], R], SUNIndex[jFR137], SUNIndex[qc$4241]]*
+          SumOver[jFR137, NF]))/(2*vev) + 
+      ((Mf[3, k$4472]*(PL*dZfL[3, SUNIndex[jUR$4243], jFL134]*
+            QuantumField[Subscript[FUp, R], SUNIndex[jFL134], 
+             SUNIndex[qc$4241]]*SumOver[jFL134, NF] + 
+           PR*dZfR[3, SUNIndex[jUR$4243], jFR135]*QuantumField[
+             Subscript[FUp, R], SUNIndex[jFR135], SUNIndex[qc$4241]]*
+            SumOver[jFR135, NF]))/(2*vev) + (dMf1[3, k$4472]/vev + 
+          (-(dvev1/vev^2) + dZ[GpGp]/(2*vev))*Mf[3, k$4472])*
+         (PL*IndexDelta[SUNIndex[jUR$4243], jFL134]*QuantumField[
+            Subscript[FUp, R], SUNIndex[jFL134], SUNIndex[qc$4241]]*
+           SumOver[jFL134, NF] + PR*IndexDelta[SUNIndex[jUR$4243], jFR135]*
+           QuantumField[Subscript[FUp, R], SUNIndex[jFR135], 
+            SUNIndex[qc$4241]]*SumOver[jFR135, NF]))*
+       (PR*IndexDelta[SUNIndex[jDownL$4242bar], jFL136]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL136], 
+          SUNIndex[qc$4241]]*SumOver[jFL136, NF] + 
+        PL*IndexDelta[SUNIndex[jDownL$4242bar], jFR137]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR137], 
+          SUNIndex[qc$4241]]*SumOver[jFR137, NF]))*VCKMC[jDownL$4242bar, 
+      k$4472]), Sqrt[2]*PL*IndexDelta[jDR$4250bar, k$4471]*
+   QuantumField[Subscript[Gm, R]]*SumOver[jDR$4250bar, NF]*
+   SumOver[jUpL$4249, NF]*SumOver[k$4471, NF]*
+   (-((dVCKMC[k$4471, jUpL$4249]*Mf[4, k$4471]*
+       (PL*IndexDelta[SUNIndex[jUpL$4249], jFL138]*QuantumField[
+          Subscript[FUp, R], SUNIndex[jFL138], SUNIndex[qc$4246]]*
+         SumOver[jFL138, NF] + PR*IndexDelta[SUNIndex[jUpL$4249], jFR139]*
+         QuantumField[Subscript[FUp, R], SUNIndex[jFR139], SUNIndex[qc$4246]]*
+         SumOver[jFR139, NF])*(PR*IndexDelta[SUNIndex[jDR$4250bar], jFL140]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL140], 
+          SUNIndex[qc$4246]]*SumOver[jFL140, NF] + 
+        PL*IndexDelta[SUNIndex[jDR$4250bar], jFR141]*QuantumField[
+          Subscript[HCbar[FDown], R], SUNIndex[jFR141], SUNIndex[qc$4246]]*
+         SumOver[jFR141, NF]))/vev) - 
+    ((Mf[4, k$4471]*(PL*IndexDelta[SUNIndex[jUpL$4249], jFL138]*
+          QuantumField[Subscript[FUp, R], SUNIndex[jFL138], 
+           SUNIndex[qc$4246]]*SumOver[jFL138, NF] + 
+         PR*IndexDelta[SUNIndex[jUpL$4249], jFR139]*QuantumField[
+           Subscript[FUp, R], SUNIndex[jFR139], SUNIndex[qc$4246]]*
+          SumOver[jFR139, NF])*(PR*dZfLC[4, SUNIndex[jDR$4250bar], jFL140]*
+          QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFL140], 
+           SUNIndex[qc$4246]]*SumOver[jFL140, NF] + 
+         PL*dZfRC[4, SUNIndex[jDR$4250bar], jFR141]*QuantumField[
+           Subscript[HCbar[FDown], R], SUNIndex[jFR141], SUNIndex[qc$4246]]*
+          SumOver[jFR141, NF]))/(2*vev) + 
+      ((Mf[4, k$4471]*(PL*dZfL[3, SUNIndex[jUpL$4249], jFL138]*
+            QuantumField[Subscript[FUp, R], SUNIndex[jFL138], 
+             SUNIndex[qc$4246]]*SumOver[jFL138, NF] + 
+           PR*dZfR[3, SUNIndex[jUpL$4249], jFR139]*QuantumField[
+             Subscript[FUp, R], SUNIndex[jFR139], SUNIndex[qc$4246]]*
+            SumOver[jFR139, NF]))/(2*vev) + (dMf1[4, k$4471]/vev + 
+          (-(dvev1/vev^2) + dZ[GpGp]/(2*vev))*Mf[4, k$4471])*
+         (PL*IndexDelta[SUNIndex[jUpL$4249], jFL138]*QuantumField[
+            Subscript[FUp, R], SUNIndex[jFL138], SUNIndex[qc$4246]]*
+           SumOver[jFL138, NF] + PR*IndexDelta[SUNIndex[jUpL$4249], jFR139]*
+           QuantumField[Subscript[FUp, R], SUNIndex[jFR139], 
+            SUNIndex[qc$4246]]*SumOver[jFR139, NF]))*
+       (PR*IndexDelta[SUNIndex[jDR$4250bar], jFL140]*QuantumField[
+          Subscript[HCbar[FDown], R], SUNIndex[jFL140], SUNIndex[qc$4246]]*
+         SumOver[jFL140, NF] + PL*IndexDelta[SUNIndex[jDR$4250bar], jFR141]*
+         QuantumField[Subscript[HCbar[FDown], R], SUNIndex[jFR141], 
+          SUNIndex[qc$4246]]*SumOver[jFR141, NF]))*VCKMC[k$4471, jUpL$4249])}}

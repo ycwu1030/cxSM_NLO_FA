@@ -1,0 +1,1153 @@
+{{EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]^2, 
+  -(EL^2*vev*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[gamma, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]])/(2*SW), 
+  ((I/2)*EL^2*QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/SW, 
+  -(EL^2*Cos[theta]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[gamma, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]])/(2*SW), 
+  -(EL^2*vev*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[gamma, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]])/(2*SW), 
+  ((-I/2)*EL^2*QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/SW, 
+  -(EL^2*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[gamma, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]])/(2*SW), 
+  (EL^2*vev^2*QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(4*SW^2), 
+  (EL^2*QuantumField[Subscript[G0, R]]^2*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]]*QuantumField[Subscript[Wp, R], 
+     LorentzIndex[mu$4239]])/(4*SW^2), 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(2*SW^2), 
+  (EL^2*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(2*SW^2), 
+  (EL^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(4*SW^2), 
+  -((CW*EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/SW), 
+  (EL^2*SW*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/CW, 
+  -(EL^2*vev*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+      LorentzIndex[mu$4239]])/(2*CW), 
+  ((I/2)*EL^2*QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/CW, 
+  -(EL^2*Cos[theta]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+      LorentzIndex[mu$4239]])/(2*CW), 
+  -(EL^2*vev*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+      LorentzIndex[mu$4239]])/(2*CW), 
+  ((-I/2)*EL^2*QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/CW, 
+  -(EL^2*Cos[theta]*QuantumField[Subscript[Gm, R]]*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+      LorentzIndex[mu$4239]])/(2*CW), 
+  (EL^2*vev^2*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/4, 
+  (CW^2*EL^2*vev^2*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/
+   (8*SW^2), (EL^2*SW^2*vev^2*QuantumField[Subscript[Z, R], 
+      LorentzIndex[mu$4239]]^2)/(8*CW^2), 
+  (EL^2*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/4, 
+  (CW^2*EL^2*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(8*SW^2), 
+  (EL^2*SW^2*QuantumField[Subscript[G0, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(8*CW^2), 
+  -(EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/2, 
+  (CW^2*EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(4*SW^2), 
+  (EL^2*SW^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(4*CW^2), 
+  (EL^2*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/2, 
+  (CW^2*EL^2*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(4*SW^2), 
+  (EL^2*SW^2*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(4*CW^2), 
+  (EL^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/4, 
+  (CW^2*EL^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(8*SW^2), 
+  (EL^2*SW^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/(8*CW^2), 
+  ((I/2)*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/SW, 
+  ((I/2)*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/SW, 
+  ((-I/2)*CW*EL*vev*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]])/SW, 
+  ((-I/2)*EL*SW*vev*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]])/CW, 
+  ((-I/2)*CW*EL*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]])/SW, 
+  ((-I/2)*EL*SW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]])/CW, EL*Pair[LorentzIndex[mu$4239], 
+    Momentum[Subscript[p, Gm]]]*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[gamma, R], 
+    LorentzIndex[mu$4239]], 
+  -(EL*vev*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]])/(2*SW), 
+  ((-I/2)*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/SW, 
+  -(EL*Cos[theta]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(2*SW), 
+  -(CW*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/(2*SW), 
+  (EL*SW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/(2*CW), 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]), 
+  (EL*vev*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]])/(2*SW), 
+  ((-I/2)*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/SW, 
+  (EL*Cos[theta]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/(2*SW), 
+  (CW*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/(2*SW), 
+  -(EL*SW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/(2*CW), 
+  -(EL*Cos[theta]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/(2*SW), 
+  (EL*Cos[theta]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[h1, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(2*SW), 
+  ((I/2)*CW*EL*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, h1]]]*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]])/SW, 
+  ((I/2)*EL*SW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, h1]]]*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]])/CW, 
+  (Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]^2*
+    QuantumField[Subscript[G0, R]]^2)/2, 
+  Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]^2*
+   QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]], 
+  (Cos[theta]^2*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]^2*
+    QuantumField[Subscript[h1, R]]^2)/2, 
+  (Cos[theta]^2*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+    QuantumField[Subscript[h2, R]]^2)/2, 
+  (Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]^2*
+    QuantumField[Subscript[HA, R]]^2)/2, 
+  (EL^2*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*Sin[theta])/(2*SW), 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*Sin[theta])/(2*SW), 
+  -(EL^2*vev*QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]]*Sin[theta])/(2*SW^2), 
+  -(EL^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]]*Sin[theta])/(2*SW^2), 
+  (EL^2*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*Sin[theta])/(2*CW), 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*Sin[theta])/(2*CW), 
+  -(EL^2*vev*QuantumField[Subscript[h2, R]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta])/2, 
+  -(CW^2*EL^2*vev*QuantumField[Subscript[h2, R]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta])/
+   (4*SW^2), -(EL^2*SW^2*vev*QuantumField[Subscript[h2, R]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta])/
+   (4*CW^2), -(EL^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+       LorentzIndex[mu$4239]]^2*Sin[theta])/2, 
+  -(CW^2*EL^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+       LorentzIndex[mu$4239]]^2*Sin[theta])/(4*SW^2), 
+  -(EL^2*SW^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+       LorentzIndex[mu$4239]]^2*Sin[theta])/(4*CW^2), 
+  ((I/2)*CW*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*Sin[theta])/SW, 
+  ((I/2)*EL*SW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*Sin[theta])/CW, 
+  (EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*Sin[theta])/(2*SW), 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+     QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*Sin[theta])/
+   (2*SW), (EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*Sin[theta])/(2*SW), 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[h2, R]]*
+     QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*Sin[theta])/
+   (2*SW), ((-I/2)*CW*EL*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, h2]]]*QuantumField[Subscript[G0, R]]*
+    QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+     LorentzIndex[mu$4239]]*Sin[theta])/SW, 
+  ((-I/2)*EL*SW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+    QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*Sin[theta])/CW, 
+  -(Cos[theta]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+    Sin[theta]), (EL^2*QuantumField[Subscript[h2, R]]^2*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*Sin[theta]^2)/
+   (4*SW^2), (EL^2*QuantumField[Subscript[h2, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta]^2)/4, 
+  (CW^2*EL^2*QuantumField[Subscript[h2, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta]^2)/
+   (8*SW^2), (EL^2*SW^2*QuantumField[Subscript[h2, R]]^2*
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta]^2)/
+   (8*CW^2), (Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]^2*
+    QuantumField[Subscript[h1, R]]^2*Sin[theta]^2)/2, 
+  (Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+    QuantumField[Subscript[h2, R]]^2*Sin[theta]^2)/2, 
+  (Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+    QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+    Sin[2*theta])/2}, {EL^2*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Gp, R]]*
+   (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]^2 + 
+    (2*dZe1 + dZ[GpGp])*QuantumField[Subscript[gamma, R], 
+       LorentzIndex[mu$4239]]^2 + dZ[AZ]*QuantumField[Subscript[gamma, R], 
+      LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+      LorentzIndex[mu$4239]]), (EL^2*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    (-((dvev1/SW + (-(dSW1/SW^2) + (2*dZe1)/SW)*vev + (vev*dZ[GpGp])/(2*SW) + 
+        (vev*dZ[WW])/(2*SW))*QuantumField[Subscript[gamma, R], 
+        LorentzIndex[mu$4239]]) - 
+     (vev*(dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*SW)))/2, (I/2)*EL^2*QuantumField[Subscript[Gp, R]]*
+   QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+   (((-(dSW1/SW^2) + (2*dZe1)/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+       QuantumField[Subscript[G0, R]] + 
+      (dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+        dZ[G0HA]*QuantumField[Subscript[HA, R]])/(2*SW))*
+     QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+    (QuantumField[Subscript[G0, R]]*(dZ[AA]*QuantumField[Subscript[gamma, R], 
+         LorentzIndex[mu$4239]] + dZ[AZ]*QuantumField[Subscript[Z, R], 
+         LorentzIndex[mu$4239]]))/(2*SW)), 
+  (EL^2*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]]*
+    (-(Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*SW) - QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+      ((Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW) + 
+       QuantumField[Subscript[h1, R]]*((-(dSW1/SW^2) + (2*dZe1)/SW)*
+          Cos[theta] + (Cos[theta]*dZ[GpGp])/(2*SW) + (Cos[theta]*dZ[WW])/
+          (2*SW) - (dtheta1*Sin[theta])/SW))))/2, 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+     LorentzIndex[mu$4239]]*
+    (-((dvev1/SW + (-(dSW1/SW^2) + (2*dZe1)/SW)*vev + (vev*dZ[GpGp])/(2*SW) + 
+        (vev*dZ[WW])/(2*SW))*QuantumField[Subscript[gamma, R], 
+        LorentzIndex[mu$4239]]) - 
+     (vev*(dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*SW)))/2, (-I/2)*EL^2*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+   (((-(dSW1/SW^2) + (2*dZe1)/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+       QuantumField[Subscript[G0, R]] + 
+      (dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+        dZ[G0HA]*QuantumField[Subscript[HA, R]])/(2*SW))*
+     QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+    (QuantumField[Subscript[G0, R]]*(dZ[AA]*QuantumField[Subscript[gamma, R], 
+         LorentzIndex[mu$4239]] + dZ[AZ]*QuantumField[Subscript[Z, R], 
+         LorentzIndex[mu$4239]]))/(2*SW)), 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+     LorentzIndex[mu$4239]]*
+    (-(Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*SW) - QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+      ((Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW) + 
+       QuantumField[Subscript[h1, R]]*((-(dSW1/SW^2) + (2*dZe1)/SW)*
+          Cos[theta] + (Cos[theta]*dZ[GpGp])/(2*SW) + (Cos[theta]*dZ[WW])/
+          (2*SW) - (dtheta1*Sin[theta])/SW))))/2, 
+  (EL^2*(2*dvev1*SW*vev - 2*dSW1*vev^2 + 2*dZe1*SW*vev^2 + SW*vev^2*dZ[WW])*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(4*SW^3), 
+  (EL^2*(((-2*dSW1)/SW^3 + (2*dZe1)/SW^2 + dZ[WW]/SW^2)*
+      QuantumField[Subscript[G0, R]]^2 + 
+     (dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+       dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+         Subscript[HA, R]])/SW^2)*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]]*QuantumField[Subscript[Wp, R], 
+     LorentzIndex[mu$4239]])/4, 
+  (EL^2*(-2*dSW1 + 2*dZe1*SW + SW*dZ[GpGp] + SW*dZ[WW])*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/(2*SW^3), 
+  (EL^2*QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    ((vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+        dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2) + 
+     QuantumField[Subscript[h1, R]]*
+      ((dvev1/SW^2 + ((-2*dSW1)/SW^3 + (2*dZe1)/SW^2)*vev)*Cos[theta] + 
+       (vev*Cos[theta]*dZ[WW])/SW^2 - (dtheta1*vev*Sin[theta])/SW^2)))/2, 
+  (EL^2*QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    ((Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+        dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+          Subscript[h2, R]]))/SW^2 + QuantumField[Subscript[h1, R]]^2*
+      (((-2*dSW1)/SW^3 + (2*dZe1)/SW^2)*Cos[theta]^2 + 
+       (Cos[theta]^2*dZ[WW])/SW^2 - (2*dtheta1*Cos[theta]*Sin[theta])/SW^2)))/
+   4, EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   (-(CW*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+     (2*SW) - QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+     ((-((CW*dSW1)/SW^2) + (dCW1 + 2*CW*dZe1)/SW + (CW*dZ[GpGp])/SW)*
+       QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+      (CW*(dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+       (2*SW))), EL^2*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Gp, R]]*
+   ((SW*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+      (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+       dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/(2*CW) + 
+    QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+     ((dSW1/CW + (-(dCW1/CW^2) + (2*dZe1)/CW)*SW + (SW*dZ[GpGp])/CW)*
+       QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+      (SW*(dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+       (2*CW))), (EL^2*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    (-((dvev1/CW + (-(dCW1/CW^2) + (2*dZe1)/CW)*vev + (vev*dZ[GpGp])/(2*CW) + 
+        (vev*dZ[WW])/(2*CW))*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]) - 
+     (vev*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*CW)))/2, (I/2)*EL^2*QuantumField[Subscript[Gp, R]]*
+   QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+   (((-(dCW1/CW^2) + (2*dZe1)/CW + dZ[GpGp]/(2*CW) + dZ[WW]/(2*CW))*
+       QuantumField[Subscript[G0, R]] + 
+      (dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+        dZ[G0HA]*QuantumField[Subscript[HA, R]])/(2*CW))*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+    (QuantumField[Subscript[G0, R]]*(dZ[ZA]*QuantumField[Subscript[gamma, R], 
+         LorentzIndex[mu$4239]] + dZ[ZZ]*QuantumField[Subscript[Z, R], 
+         LorentzIndex[mu$4239]]))/(2*CW)), 
+  (EL^2*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]]*
+    (-(Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*CW) - QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+      ((Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*CW) + 
+       QuantumField[Subscript[h1, R]]*((-(dCW1/CW^2) + (2*dZe1)/CW)*
+          Cos[theta] + (Cos[theta]*dZ[GpGp])/(2*CW) + (Cos[theta]*dZ[WW])/
+          (2*CW) - (dtheta1*Sin[theta])/CW))))/2, 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+     LorentzIndex[mu$4239]]*
+    (-((dvev1/CW + (-(dCW1/CW^2) + (2*dZe1)/CW)*vev + (vev*dZ[GpGp])/(2*CW) + 
+        (vev*dZ[WW])/(2*CW))*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]) - 
+     (vev*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*CW)))/2, (-I/2)*EL^2*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+   (((-(dCW1/CW^2) + (2*dZe1)/CW + dZ[GpGp]/(2*CW) + dZ[WW]/(2*CW))*
+       QuantumField[Subscript[G0, R]] + 
+      (dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+        dZ[G0HA]*QuantumField[Subscript[HA, R]])/(2*CW))*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+    (QuantumField[Subscript[G0, R]]*(dZ[ZA]*QuantumField[Subscript[gamma, R], 
+         LorentzIndex[mu$4239]] + dZ[ZZ]*QuantumField[Subscript[Z, R], 
+         LorentzIndex[mu$4239]]))/(2*CW)), 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+     LorentzIndex[mu$4239]]*
+    (-(Cos[theta]*QuantumField[Subscript[h1, R]]*
+        (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*CW) - QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+      ((Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*CW) + 
+       QuantumField[Subscript[h1, R]]*((-(dCW1/CW^2) + (2*dZe1)/CW)*
+          Cos[theta] + (Cos[theta]*dZ[GpGp])/(2*CW) + (Cos[theta]*dZ[WW])/
+          (2*CW) - (dtheta1*Sin[theta])/CW))))/2, 
+  (EL^2*vev^2*dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+    2*dvev1*EL^2*vev*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+    2*dZe1*EL^2*vev^2*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^
+      2 + EL^2*vev^2*dZ[ZZ]*QuantumField[Subscript[Z, R], 
+       LorentzIndex[mu$4239]]^2)/4, 
+  (EL^2*(((2*CW^2*dvev1*vev)/SW^2 + ((-2*CW^2*dSW1)/SW^3 + 
+         (2*CW*dCW1 + 2*CW^2*dZe1)/SW^2)*vev^2)*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+     (CW^2*vev^2*(dZ[ZA]*QuantumField[Subscript[gamma, R], 
+          LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+          LorentzIndex[mu$4239]] + dZ[ZZ]*QuantumField[Subscript[Z, R], 
+           LorentzIndex[mu$4239]]^2))/SW^2))/8, 
+  (EL^2*(((2*dvev1*SW^2*vev)/CW^2 + ((2*dSW1*SW)/CW^2 + 
+         ((-2*dCW1)/CW^3 + (2*dZe1)/CW^2)*SW^2)*vev^2)*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+     (SW^2*vev^2*(dZ[ZA]*QuantumField[Subscript[gamma, R], 
+          LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+          LorentzIndex[mu$4239]] + dZ[ZZ]*QuantumField[Subscript[Z, R], 
+           LorentzIndex[mu$4239]]^2))/CW^2))/8, 
+  (EL^2*((2*dZe1*QuantumField[Subscript[G0, R]]^2 + 
+       dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+       dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+         Subscript[HA, R]])*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]^2 + QuantumField[Subscript[G0, R]]^2*
+      (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+       dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)))/4, 
+  (EL^2*((((-2*CW^2*dSW1)/SW^3 + (2*CW*dCW1 + 2*CW^2*dZe1)/SW^2)*
+        QuantumField[Subscript[G0, R]]^2 + 
+       (CW^2*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+          dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+            Subscript[HA, R]]))/SW^2)*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]^2 + (CW^2*QuantumField[Subscript[G0, R]]^2*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      SW^2))/8, 
+  (EL^2*((((2*dSW1*SW)/CW^2 + ((-2*dCW1)/CW^3 + (2*dZe1)/CW^2)*SW^2)*
+        QuantumField[Subscript[G0, R]]^2 + 
+       (SW^2*(dZ[G0G0]*QuantumField[Subscript[G0, R]]^2 + 
+          dZ[G0HA]*QuantumField[Subscript[G0, R]]*QuantumField[
+            Subscript[HA, R]]))/CW^2)*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]^2 + (SW^2*QuantumField[Subscript[G0, R]]^2*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      CW^2))/8, (EL^2*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*
+    (-(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]) - 
+     (2*dZe1 + dZ[GpGp])*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^
+       2 - dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/2, 
+  (EL^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    (((-2*CW^2*dSW1)/SW^3 + (2*CW*dCW1 + 2*CW^2*dZe1)/SW^2 + 
+       (CW^2*dZ[GpGp])/SW^2)*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]^2 + 
+     (CW^2*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      SW^2))/4, (EL^2*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*
+    (((2*dSW1*SW)/CW^2 + ((-2*dCW1)/CW^3 + (2*dZe1)/CW^2)*SW^2 + 
+       (SW^2*dZ[GpGp])/CW^2)*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]]^2 + 
+     (SW^2*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      CW^2))/4, (EL^2*(vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+      (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+       dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2) + 
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+      ((vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/2 + 
+       QuantumField[Subscript[h1, R]]*((dvev1 + 2*dZe1*vev)*Cos[theta] - 
+         dtheta1*vev*Sin[theta]))))/2, 
+  (EL^2*((CW^2*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      SW^2 + QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+      ((CW^2*vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2) + 
+       QuantumField[Subscript[h1, R]]*
+        (((CW^2*dvev1)/SW^2 + ((-2*CW^2*dSW1)/SW^3 + (2*CW*dCW1 + 2*CW^2*
+                dZe1)/SW^2)*vev)*Cos[theta] - (CW^2*dtheta1*vev*Sin[theta])/
+          SW^2))))/4, 
+  (EL^2*((SW^2*vev*Cos[theta]*QuantumField[Subscript[h1, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      CW^2 + QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+      ((SW^2*vev*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*CW^2) + 
+       QuantumField[Subscript[h1, R]]*
+        (((dvev1*SW^2)/CW^2 + ((2*dSW1*SW)/CW^2 + ((-2*dCW1)/CW^3 + (2*dZe1)/
+                CW^2)*SW^2)*vev)*Cos[theta] - (dtheta1*SW^2*vev*Sin[theta])/
+          CW^2))))/4, 
+  (EL^2*(Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+      (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+       dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2) + 
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+      (Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+         dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]]) + QuantumField[Subscript[h1, R]]^2*
+        (2*dZe1*Cos[theta]^2 - 2*dtheta1*Cos[theta]*Sin[theta]))))/4, 
+  (EL^2*((CW^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      SW^2 + QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+      ((CW^2*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+          dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]]))/SW^2 + QuantumField[Subscript[h1, R]]^2*
+        (((-2*CW^2*dSW1)/SW^3 + (2*CW*dCW1 + 2*CW^2*dZe1)/SW^2)*
+          Cos[theta]^2 - (2*CW^2*dtheta1*Cos[theta]*Sin[theta])/SW^2))))/8, 
+  (EL^2*((SW^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]^2*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+         QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+      CW^2 + QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+      ((SW^2*Cos[theta]^2*(dZ[h1h1]*QuantumField[Subscript[h1, R]]^2 + 
+          dZ[h1h2]*QuantumField[Subscript[h1, R]]*QuantumField[
+            Subscript[h2, R]]))/CW^2 + QuantumField[Subscript[h1, R]]^2*
+        (((2*dSW1*SW)/CW^2 + ((-2*dCW1)/CW^3 + (2*dZe1)/CW^2)*SW^2)*
+          Cos[theta]^2 - (2*dtheta1*SW^2*Cos[theta]*Sin[theta])/CW^2))))/8, 
+  (EL*QuantumField[Subscript[Gp, R]]*
+    (I*(-(dSW1/SW^2) + dZe1/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+      Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+      QuantumField[Subscript[G0, R]] - 
+     ((-I)*dZ[G0G0]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+        QuantumField[Subscript[G0, R]] - I*dZ[G0HA]*
+        Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+        QuantumField[Subscript[HA, R]])/(2*SW))*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/2, 
+  (EL*QuantumField[Subscript[Gm, R]]*
+    (I*(-(dSW1/SW^2) + dZe1/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+      Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+      QuantumField[Subscript[G0, R]] - 
+     ((-I)*dZ[G0G0]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+        QuantumField[Subscript[G0, R]] - I*dZ[G0HA]*
+        Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+        QuantumField[Subscript[HA, R]])/(2*SW))*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/2, 
+  (EL*(((-I)*((CW*dvev1)/SW + (-((CW*dSW1)/SW^2) + (dCW1 + CW*dZe1)/SW)*vev)*
+        Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+        QuantumField[Subscript[G0, R]] + 
+       (CW*vev*((-I)*dZ[G0G0]*Pair[LorentzIndex[mu$4239], 
+            Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]] - 
+          I*dZ[G0HA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+           QuantumField[Subscript[HA, R]]))/(2*SW))*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] - 
+     ((I/2)*CW*vev*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+       QuantumField[Subscript[G0, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/SW))/2, 
+  (EL*(((-I)*((dvev1*SW)/CW + (dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW)*vev)*
+        Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+        QuantumField[Subscript[G0, R]] + 
+       (SW*vev*((-I)*dZ[G0G0]*Pair[LorentzIndex[mu$4239], 
+            Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]] - 
+          I*dZ[G0HA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+           QuantumField[Subscript[HA, R]]))/(2*CW))*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] - 
+     ((I/2)*SW*vev*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+       QuantumField[Subscript[G0, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/CW))/2, 
+  (EL*(((-I/2)*CW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h1, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/SW + 
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+      ((CW*Cos[theta]*QuantumField[Subscript[h1, R]]*
+         ((-I)*dZ[G0G0]*Pair[LorentzIndex[mu$4239], Momentum[
+             Subscript[p, G0]]]*QuantumField[Subscript[G0, R]] - 
+          I*dZ[G0HA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+           QuantumField[Subscript[HA, R]]))/(2*SW) - 
+       I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+        QuantumField[Subscript[G0, R]]*
+        ((CW*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW) + 
+         QuantumField[Subscript[h1, R]]*((-((CW*dSW1)/SW^2) + 
+             (dCW1 + CW*dZe1)/SW)*Cos[theta] - (CW*dtheta1*Sin[theta])/
+            SW)))))/2, 
+  (EL*(((-I/2)*SW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h1, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/CW + 
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+      ((SW*Cos[theta]*QuantumField[Subscript[h1, R]]*
+         ((-I)*dZ[G0G0]*Pair[LorentzIndex[mu$4239], Momentum[
+             Subscript[p, G0]]]*QuantumField[Subscript[G0, R]] - 
+          I*dZ[G0HA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+           QuantumField[Subscript[HA, R]]))/(2*CW) - 
+       I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+        QuantumField[Subscript[G0, R]]*
+        ((SW*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*CW) + 
+         QuantumField[Subscript[h1, R]]*
+          ((dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW)*Cos[theta] - 
+           (dtheta1*SW*Sin[theta])/CW)))))/2, 
+  EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+   QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+   ((dZe1 + dZ[GpGp])*QuantumField[Subscript[gamma, R], 
+      LorentzIndex[mu$4239]] + 
+    (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+      dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/2), 
+  -(EL*(2*dvev1*SW - 2*dSW1*vev + 2*dZe1*SW*vev + SW*vev*dZ[GpGp] + 
+      SW*vev*dZ[WW])*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]])/(4*SW^2), 
+  ((-I/4)*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+    QuantumField[Subscript[Gm, R]]*(-2*dSW1*QuantumField[Subscript[G0, R]] + 
+     2*dZe1*SW*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[GpGp]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[WW]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0HA]*QuantumField[Subscript[HA, R]])*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]])/SW^2, 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+      LorentzIndex[mu$4239]]*(-2*dSW1*Cos[theta]*QuantumField[
+        Subscript[h1, R]] + 2*dZe1*SW*Cos[theta]*QuantumField[
+        Subscript[h1, R]] + SW*Cos[theta]*dZ[GpGp]*
+       QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[h1h1]*
+       QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[WW]*
+       QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[h1h2]*
+       QuantumField[Subscript[h2, R]] - 2*dtheta1*SW*
+       QuantumField[Subscript[h1, R]]*Sin[theta]))/(4*SW^2), 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gm]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     ((-((CW*dSW1)/SW^2) + (dCW1 + CW*dZe1)/SW + (CW*dZ[GpGp])/SW)*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+      (CW*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+       (2*SW)))/2, (EL*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, Gm]]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*
+    ((dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW + (SW*dZ[GpGp])/CW)*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+     (SW*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*CW)))/2, -(EL*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, Gp]]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Gp, R]]*
+    ((dZe1 + dZ[GpGp])*QuantumField[Subscript[gamma, R], 
+       LorentzIndex[mu$4239]] + 
+     (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+       dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/2)), 
+  (EL*(2*dvev1*SW - 2*dSW1*vev + 2*dZe1*SW*vev + SW*vev*dZ[GpGp] + 
+     SW*vev*dZ[WW])*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]])/(4*SW^2), 
+  ((-I/4)*EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gp, R]]*(-2*dSW1*QuantumField[Subscript[G0, R]] + 
+     2*dZe1*SW*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[GpGp]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[WW]*QuantumField[Subscript[G0, R]] + 
+     SW*dZ[G0HA]*QuantumField[Subscript[HA, R]])*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]])/SW^2, 
+  (EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]]*(-2*dSW1*Cos[theta]*
+      QuantumField[Subscript[h1, R]] + 2*dZe1*SW*Cos[theta]*
+      QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[GpGp]*
+      QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[h1h1]*
+      QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[WW]*
+      QuantumField[Subscript[h1, R]] + SW*Cos[theta]*dZ[h1h2]*
+      QuantumField[Subscript[h2, R]] - 2*dtheta1*SW*
+      QuantumField[Subscript[h1, R]]*Sin[theta]))/(4*SW^2), 
+  (EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+    QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+    ((-((CW*dSW1)/SW^2) + (dCW1 + CW*dZe1)/SW + (CW*dZ[GpGp])/SW)*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+     (CW*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+      (2*SW)))/2, 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+     QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     ((dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW + (SW*dZ[GpGp])/CW)*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+      (SW*(dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+         dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+       (2*CW)))/2, (-I/2)*EL*QuantumField[Subscript[Gp, R]]*
+   QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+   ((Cos[theta]*((-I)*dZ[h1h1]*Pair[LorentzIndex[mu$4239], 
+         Momentum[Subscript[p, h1]]]*QuantumField[Subscript[h1, R]] - 
+       I*dZ[h1h2]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+        QuantumField[Subscript[h2, R]]))/(2*SW) - 
+    I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+     QuantumField[Subscript[h1, R]]*((-(dSW1/SW^2) + dZe1/SW)*Cos[theta] + 
+      (Cos[theta]*dZ[GpGp])/(2*SW) + (Cos[theta]*dZ[WW])/(2*SW) - 
+      (dtheta1*Sin[theta])/SW)), (I/2)*EL*QuantumField[Subscript[Gm, R]]*
+   QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+   ((Cos[theta]*((-I)*dZ[h1h1]*Pair[LorentzIndex[mu$4239], 
+         Momentum[Subscript[p, h1]]]*QuantumField[Subscript[h1, R]] - 
+       I*dZ[h1h2]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+        QuantumField[Subscript[h2, R]]))/(2*SW) - 
+    I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+     QuantumField[Subscript[h1, R]]*((-(dSW1/SW^2) + dZe1/SW)*Cos[theta] + 
+      (Cos[theta]*dZ[GpGp])/(2*SW) + (Cos[theta]*dZ[WW])/(2*SW) - 
+      (dtheta1*Sin[theta])/SW)), 
+  (EL*(((I/2)*CW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, h1]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h1, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/SW - 
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+      ((CW*Cos[theta]*QuantumField[Subscript[G0, R]]*
+         ((-I)*dZ[h1h1]*Pair[LorentzIndex[mu$4239], Momentum[
+             Subscript[p, h1]]]*QuantumField[Subscript[h1, R]] - 
+          I*dZ[h1h2]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+           QuantumField[Subscript[h2, R]]))/(2*SW) - 
+       I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+        QuantumField[Subscript[h1, R]]*
+        ((CW*Cos[theta]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+            dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*SW) + 
+         QuantumField[Subscript[G0, R]]*((-((CW*dSW1)/SW^2) + 
+             (dCW1 + CW*dZe1)/SW)*Cos[theta] - (CW*dtheta1*Sin[theta])/
+            SW)))))/2, 
+  (EL*(((I/2)*SW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, h1]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h1, R]]*
+       (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+        dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/CW - 
+     QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]*
+      ((SW*Cos[theta]*QuantumField[Subscript[G0, R]]*
+         ((-I)*dZ[h1h1]*Pair[LorentzIndex[mu$4239], Momentum[
+             Subscript[p, h1]]]*QuantumField[Subscript[h1, R]] - 
+          I*dZ[h1h2]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+           QuantumField[Subscript[h2, R]]))/(2*CW) - 
+       I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+        QuantumField[Subscript[h1, R]]*
+        ((SW*Cos[theta]*(dZ[G0G0]*QuantumField[Subscript[G0, R]] + 
+            dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*CW) + 
+         QuantumField[Subscript[G0, R]]*
+          ((dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW)*Cos[theta] - 
+           (dtheta1*SW*Sin[theta])/CW)))))/2, 
+  (2*dZ[G0G0]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]^2*
+     QuantumField[Subscript[G0, R]]^2 + 
+    dZ[G0HA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]^2*
+     QuantumField[Subscript[G0, R]]*QuantumField[Subscript[HA, R]] + 
+    dZ[G0HA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]^2*
+     QuantumField[Subscript[G0, R]]*QuantumField[Subscript[HA, R]])/4, 
+  dZ[GpGp]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]^2*
+   QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]], 
+  (2*Cos[theta]^2*dZ[h1h1]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]^2 + 
+    Cos[theta]^2*dZ[h1h2]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] + Cos[theta]^2*dZ[h1h2]*
+     Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]] - 
+    4*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta])/4, 
+  (Cos[theta]^2*dZ[h2h1]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] + Cos[theta]^2*dZ[h2h1]*
+     Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]] + 
+    2*Cos[theta]^2*dZ[h2h2]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h2, R]]^2 - 
+    4*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta])/4, 
+  (dZ[HAG0]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]^2*
+     QuantumField[Subscript[G0, R]]*QuantumField[Subscript[HA, R]] + 
+    dZ[HAG0]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]^2*
+     QuantumField[Subscript[G0, R]]*QuantumField[Subscript[HA, R]] + 
+    2*dZ[HAHA]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]^2*
+     QuantumField[Subscript[HA, R]]^2)/4, 
+  (EL^2*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+     LorentzIndex[mu$4239]]*
+    ((dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]*
+       QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]])/SW + 
+     (((-(dSW1/SW^2) + (2*dZe1)/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+          QuantumField[Subscript[h2, R]] + 
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]])/(2*SW))*
+        QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+       (QuantumField[Subscript[h2, R]]*
+         (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+        (2*SW))*Sin[theta]))/2, (EL^2*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    ((dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]*
+       QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]])/SW + 
+     (((-(dSW1/SW^2) + (2*dZe1)/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+          QuantumField[Subscript[h2, R]] + 
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]])/(2*SW))*
+        QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+       (QuantumField[Subscript[h2, R]]*
+         (dZ[AA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[AZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+        (2*SW))*Sin[theta]))/2, 
+  (EL^2*QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    (-((dtheta1*vev*Cos[theta]*QuantumField[Subscript[h2, R]])/SW^2) - 
+     ((dvev1/SW^2 + ((-2*dSW1)/SW^3 + (2*dZe1)/SW^2)*vev + (vev*dZ[WW])/SW^2)*
+        QuantumField[Subscript[h2, R]] + 
+       (vev*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2))*Sin[theta]))/2, 
+  (EL^2*QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    (-((dtheta1*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]])/SW^2) - 
+     Sin[theta]*((Cos[theta]*QuantumField[Subscript[h1, R]]*
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2) + 
+       QuantumField[Subscript[h2, R]]*
+        ((Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2) + 
+         QuantumField[Subscript[h1, R]]*(((-2*dSW1)/SW^3 + (2*dZe1)/SW^2)*
+            Cos[theta] + (Cos[theta]*dZ[WW])/SW^2 - (dtheta1*Sin[theta])/
+            SW^2)))))/2, (EL^2*QuantumField[Subscript[Gp, R]]*
+    QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    ((dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/CW + 
+     (((-(dCW1/CW^2) + (2*dZe1)/CW + dZ[GpGp]/(2*CW) + dZ[WW]/(2*CW))*
+          QuantumField[Subscript[h2, R]] + 
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]])/(2*CW))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+       (QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+        (2*CW))*Sin[theta]))/2, (EL^2*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    ((dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]])/CW + 
+     (((-(dCW1/CW^2) + (2*dZe1)/CW + dZ[GpGp]/(2*CW) + dZ[WW]/(2*CW))*
+          QuantumField[Subscript[h2, R]] + 
+         (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+           dZ[h2h2]*QuantumField[Subscript[h2, R]])/(2*CW))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+       (QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/
+        (2*CW))*Sin[theta]))/2, 
+  (EL^2*(-(dtheta1*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2) - 
+     (((dvev1 + 2*dZe1*vev)*QuantumField[Subscript[h2, R]] + 
+         (vev*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/2)*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+       vev*QuantumField[Subscript[h2, R]]*
+        (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+          QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+         dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))*
+      Sin[theta]))/2, 
+  (EL^2*(-((CW^2*dtheta1*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/SW^2) - 
+     ((((CW^2*dvev1)/SW^2 + ((-2*CW^2*dSW1)/SW^3 + (2*CW*dCW1 + 2*CW^2*dZe1)/
+              SW^2)*vev)*QuantumField[Subscript[h2, R]] + 
+         (CW^2*vev*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+       (CW^2*vev*QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+           QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+        SW^2)*Sin[theta]))/4, 
+  (EL^2*(-((dtheta1*SW^2*vev*Cos[theta]*QuantumField[Subscript[h2, R]]*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2)/CW^2) - 
+     ((((dvev1*SW^2)/CW^2 + ((2*dSW1*SW)/CW^2 + ((-2*dCW1)/CW^3 + (2*dZe1)/
+                CW^2)*SW^2)*vev)*QuantumField[Subscript[h2, R]] + 
+         (SW^2*vev*(dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*CW^2))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+       (SW^2*vev*QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+           QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+        CW^2)*Sin[theta]))/4, 
+  (EL^2*(-(dtheta1*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+       QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+         LorentzIndex[mu$4239]]^2) - Sin[theta]*
+      (Cos[theta]*QuantumField[Subscript[h1, R]]*QuantumField[
+         Subscript[h2, R]]*(dZ[ZA]*QuantumField[Subscript[gamma, R], 
+           LorentzIndex[mu$4239]]*QuantumField[Subscript[Z, R], 
+           LorentzIndex[mu$4239]] + dZ[ZZ]*QuantumField[Subscript[Z, R], 
+            LorentzIndex[mu$4239]]^2) + 
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+        ((Cos[theta]*QuantumField[Subscript[h1, R]]*
+           (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/2 + 
+         QuantumField[Subscript[h2, R]]*
+          ((Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+              dZ[h1h2]*QuantumField[Subscript[h2, R]]))/2 + 
+           QuantumField[Subscript[h1, R]]*(2*dZe1*Cos[theta] - 
+             dtheta1*Sin[theta]))))))/2, 
+  (EL^2*(-((CW^2*dtheta1*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+          LorentzIndex[mu$4239]]^2)/SW^2) - 
+     Sin[theta]*((CW^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+         QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+           QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+        SW^2 + QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+        ((CW^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+           (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2) + 
+         QuantumField[Subscript[h2, R]]*
+          ((CW^2*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+              dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*SW^2) + 
+           QuantumField[Subscript[h1, R]]*(((-2*CW^2*dSW1)/SW^3 + 
+               (2*CW*dCW1 + 2*CW^2*dZe1)/SW^2)*Cos[theta] - 
+             (CW^2*dtheta1*Sin[theta])/SW^2))))))/4, 
+  (EL^2*(-((dtheta1*SW^2*Cos[theta]^2*QuantumField[Subscript[h1, R]]*
+        QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+          LorentzIndex[mu$4239]]^2)/CW^2) - 
+     Sin[theta]*((SW^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+         QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+           QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+        CW^2 + QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*
+        ((SW^2*Cos[theta]*QuantumField[Subscript[h1, R]]*
+           (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+            dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*CW^2) + 
+         QuantumField[Subscript[h2, R]]*
+          ((SW^2*Cos[theta]*(dZ[h1h1]*QuantumField[Subscript[h1, R]] + 
+              dZ[h1h2]*QuantumField[Subscript[h2, R]]))/(2*CW^2) + 
+           QuantumField[Subscript[h1, R]]*(((2*dSW1*SW)/CW^2 + 
+               ((-2*dCW1)/CW^3 + (2*dZe1)/CW^2)*SW^2)*Cos[theta] - 
+             (dtheta1*SW^2*Sin[theta])/CW^2))))))/4, 
+  (EL*((I*CW*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]])/SW - 
+     (((-I)*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+          QuantumField[Subscript[G0, R]]*
+          ((-((CW*dSW1)/SW^2) + (dCW1 + CW*dZe1)/SW)*QuantumField[
+             Subscript[h2, R]] + (CW*(dZ[h2h1]*QuantumField[Subscript[h1, 
+                 R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*SW)) + 
+         (CW*QuantumField[Subscript[h2, R]]*((-I)*dZ[G0G0]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+             QuantumField[Subscript[G0, R]] - I*dZ[G0HA]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+             QuantumField[Subscript[HA, R]]))/(2*SW))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] - 
+       ((I/2)*CW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+         QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/SW)*
+      Sin[theta]))/2, 
+  (EL*((I*dtheta1*SW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, G0]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]])/CW - 
+     (((-I)*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+          QuantumField[Subscript[G0, R]]*
+          ((dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW)*QuantumField[
+             Subscript[h2, R]] + (SW*(dZ[h2h1]*QuantumField[Subscript[h1, 
+                 R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]))/(2*CW)) + 
+         (SW*QuantumField[Subscript[h2, R]]*((-I)*dZ[G0G0]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+             QuantumField[Subscript[G0, R]] - I*dZ[G0HA]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, HA]]]*
+             QuantumField[Subscript[HA, R]]))/(2*CW))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] - 
+       ((I/2)*SW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, G0]]]*
+         QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/CW)*
+      Sin[theta]))/2, (EL*Pair[LorentzIndex[mu$4239], 
+     Momentum[Subscript[p, Gm]]]*QuantumField[Subscript[Gm, R]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    ((dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]])/SW + 
+     ((-(dSW1/SW^2) + dZe1/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+        QuantumField[Subscript[h2, R]] + 
+       (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]])/(2*SW))*Sin[theta]))/2, 
+  -(EL*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, Gp]]]*
+     QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+      LorentzIndex[mu$4239]]*
+     ((dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]])/SW + 
+      ((-(dSW1/SW^2) + dZe1/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+         QuantumField[Subscript[h2, R]] + 
+        (dZ[h2h1]*QuantumField[Subscript[h1, R]] + 
+          dZ[h2h2]*QuantumField[Subscript[h2, R]])/(2*SW))*Sin[theta]))/2, 
+  (I/2)*EL*QuantumField[Subscript[Gp, R]]*QuantumField[Subscript[Wm, R], 
+    LorentzIndex[mu$4239]]*
+   (((-I)*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]*QuantumField[Subscript[h2, R]])/SW + 
+    ((-I)*(-(dSW1/SW^2) + dZe1/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+       Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+       QuantumField[Subscript[h2, R]] + 
+      ((-I)*dZ[h2h1]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+         QuantumField[Subscript[h1, R]] - I*dZ[h2h2]*
+         Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+         QuantumField[Subscript[h2, R]])/(2*SW))*Sin[theta]), 
+  (-I/2)*EL*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Wp, R], 
+    LorentzIndex[mu$4239]]*
+   (((-I)*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]*QuantumField[Subscript[h2, R]])/SW + 
+    ((-I)*(-(dSW1/SW^2) + dZe1/SW + dZ[GpGp]/(2*SW) + dZ[WW]/(2*SW))*
+       Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+       QuantumField[Subscript[h2, R]] + 
+      ((-I)*dZ[h2h1]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+         QuantumField[Subscript[h1, R]] - I*dZ[h2h2]*
+         Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+         QuantumField[Subscript[h2, R]])/(2*SW))*Sin[theta]), 
+  (EL*(((-I)*CW*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, h2]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]])/SW + 
+     (((CW*QuantumField[Subscript[G0, R]]*((-I)*dZ[h2h1]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+             QuantumField[Subscript[h1, R]] - I*dZ[h2h2]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+             QuantumField[Subscript[h2, R]]))/(2*SW) - 
+         I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+          QuantumField[Subscript[h2, R]]*
+          ((-((CW*dSW1)/SW^2) + (dCW1 + CW*dZe1)/SW)*QuantumField[
+             Subscript[G0, R]] + (CW*(dZ[G0G0]*QuantumField[Subscript[G0, 
+                 R]] + dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*SW)))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] - 
+       ((I/2)*CW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+         QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/SW)*
+      Sin[theta]))/2, 
+  (EL*(((-I)*dtheta1*SW*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+        Momentum[Subscript[p, h2]]]*QuantumField[Subscript[G0, R]]*
+       QuantumField[Subscript[h2, R]]*QuantumField[Subscript[Z, R], 
+        LorentzIndex[mu$4239]])/CW + 
+     (((SW*QuantumField[Subscript[G0, R]]*((-I)*dZ[h2h1]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]*
+             QuantumField[Subscript[h1, R]] - I*dZ[h2h2]*
+             Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+             QuantumField[Subscript[h2, R]]))/(2*CW) - 
+         I*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+          QuantumField[Subscript[h2, R]]*
+          ((dSW1/CW + (-(dCW1/CW^2) + dZe1/CW)*SW)*QuantumField[
+             Subscript[G0, R]] + (SW*(dZ[G0G0]*QuantumField[Subscript[G0, 
+                 R]] + dZ[G0HA]*QuantumField[Subscript[HA, R]]))/(2*CW)))*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] - 
+       ((I/2)*SW*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]*
+         QuantumField[Subscript[G0, R]]*QuantumField[Subscript[h2, R]]*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]))/CW)*
+      Sin[theta]))/2, 
+  (-2*dtheta1*Cos[theta]^2*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] - Cos[theta]*dZ[h2h1]*
+     Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]^2*
+     QuantumField[Subscript[h1, R]]^2*Sin[theta] - 
+    Cos[theta]*dZ[h1h1]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta] - Cos[theta]*dZ[h2h2]*
+     Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[theta] - Cos[theta]*dZ[h1h2]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta] + 2*dtheta1*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2)/2, 
+  (EL^2*QuantumField[Subscript[Wm, R], LorentzIndex[mu$4239]]*
+    QuantumField[Subscript[Wp, R], LorentzIndex[mu$4239]]*
+    ((2*dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]^2*Sin[theta])/
+      SW^2 + (((-2*dSW1)/SW^3 + (2*dZe1)/SW^2 + dZ[WW]/SW^2)*
+        QuantumField[Subscript[h2, R]]^2 + 
+       (dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2)/
+        SW^2)*Sin[theta]^2))/4, 
+  (EL^2*(2*dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+      QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta] + 
+     ((dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+           Subscript[h2, R]] + 2*dZe1*QuantumField[Subscript[h2, R]]^2 + 
+         dZ[h2h2]*QuantumField[Subscript[h2, R]]^2)*
+        QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+       QuantumField[Subscript[h2, R]]^2*
+        (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+          QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+         dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))*
+      Sin[theta]^2))/4, 
+  (EL^2*((2*CW^2*dtheta1*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta])/
+      SW^2 + ((((-2*CW^2*dSW1)/SW^3 + (2*CW*dCW1 + 2*CW^2*dZe1)/SW^2)*
+          QuantumField[Subscript[h2, R]]^2 + 
+         (CW^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+          SW^2)*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+       (CW^2*QuantumField[Subscript[h2, R]]^2*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+           QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+        SW^2)*Sin[theta]^2))/8, 
+  (EL^2*((2*dtheta1*SW^2*Cos[theta]*QuantumField[Subscript[h2, R]]^2*
+       QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2*Sin[theta])/
+      CW^2 + ((((2*dSW1*SW)/CW^2 + ((-2*dCW1)/CW^3 + (2*dZe1)/CW^2)*SW^2)*
+          QuantumField[Subscript[h2, R]]^2 + 
+         (SW^2*(dZ[h2h1]*QuantumField[Subscript[h1, R]]*QuantumField[
+              Subscript[h2, R]] + dZ[h2h2]*QuantumField[Subscript[h2, R]]^2))/
+          CW^2)*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2 + 
+       (SW^2*QuantumField[Subscript[h2, R]]^2*
+         (dZ[ZA]*QuantumField[Subscript[gamma, R], LorentzIndex[mu$4239]]*
+           QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]] + 
+          dZ[ZZ]*QuantumField[Subscript[Z, R], LorentzIndex[mu$4239]]^2))/
+        CW^2)*Sin[theta]^2))/8, 
+  (4*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta] + 2*dZ[h1h1]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]^2*
+     Sin[theta]^2 + dZ[h1h2]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    dZ[h1h2]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^2)/4, 
+  (4*dtheta1*Cos[theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta] + dZ[h2h1]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h1]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[theta]^2 + 
+    dZ[h2h1]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[theta]^2 + 2*dZ[h2h2]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h2, R]]^2*
+     Sin[theta]^2)/4, 
+  (4*dtheta1*Cos[2*theta]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]] + 
+    dZ[h2h1]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h1]]]^2*
+     QuantumField[Subscript[h1, R]]^2*Sin[2*theta] + 
+    dZ[h1h1]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h1, R]]*QuantumField[Subscript[h2, R]]*
+     Sin[2*theta] + dZ[h2h2]*Pair[LorentzIndex[mu$4239], 
+       Momentum[Subscript[p, h2]]]^2*QuantumField[Subscript[h1, R]]*
+     QuantumField[Subscript[h2, R]]*Sin[2*theta] + 
+    dZ[h1h2]*Pair[LorentzIndex[mu$4239], Momentum[Subscript[p, h2]]]^2*
+     QuantumField[Subscript[h2, R]]^2*Sin[2*theta])/4}}

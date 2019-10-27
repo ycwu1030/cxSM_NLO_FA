@@ -5,16 +5,18 @@
 
 (*Scalar Potential*)
 LSPFile="LagrangianData/LScalarPotentialPhysics.dat";
+LSPTransformationFile="LagrangianData/LScalarPotentialParameterTransformation.dat";
 If[FileExistsQ[LSPFile],Print["Reading Potential Lagrangian From File: "<>LSPFile<>"......"];LScalarPotentialPhysics=Get[LSPFile];,
 Print["Calculating the Potential Lagrangian......"];
 Tmu2=mu2*PhiC.Phi;
 TLam=Lam*(PhiC.Phi)^2;
 Tdel2=del2/2*(PhiC.Phi)*(CSC CS);
-Tb1=b1/4*(CSC^2+CS^2);
+Ta1=a1 (CS + CSC);
+Tb1=b1/2*(CSC^2+CS^2);
 Tb2=b2/2*(CSC CS);
 Td2=d2/4*(CSC CS)^2;
 
-VScalarPotential = Tmu2 + TLam + Tdel2 + Tb1 + Tb2 + Td2;
+VScalarPotential = Tmu2 + TLam + Tdel2 + Ta1 + Tb1 + Tb2 + Td2;
 
 (*Tree level reorganization, using as many physics parameters as possible *)
 Vh1 = D[VScalarPotential,QuantumField[h1]]/.{QuantumField[___]:>0}//FullSimplify;
@@ -26,29 +28,30 @@ VMAA2 = D[VScalarPotential,{QuantumField[HA],2}]/.{QuantumField[___]:>0}//FullSi
 
 Print["...... Generating the rules transforming from Lagrangian parameters to physics parameters ......"];
 (*First replace the parameters in the quadratic terms by the Tadpole parameter, which should be 0 at tree level *)
-VacuumRequirement=Solve[{Vh1==Th1(*,Vh2==Th2*)},{mu2(*,b2*)}];
+VacuumRequirement=Solve[{Vh1==Th1,Vh2==Th2},{mu2,a1}]//Simplify;
 (*Then replace other parameters by the physical masses using the Tree-level relation, i.e. THH=0 and THL=0*)
 PhysicalParameter=Solve[{
 (VMh11/.VacuumRequirement[[1]]/.{Th1->0,Th2->0})==Mh12,
 (VMh22/.VacuumRequirement[[1]]/.{Th1->0,Th2->0})==Mh22,
-(VMAA2/.VacuumRequirement[[1]]/.{Th1->0,Th2->0})==MHA2(*,
-(VMh12/.VacuumRequirement[[1]]/.{Th1->0,Th2->0})==0*)},{Lam,b1,b2}];
+(VMAA2/.VacuumRequirement[[1]]/.{Th1->0,Th2->0})==MHA2,
+(VMh12/.VacuumRequirement[[1]]/.{Th1->0,Th2->0})==0},{Lam,del2,b1,b2}]//Simplify;
 ReorganizationRules=Join[VacuumRequirement[[1]],PhysicalParameter[[1]]];
 (*ReorganizationRules=Solve[{Vh1==Th1,Vh2==Th2,VMh11==Mh11,VMh22==Mh22,VMh12==0,VMAA2==MHA2},{mu2,Lam,del2,b1,b2,d2}];*)
 
 Print["...... Simplify the parameter transformation rules. This will take long time, Be patient ......"];
 ReorganizationRules=Collect[ReorganizationRules,{Th1,Th2,Mh12,Mh22,MHA2},Simplify];
-
+Put[ReorganizationRules,LSPTransformationFile];
 Print["...... Collecting the new Scalar potential. This will take long time, Be patient ......"];
 Tmu2=Simplify[Tmu2//.ReorganizationRules];
 TLam=Simplify[TLam//.ReorganizationRules];
 Tdel2=Simplify[Tdel2//.ReorganizationRules];
+Ta1=Simplify[Ta1//.ReorganizationRules];
 Tb1=Simplify[Tb1//.ReorganizationRules];
 Tb2=Simplify[Tb2//.ReorganizationRules];
 Td2=Simplify[Td2//.ReorganizationRules];
 
 
-VScalarPotentialPhysics = Tmu2 + TLam + Tdel2 + Tb1 + Tb2 + Td2;
+VScalarPotentialPhysics = Tmu2 + TLam + Tdel2 + Ta1 + Tb1 + Tb2 + Td2;
 LScalarPotentialPhysics = -VScalarPotentialPhysics;
 Put[LScalarPotentialPhysics,LSPFile];
 ];

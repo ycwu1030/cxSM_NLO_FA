@@ -44,7 +44,7 @@ RenConst[ dZWW1 ] := FieldRC[V[3]]
 
 RenConst[ dZe1 ] := -1/2 (dZAA1 + SW/CW dZZA1)
 
-RenConst[ dUW1 ] := FieldRC[U[3]] + dZW1/2
+RenConst[ dUW1 ] := FieldRC[U[3]] + dZWW1/2
 
 RenConst[ dUAA1 ] := FieldRC[U[1]] + dZAA1/2
 
