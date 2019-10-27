@@ -3,4 +3,4 @@ Generating the FeynArts model files for cxSM with full counter terms and renorma
 
 ## More Details
 
-Please Check the similar work for 2HDM model
+Please Check the similar work for 2HDM model [THDMNLO_FA](https://github.com/ycwu1030/THDMNLO_FA)
