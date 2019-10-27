@@ -1,0 +1,11 @@
+-((2*Th1 - Mh12*vev)*(QuantumField[G0]^2 + 2*QuantumField[Gm]*
+      QuantumField[Gp] + (vev + QuantumField[h1])^2))/(4*vev) - 
+ (Mh12*(QuantumField[G0]^2 + 2*QuantumField[Gm]*QuantumField[Gp] + 
+     (vev + QuantumField[h1])^2)^2)/(8*vev^2) - 
+ ((Mh22 + MHA2 - (del2*vev^2)/2)*(QuantumField[h2] - I*QuantumField[HA])*
+   (QuantumField[h2] + I*QuantumField[HA]))/4 - 
+ (del2*(QuantumField[G0]^2 + 2*QuantumField[Gm]*QuantumField[Gp] + 
+    (vev + QuantumField[h1])^2)*(QuantumField[h2] - I*QuantumField[HA])*
+   (QuantumField[h2] + I*QuantumField[HA]))/8 - 
+ ((Mh22 - MHA2)*(QuantumField[h2]^2 - QuantumField[HA]^2))/4 - 
+ (d2*(QuantumField[h2]^2 + QuantumField[HA]^2)^2)/16

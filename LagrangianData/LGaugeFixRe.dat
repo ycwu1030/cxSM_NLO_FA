@@ -1,0 +1,3 @@
+{{-((MW^2*QuantumField[Subscript[Gm, R]]*QuantumField[Subscript[Gp, R]]*
+     RXi[Wp]^2)/RXi[W]), -(MZ^2*QuantumField[Subscript[G0, R]]^2*RXi[Z])/2}, 
+ {}}
